@@ -1,0 +1,5 @@
+---
+layout: faqs
+---
+
+FAQs Page

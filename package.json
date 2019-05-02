@@ -1,0 +1,22 @@
+{
+  "name": "c3-marketing-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "netlify:dev": "netlify dev --live",
+    "jekyll:serve": "bundle exec jekyll serve --livereload",
+    "jekyll:build": "bundle exec jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusrelacion/c3-marketing-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusrelacion/c3-marketing-site/issues"
+  },
+  "homepage": "https://github.com/marcusrelacion/c3-marketing-site#readme"
+}

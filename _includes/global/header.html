@@ -1,0 +1,25 @@
+<header>
+    <nav>
+        <a href="/">
+            <img src="/assets/images/c3-logo-blue.png">
+        </a>
+        <ul>
+            {% for link in site.data.navigation.live-site %}
+            <li>
+                <a href="{{ link.url }}" class="{{ link.class }}">
+                    {{ link.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" style="background-image: url(https://c3.clarabridge.com/wp-content/uploads/2018/11/C3-2018-miami_hero_3775.jpg); background-size: cover; background-position: center center;">
+    <div class="hero__content">
+        <img src="https://c3.clarabridge.com/wp-content/uploads/2017/11/c3-2018_logo_white.png">
+        <h1>April 29 - May 1, 2019</h1>
+        <small>Fontainebleau Miami Beach</small>
+    </div>
+    <div class="hero__overlay"></div>
+</section>

@@ -1,0 +1,84 @@
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - netlify.toml
+  - README.md
+  - vendor
+  - .bundle
+
+# 2. Installed Gems
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# 3. Gem settings
+# Jekyll SEO Tag
+title: 2019 C3 Miami
+email:
+author: Marcus Relacion
+lang: en_US
+logo: ""
+social:
+  name:
+  links:
+twitter:
+  username:
+  card: summary
+markdown: kramdown
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+  typographic_symbols: {hellip: ...}
+
+# 4. Jekyll settings
+permalink: pretty
+timezone: America/New_York
+
+# 5. Collections
+collections:
+  agenda:
+    title: Agenda
+    output: true
+  posts:
+    title: Posts
+    output: true
+  speakers:
+    title: Speakers
+    output: false
+  sponsors:
+    title: Sponsors
+    output: false
+
+# 6. Jekyll collections settings
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+
+# 7. Site settings
+encoding: utf-8
+title: 2019 C3 Miami
+description: 
+email:
+author: Marcus Relacion
+lang: en_US
+logo: ""
+url: ""
+baseurl: ""
+domain: 
+repo: "https://github.com/marcusrelacion/c3-marketing-site"

@@ -1,0 +1,157 @@
+/* Box sizing rules */
+* {
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+/* Remove margin and padding from elements */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+dd,
+figure,
+figcaption,
+dl,
+dd,
+dt {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  /* Hide persistent scrollbar in IE (10/11) and Edge */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Anchor links will transition rather than skip */
+  scroll-behavior: smooth;
+  /* Reset font size to 1rem, in case it has a pixel value */
+  font-size: 1rem;
+  min-height: 100vh; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  cursor: pointer; }
+
+/* Turn off the recent search in WebKit. */
+::-webkit-search-decoration {
+  display: none; }
+
+/* Normalise form field line-height in WebKit */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  line-height: normal; }
+
+/* Make a search box appear like a text box */
+input[type='search'] {
+  -webkit-appearance: textfield; }
+
+/* Make images responsive */
+img {
+  max-width: 100%; }
+
+/* Remove _all_ animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation: none !important;
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important; } }
+html {
+  font-size: 16px;
+  line-height: 1; }
+
+.charcoal {
+  color: #455560; }
+
+.bg-charcoal {
+  background-color: #455560; }
+
+.grid {
+  display: grid;
+  grid-gap: 16px;
+  align-content: center;
+  align-items: center; }
+
+.grid.one-column {
+  grid-template-columns: 1fr; }
+
+@media screen and (min-width: 767px) {
+  .grid.two-column {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .grid.three-column {
+    grid-template-columns: repeat(3, 1fr); }
+
+  .grid.four-column {
+    grid-template-columns: repeat(4, 1fr); } }
+.container {
+  max-width: 1024px;
+  margin: auto; }
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 2px;
+  color: white; }
+
+.button-register {
+  background-color: salmon; }
+
+header {
+  background-color: white;
+  padding: 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999; }
+
+header nav li {
+  display: inline-block; }
+
+header nav {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto 1fr;
+  align-items: center; }
+
+header nav img {
+  max-width: 64px; }
+
+header nav ul {
+  text-align: right; }
+
+.hero {
+  position: relative;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(3, 1fr); }
+
+.hero__content {
+  position: relative;
+  text-align: center;
+  z-index: 9999;
+  grid-column: 2;
+  padding: 96px 0; }
+
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #455560;
+  opacity: 0.5; }
