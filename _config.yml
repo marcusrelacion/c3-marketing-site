@@ -64,11 +64,6 @@ collections:
     output: false
 
 # 6. Jekyll collections settings
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
 
 # 7. Site settings
 encoding: utf-8
