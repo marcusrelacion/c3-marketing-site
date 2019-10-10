@@ -3,21 +3,3 @@ layout: default
 ---
 
 {{ content }}
-
-<!-- contact us-->
-<section class="contact-us container">
-    <h2>Contact Us</h2>
-    <ul class="grid three-column">
-        {% for employee in site.data.employees.events %}
-        <li>
-            <div>
-                <img src="{{ employee.image }}" alt="{{ employee.image-alt }}" />
-                <h3>{{ employee.name }}</h3>
-                <p>{{ employee.title }}</p>
-                <p>{{ employee.company }}</p>
-                <a href="mailto:{{employee.email}}">Get in Touch</a>
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-</section>

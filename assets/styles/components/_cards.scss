@@ -1,9 +1,11 @@
-.speaker-card {
+.speaker-card,
+.employee-card {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.speaker-card *+*:not(:last-child) {
+.speaker-card *+*:not(:last-child),
+.employee-card *+*:not(:last-child) {
     margin-bottom: 1rem;
 }
 .speaker-image {
@@ -16,9 +18,11 @@
     display: block;
     overflow: hidden;
 }
-.speaker-details {
+.speaker-details,
+.employee-details {
     min-height: 144px;
 }
-.speaker-title {
+.speaker-title,
+.employee-title {
 	font-style: italic;
 }

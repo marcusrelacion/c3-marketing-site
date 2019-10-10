@@ -1,5 +1,3 @@
 ---
 layout: venue
 ---
-
-Venue Page

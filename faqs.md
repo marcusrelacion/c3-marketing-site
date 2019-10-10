@@ -1,5 +1,3 @@
 ---
 layout: faqs
 ---
-
-FAQs Page
