@@ -1,3 +1,3 @@
 ---
-layout: cx-awards
+layout: page-cx-awards
 ---

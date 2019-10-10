@@ -1,3 +1,3 @@
 ---
-layout: networking
+layout: page-networking
 ---

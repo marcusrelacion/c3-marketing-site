@@ -1,3 +1,3 @@
 ---
-layout: agenda
+layout: page-agenda
 ---

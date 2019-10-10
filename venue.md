@@ -1,3 +1,3 @@
 ---
-layout: venue
+layout: page-venue
 ---

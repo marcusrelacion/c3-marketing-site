@@ -1,3 +1,3 @@
 ---
-layout: sponsors
+layout: page-sponsors
 ---

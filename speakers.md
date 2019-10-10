@@ -1,3 +1,3 @@
 ---
-layout: speakers
+layout: page-speakers
 ---
