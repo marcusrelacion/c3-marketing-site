@@ -1,0 +1,16 @@
+.site-footer {
+    background-color: $charcoal;
+    color: $white;
+    padding: 32px;
+}
+.site-footer img {
+    max-width: 288px;
+}
+.site-footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+.site-footer i {
+    color: $white;
+    font-size: 2rem;
+}

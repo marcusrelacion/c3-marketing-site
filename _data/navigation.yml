@@ -3,23 +3,28 @@
 live-site:
   - title: "Agenda"
     url: /agenda/
+    class: "button"
   - title: "Speakers"
     url: /speakers/
+    class: "button"
   - title: "Venue"
     url: /venue/
+    class: "button"
   - title: "Networking"
     url: /networking/
+    class: "button"
   - title: "Sponsors"
     url: /sponsors/
+    class: "button"
   - title: "CX Awards"
     url: /cx-awards/
+    class: "button"
   - title: "FAQs"
     url: /faqs/
+    class: "button"
   - title: "Contact Us"
     url: /contact/
-  - title: "Register Now"
-    url: http://www.cvent.com/events/c3-2019/event-summary-36ede6ba1fba461aa20f00c93fec7579.aspx
-    class: "button button-register"
+    class: "button"
 
 social-media:
   - title: "Twitter"

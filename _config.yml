@@ -77,3 +77,6 @@ url: ""
 baseurl: ""
 domain: 
 repo: "https://github.com/marcusrelacion/c3-marketing-site"
+sass:
+  sass_dir: "/assets/styles/"
+  style: compressed

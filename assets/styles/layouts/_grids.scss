@@ -1,6 +1,10 @@
+.block {
+    padding: 72px 32px;
+}
+
 .grid {
     display: grid;
-    grid-gap: 16px;
+    grid-gap: 2rem;
     align-content: center;
     align-items: center;
 }

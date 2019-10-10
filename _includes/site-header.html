@@ -1,25 +1,41 @@
-<header>
+<header class="site-header">
     <nav>
         <a href="/">
             <img src="/assets/images/c3-logo-blue.png">
+            </img>
         </a>
         <ul>
             {% for link in site.data.navigation.live-site %}
             <li>
-                <a href="{{ link.url }}" class="{{ link.class }}">
+                <a class="{{ link.class }}" href="{{ link.url }}">
                     {{ link.title }}
                 </a>
             </li>
             {% endfor %}
+            <li>
+                <a class="button button--primary" href="#" rel="noopener" target="_blank">
+                    Register Now
+                </a>
+            </li>
         </ul>
+        <!-- Off-canvas toggle button -->
+        <button class="button button--mobile-menu" id="my-button" type="button">
+            Menu
+            <i class="fas fa-bars">
+            </i>
+        </button>
     </nav>
 </header>
-
 <section class="hero" style="background-image: url(https://c3.clarabridge.com/wp-content/uploads/2018/11/C3-2018-miami_hero_3775.jpg); background-size: cover; background-position: center center;">
     <div class="hero__content">
-        <img src="https://c3.clarabridge.com/wp-content/uploads/2017/11/c3-2018_logo_white.png">
-        <h1>April 29 - May 1, 2019</h1>
-        <small>Fontainebleau Miami Beach</small>
+        <img alt="" src="https://c3.clarabridge.com/wp-content/uploads/2017/11/c3-2018_logo_white.png"/>
+        <h1>
+            WYSIWYG Field
+        </h1>
+        <small>
+            WYSIWYG Field
+        </small>
     </div>
-    <div class="hero__overlay"></div>
+    <div class="hero__overlay">
+    </div>
 </section>

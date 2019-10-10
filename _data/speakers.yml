@@ -1,63 +1,43 @@
-miami-keynote:
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/faith-adams.jpg
+2020-keynote:
+    - image: https://picsum.photos/300
       image-alt:
-      name: Faith Adams
-      title: Analyst Serving Customer Experience Professionals
-      company: Forrester Research
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/sid-banerjee.jpg
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title
+      company: Keynote Speaker Company
+    - image: https://picsum.photos/300
       image-alt:
-      name: Sid Banerjee
-      title: Executive Vice Chairman, Founder & Chief Strategy Officer 
-      company: Clarabridge
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/mark-bishof.jpg
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title That Is Long
+      company: Keynote Speaker Company
+    - image: https://picsum.photos/300
       image-alt:
-      name: Mark Bishof
-      title: CEO
-      company: Clarabridge
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/fabrice-martin.jpg
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title That Is Super Super Loooooooooong
+      company: Keynote Speaker Company
+    - image: https://picsum.photos/300
       image-alt:
-      name: Fabrice Martin
-      title: Chief Product Officer
-      company: Clarabridge
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
+      company: Keynote Speaker Company
 
-miami-general:
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/vera-bradley-1.png
+2020-general:
+    - image: https://picsum.photos/300
       image-alt:
-      name: Susan Campbell
-      title: Director, Customer Experience
-      company: Vera Bradley
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/fidelity.png
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company
+    - image: https://picsum.photos/300
       image-alt:
-      name: Jackie Carrazzo
-      title: Director, Digital Analytics & Insights
-      company: Fidelity
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/united.png
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company
+    - image: https://picsum.photos/300
       image-alt:
-      name: Rajeev D’Souza
-      title: Director, Marketing & Loyalty Data Management
-      company: United Airlines
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/target.png
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company
+    - image: https://picsum.photos/300
       image-alt:
-      name: Brian Lanna
-      title: Senior Director, Guest Experience
-      company: Target
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/united-health-group.png
-      image-alt:
-      name: Paige Yahnke
-      title: Optum Advisory Services, Senior Consultant 
-      company: UHG
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/loves.png
-      image-alt:
-      name: Kaylie Eason
-      title: Content Administrator
-      company: Love’s Travel Stops
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/sharkninja-1.png
-      image-alt:
-      name: Jake Finch
-      title: Senior Director of Global Consumer Excellence & Insight
-      company: SharkNinja
-    - image: https://c3.clarabridge.com/wp-content/uploads/2019/02/abbott-nutrition-1.png
-      image-alt:
-      name: Beth Heuerman
-      title: Director of Consumer Relations
-      company: Abbott Nutrition
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company

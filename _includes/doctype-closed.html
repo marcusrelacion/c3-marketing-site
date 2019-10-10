@@ -1,4 +1,17 @@
-{% include block-contact.html %}
-{% include site-footer.html %}
+    <!-- Put this right before the </body> closing tag -->
+    <script>
+        //Offside.js minimal setup
+            var myOffside = offside( '#my-menu', {
+                buttonsSelector: '#my-button, .another-button', // Global offside options: affect all offside instances
+                slidingElementsSelector: '#my-content-container', // String: Sliding elements selectors ('#foo, #bar')
+                debug: false, 
+                slidingSide: 'right',
+                beforeOpen: function(){},
+                beforeClose: function(){},
+            });
+
+            var overlay = document.querySelector('.site-overlay')
+                .addEventListener( 'click', window.offside.factory.closeOpenOffside );
+    </script>
 </body>
 </html>

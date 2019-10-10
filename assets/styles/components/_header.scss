@@ -1,0 +1,30 @@
+.site-header {
+    background-color: white;
+    padding: 8px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: $index-5;
+}
+.site-header nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.site-header nav li {
+    display: none;
+    list-style: none;
+}
+.site-header nav img {
+    max-width: 64px;
+}
+@media screen and (min-width: 1023px) {
+   .site-header nav li {
+        display: inline-block;
+    }
+    .site-header nav li:not(:last-child) {
+        margin-right: 8px;
+    }
+}

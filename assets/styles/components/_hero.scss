@@ -1,18 +1,18 @@
 .hero {
     position: relative;
-    display: grid;
-    grid-gap: 16px;
-    grid-template-columns: repeat(3,1fr);
 }
-
 .hero__content {
     position: relative;
-    text-align: center;
-    z-index: 9999;
-    grid-column: 2;
-    padding: 96px 0;
+    z-index: $index-4;
+    padding: 48px 0;
+    align-items: center;
+    color: $white;
+    display: flex;
+    flex-direction: column;
 }
-
+.hero__content img {
+    max-width: 288px;
+}
 .hero__overlay {
     position: absolute;
     top: 0;
@@ -20,5 +20,5 @@
     bottom: 0;
     left: 0;
     background-color: $charcoal;
-    opacity: 0.5;
+    opacity: 0.8;
 }

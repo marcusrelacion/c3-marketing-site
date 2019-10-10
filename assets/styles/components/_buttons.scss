@@ -1,0 +1,34 @@
+.button {
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 2px;
+    color: $charcoal;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 16px 8px;
+    text-decoration: none;
+    &--primary {
+        background-color: $cb-primary-base;
+        color: $white;
+    }
+    &--inverse {
+        color: $white;
+    }
+    &--mobile-menu {
+        background-color: $cb-primary-base;
+        color: $white;
+        display: block;
+    }
+    &:hover {
+        border-bottom: solid 2px $cb-primary-base;
+    }
+    &:focus {
+        outline: solid 2px salmon;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .button--mobile-menu {
+        display: none;
+    }
+}
