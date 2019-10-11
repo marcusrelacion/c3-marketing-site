@@ -1,5 +1,5 @@
 .block {
-    padding: 48px 16px;
+    padding: 32px 16px;
 }
 .grid {
     display: grid;
@@ -22,11 +22,11 @@
     }
 }
 .container {
-    max-width: 1024px;
+    max-width: 1280px;
     margin: auto;
 }
 @media screen and (min-width: 1023px) {
     .block {
-        padding: 96px 32px;
+        padding: 144px 32px;
     }
 }

@@ -13,15 +13,15 @@ body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt {
     padding: 0px;
 }
 body {
-    color: $charcoal;
+    color: $charcoal-400;
     /* Hide persistent scrollbar in IE (10/11) and Edge */
     -ms-overflow-style: -ms-autohiding-scrollbar;
     /* Anchor links will transition rather than skip */
     scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Avenir', sans-serif;
     /* Reset font size to 1rem, in case it has a pixel value */
-    font-size: 1rem;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: initial;
     min-height: 100vh;
     position: relative;
 }

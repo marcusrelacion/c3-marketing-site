@@ -62,6 +62,25 @@ collections:
   sponsors:
     title: Sponsors
     output: false
+  uploads:
+    title: Uploads
+    output: false
+
+defaults:
+- scope:
+    path: ''
+  values:
+    has-introduction: true
+    introduction-background-color: bg-white
+    introduction-header: Introduction
+    introduction-body: |-
+        Just my luck, no ice. You really think you can fly that thing? Just my luck, no ice. Jaguar shark! So tell me - does it really exist? This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine?
+
+        Did he just throw my cat out of the window?
+    introduction-has-button: true
+    introduction-button-label: Button
+    introduction-button-url: "#"
+    introduction-button-style: primary
 
 # 6. Jekyll collections settings
 
@@ -80,3 +99,53 @@ repo: "https://github.com/marcusrelacion/c3-marketing-site"
 sass:
   sass_dir: "/assets/styles/"
   style: compressed
+
+hero-background-image: /uploads/c3-test-header.jpg
+hero-logo: /uploads/c3-logo.png
+hero-logo-alt: logo alt text
+hero-header: May 5-8, 2019 
+hero-date: San Diego, CA
+
+speakers-keynote:
+    - image: https://picsum.photos/300
+      image-alt:
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title
+      company: Keynote Speaker Company
+    - image: https://picsum.photos/300
+      image-alt:
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title That Is Long
+      company: Keynote Speaker Company
+    - image: https://picsum.photos/300
+      image-alt:
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title That Is Super Super Loooooooooong
+      company: Keynote Speaker Company
+    - image: https://picsum.photos/300
+      image-alt:
+      name: Keynote Speaker Name
+      title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
+      company: Keynote Speaker Company
+
+speakers-general:
+    - image: https://picsum.photos/300
+      image-alt:
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company
+    - image: https://picsum.photos/300
+      image-alt:
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company
+    - image: https://picsum.photos/300
+      image-alt:
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company
+    - image: https://picsum.photos/300
+      image-alt:
+      name: General Speaker Name
+      title: General Speaker Title
+      company: General Speaker Company

@@ -30,7 +30,7 @@
     left: auto;
     right: -200px;
     z-index: $index-4;
-    background-color: $white;
+    background-color: $charcoal-400;
     padding: 24px;
 }
 /*
@@ -123,6 +123,7 @@
     transition: visibility 0s ease, opacity .2s ease;
 }
 /* Just few cosmetic CSS for overlay fade in/out */
+
 .offside-js--is-open .site-overlay {
     visibility: visible;
     opacity: .5;

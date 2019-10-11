@@ -7,7 +7,7 @@
         <ul>
             {% for link in site.data.navigation.live-site %}
             <li>
-                <a class="{{ link.class }}" href="{{ link.url }}">
+                <a class="button" href="{{ link.url }}">
                     {{ link.title }}
                 </a>
             </li>
@@ -19,21 +19,21 @@
             </li>
         </ul>
         <!-- Off-canvas toggle button -->
-        <button class="button button--mobile-menu" id="my-button" type="button">
+        <button class="button button--primary mobile-menu" id="my-button" type="button">
             Menu
             <i class="fas fa-bars">
             </i>
         </button>
     </nav>
 </header>
-<section class="hero" style="background-image: url(https://c3.clarabridge.com/wp-content/uploads/2018/11/C3-2018-miami_hero_3775.jpg); background-size: cover; background-position: center center;">
+<section class="hero" style="background-image: url({{ site.hero-background-image }}); background-size: cover; background-position: center center;">
     <div class="hero__content">
-        <img alt="" src="https://c3.clarabridge.com/wp-content/uploads/2017/11/c3-2018_logo_white.png"/>
+        <img alt="" src="{{ site.hero-logo }}"/>
         <h1>
-            WYSIWYG Field
+            {{ site.hero-header }}
         </h1>
         <small>
-            WYSIWYG Field
+            {{ site.hero-date }}
         </small>
     </div>
     <div class="hero__overlay">

@@ -3,6 +3,10 @@ html {
     line-height: 1;
 }
 * {
-	outline: dashed 1px salmon;
-	outline-offset: -1px;
+    outline: dashed 1px salmon;
+    outline-offset: -1px;
+}
+.wysiwyg {
+    max-width: 72ch;
+    margin: auto;
 }

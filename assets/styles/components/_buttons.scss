@@ -2,33 +2,40 @@
     background-color: transparent;
     border: solid 2px transparent;
     border-radius: 2px;
-    color: $charcoal;
+    color: $charcoal-400;
     cursor: pointer;
     display: inline-block;
-    font-size: 1rem;
-    padding: 16px 8px;
+    padding: 8px 16px;
     text-decoration: none;
+    text-transform: uppercase;
     &--primary {
-        background-color: $cb-primary-base;
+        background-color: $cb-primary-400;
         color: $white;
+    }
+    &--primary:hover {
+        background-color: transparent;
+        border: solid 2px $cb-primary-400;
+        color: $cb-primary-400;
     }
     &--inverse {
         color: $white;
+        display: block;
+        margin-bottom: 8px;
     }
     &--mobile-menu {
-        background-color: $cb-primary-base;
+        background-color: $cb-primary-400;
         color: $white;
         display: block;
     }
     &:hover {
-        border-bottom: solid 2px $cb-primary-base;
+        border: solid 2px $cb-primary-400;
     }
     &:focus {
-        outline: solid 2px salmon;
+        outline: solid 4px $cb-primary-300;
     }
 }
-@media screen and (min-width: 1023px) {
-    .button--mobile-menu {
+@media screen and (min-width: 1279px) {
+    .mobile-menu {
         display: none;
     }
 }

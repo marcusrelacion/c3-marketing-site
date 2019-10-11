@@ -4,38 +4,38 @@
 		{% comment %}
 		Show the events team contact information on the contact page, otherwise show the simplified contact information that directs a user to the contact page
 		{% endcomment %}
-	        <h2>
-	            TEXT FIELD - Contact Us
-	        </h2>
-	        <ul class="grid three-column">
-	            {% for employee in site.data.employees.events %}
-	            <li class="employee">
-	                <div class="employee-card">
-	                    <div class="employee-details">
-	                        <h3 class="employee-name">
-	                            {{ employee.name }}
-	                        </h3>
-	                        <p class="employee-title">
-	                            {{ employee.title }}
-	                        </p>
-	                        <p class="employee-company">
-	                            {{ employee.company }}
-	                        </p>
-	                        <a class="button button--primary" href="mailto:{{employee.email}}">
-	                            TEXT FIELD
-	                        </a>
-	                    </div>
-	                </div>
-	            </li>
-	            {% endfor %}
-	        </ul>
+        <h2>
+            TEXT FIELD - Contact Us
+        </h2>
+        <ul class="grid three-column">
+            {% for employee in site.data.employees.events %}
+            <li class="employee">
+                <div class="employee-card">
+                    <div class="employee-details">
+                        <h3 class="employee-name">
+                            {{ employee.name }}
+                        </h3>
+                        <p class="employee-title">
+                            {{ employee.title }}
+                        </p>
+                        <p class="employee-company">
+                            {{ employee.company }}
+                        </p>
+                        <a class="button button--primary" href="mailto:{{employee.email}}">
+                            TEXT FIELD
+                        </a>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
         {% else %}
-	        <h2>
-	            TEXT FIELD - Contact Us
-	        </h2>
-	        <a class="button button--primary" href="mailto:events@clarabridge.com">
-	            TEXT FIELD
-	        </a>
+        <h2>
+            TEXT FIELD - Contact Us
+        </h2>
+        <a class="button button--primary" href="mailto:events@clarabridge.com">
+            TEXT FIELD
+        </a>
         {% endif %}
     </div>
 </section>
