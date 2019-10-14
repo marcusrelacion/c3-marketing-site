@@ -1,0 +1,57 @@
+.agenda__events {
+    padding: 32px;
+    background-color: $cb-primary-100;
+    border-radius: 4px;
+}
+.agenda__event {
+    padding: 16px;
+    border: solid 2px transparent;
+    transition: border 100ms ease-in-out;
+    border-radius: 4px;
+}
+.agenda__event:hover {
+    border: solid 2px $cb-primary-400;
+    cursor: pointer;
+}
+.agenda__event>*:not(:last-child), .agenda__event-modal>*:not(:last-child) {
+    margin-bottom: 16px;
+}
+.agenda__event-modal {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4,1fr);
+}
+.agenda__event-details {
+	grid-column: 1/5;
+}
+.agenda__event-title,
+.agenda__event-summary,
+.agenda__event-speakers {
+	grid-column: 1/4;
+}
+.agenda__event-venue {
+	grid-column: 4/5;
+}
+.agenda__event-details {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agenda__event-date, .agenda__event-type {
+    display: inline-block;
+}
+.agenda__event-type {
+    padding: 8px;
+    background-color: $cb-primary-300;
+    color: $white;
+    font-weight: bold;
+}
+.agenda__event-title h2 {
+    font-weight: 400;
+}
+.agenda__event-speakers {
+    padding: 16px;
+    border-radius: 4px;
+    background-color: $cb-primary-100;
+}

@@ -6,16 +6,21 @@
 @import "global/general";
 @import "global/colors";
 
-@import "layouts/grids";
-
+@import "components/agenda-events";
 @import "components/agenda-small";
+@import "components/agenda-filter";
 @import "components/buttons";
 @import "components/cards";
 @import "components/footer";
 @import "components/header";
+@import "components/listing";
 @import "components/hero";
 @import "components/navigation";
 @import "components/pricing-discounts";
 @import "components/pricing-table";
 
+@import "layouts/agenda";
+@import "layouts/blocks";
+
+@import "vendor/modals";
 @import "vendor/offside";

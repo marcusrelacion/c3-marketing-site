@@ -1,0 +1,175 @@
+<!-- listing -->
+<ul class="agenda__events listing listing__agenda mixitup-container">
+    {% assign sorted = (site.agenda | sort: 'event.date' and 'event.start-time') %}
+        {% for posts in sorted %}
+    <!-- modal trigger -->
+    <a class="modal__trigger" data-modal="#{{ posts.modal.url }}" href="#">
+        <li class="agenda__event mix
+            {% if posts.filter-date.is-day-1 == true %} day-1
+            {% elsif posts.filter-date.is-day-2 == true %} day-2
+            {% elsif posts.filter-date.is-day-3 == true %} day-3
+            {% endif %}
+
+            {% if posts.filter-time.is-morning == true %} morning
+            {% elsif posts.filter-time.is-daytime == true %} daytime
+            {% elsif posts.filter-time.is-evening == true %} evening
+            {% endif %}
+
+            {% if posts.filter-type.is-session-keynote == true %} session-keynote
+            {% elsif posts.filter-type.is-session-workshop == true %} session-workshop
+            {% elsif posts.filter-type.is-session-general == true %} session-general
+            {% elsif posts.filter-type.is-reception == true %} reception
+            {% elsif posts.filter-type.is-track-cx == true %} track-cx
+            {% elsif posts.filter-type.is-track-engage == true %} track-engage
+            {% endif %}
+        ">
+            <div class="agenda__event-details">
+                <div class="agenda__event-date">
+                    <p>
+                        <i class="fas fa-clock">
+                        </i>
+                        {{ posts.event.date | date: "%A, %B %d" }}
+                        <time datetime="{{ posts.event.start-time }}">
+                            {{ posts.event.start-time }}
+                        </time>
+                        -
+                        <time datetime="{{ posts.event.end-time }}">
+                            {{ posts.event.end-time }}
+                        </time>
+                    </p>
+                </div>
+                <div class="agenda__event-type">
+                    <p>
+                        <i class="fas fa-hashtag"></i>
+                        {% if posts.filter-type.is-session-keynote == true %} Keynote
+                        {% elsif posts.filter-type.is-session-workshop == true %} Workshop
+                        {% elsif posts.filter-type.is-session-general == true %} General
+                        {% elsif posts.filter-type.is-reception == true %} Reception
+                        {% elsif posts.filter-type.is-track-cx == true %} CX Track
+                        {% elsif posts.filter-type.is-track-engage == true %} Engage Track
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+            <div class="agenda__event-title">
+                <h2>
+                    {{ posts.title }}
+                </h2>
+            </div>
+        </li>
+    </a>
+    <!-- modal -->
+    <div class="modal" data-modal-window="" id="{{ posts.modal.url }}">
+        <div class="agenda__event-modal">
+            <button class="close" data-modal-close="">
+                Close Modal
+                <i class="fas fa-times-circle">
+                </i>
+            </button>
+            
+                <a href="{{ posts.url }}">
+                    <i class="fas fa-map-marker-alt">
+                    </i>
+                    Permalink
+                </a>
+            
+            <div class="agenda__event-details">
+                <div class="agenda__event-date">
+                    <p>
+                        <i class="fas fa-clock">
+                        </i>
+                        {{ posts.event.date | date: "%A, %B %d" }}
+                        <time datetime="{{ posts.event.start-time }}">
+                            {{ posts.event.start-time }}
+                        </time>
+                        -
+                        <time datetime="{{ posts.event.end-time }}">
+                            {{ posts.event.end-time }}
+                        </time>
+                    </p>
+                </div>
+                <div class="agenda__event-type">
+                    <p>
+                        <i class="fas fa-clock">
+                        </i>
+                        Type
+                    </p>
+                </div>
+            </div>
+            <div class="agenda__event-title">
+                <h2>
+                    {{ posts.title }}
+                </h2>
+            </div>
+            <div class="agenda__event-summary">
+                {{ posts.content | markdownify }}
+            </div>
+            <div class="agenda__event-speakers">
+                <h3>
+                    Speakers
+                </h3>
+                <ul class="listing listing__agenda-speakers">
+                    {% for speaker in posts.speakers %}
+                    <li class="listing__agenda-speaker">
+                        <h4>
+                            {{ speaker.name }}
+                        </h4>
+                        <p class="italic">
+                            {{ speaker.title }}
+                        </p>
+                        <p>
+                            {{ speaker.company }}
+                        </p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="agenda__event-venue">
+                <h3>
+                    Pre-Conference Workshops will take place at the:
+                </h3>
+                <p>
+                    {{ posts.venue.name }}
+                </p>
+                <p>
+                    <a href="{{ posts.venue.directions }}" rel="noopener" target="_blank">
+                        <i class="fas fa-map-marker-alt">
+                        </i>
+                        {{ posts.venue.address }}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</ul>
+<script src="/assets/scripts/vendor/mixitup.min.js">
+</script>
+<script src="/assets/scripts/vendor/mixitup-multifilter.min.js">
+</script>
+<script src="/assets/scripts/vendor/modals.min.js">
+</script>
+<script>
+    var containerEl = document.querySelector('.mixitup-container');
+			var mixer = mixitup(containerEl, {
+				multifilter: {
+					enable: true
+				},
+				animation: {
+					enable: false
+				}
+			});
+</script>
+<script>
+    modals.init({
+	selectorToggle: '[data-modal]', // Modal toggle selector
+	selectorWindow: '[data-modal-window]', // Modal window selector
+	selectorClose: '[data-modal-close]', // Modal window close selector
+	modalActiveClass: 'active', // Class applied to active modal windows
+	modalBGClass: 'modal-bg', // Class applied to the modal background overlay
+	preventBGScroll: true, // Boolean, prevents background content from scroll if true
+	preventBGScrollHtml: true, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
+	preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
+	backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
+});
+</script>

@@ -53,15 +53,10 @@ collections:
   agenda:
     title: Agenda
     output: true
+    permalink: "/agenda/:title/"
   posts:
     title: Posts
     output: true
-  speakers:
-    title: Speakers
-    output: false
-  sponsors:
-    title: Sponsors
-    output: false
   uploads:
     title: Uploads
     output: false
@@ -74,19 +69,50 @@ defaults:
     introduction-background-color: bg-white
     introduction-header: Introduction
     introduction-body: |-
-        Just my luck, no ice. You really think you can fly that thing? Just my luck, no ice. Jaguar shark! So tell me - does it really exist? This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine?
-
-        Did he just throw my cat out of the window?
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     introduction-has-button: true
     introduction-button-label: Button
     introduction-button-url: "#"
     introduction-button-style: primary
+- scope:
+    path: ''
+    type: agenda
+  values:
+    description: Provide description of event
+    event:
+      date: Select event date
+      start-time: Select event start time
+      end-time: Select event end time
+    venue:
+      name: Provide venue name
+      address: Provide venue address
+      directions: Provide venue directions (google maps)
+    speakers:
+    - name: Provide Speaker name
+      title: Provide Speaker title
+      company: Provide Speaker company
+    filter-date:
+      is-day-1: Select True if event occurs on day 1
+      is-day-2: Select True if event occurs on day 2
+      is-day-3: Select True if event occurs on day 3
+    filter-time:
+      is-morning: Select True if event occurs during the morning
+      is-daytime: Select True if event occurs during the day
+      is-evening: Select True if event occurs during the evening
+    filter-type:
+      is-session-keynote: Select True if event matches
+      is-session-workshop: Select True if event matches
+      is-session-general: Select True if event matches
+      is-reception: Select True if event matches
+      is-track-cx: Select True if event matches
+      is-track-engage: Select True if event matches
+    layout: page-agenda-single
 
 # 6. Jekyll collections settings
 
 # 7. Site settings
 encoding: utf-8
-title: 2019 C3 Miami
+title: 2020 C3 San Diego
 description: 
 email:
 author: Marcus Relacion
@@ -149,3 +175,45 @@ speakers-general:
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
+
+agenda-filter-time-of-day:
+  - filter: .morning
+    class: morning
+    text-1: Morning
+  - filter: .daytime
+    class: daytime
+    text-1: Daytime
+  - filter: .evening
+    class: evening
+    text-1: Evening
+
+agenda-filter-date:
+  - filter: .day-1
+    class: day-1
+    text-1:  Tuesday, May 6th
+  - filter: .day-2
+    class: day-2
+    text-1: Wednesday, May 7th
+  - filter: .day-3
+    class: day-3
+    text-1: Thursday, May 8th
+    
+agenda-filter-type:
+  - filter: .session-keynote
+    class: session-keynote
+    text-1: Keynote
+  - filter: .session-workshop
+    class: session-workshop
+    text-1: Workshop
+  - filter: .session-general
+    class: session-general
+    text-1: General Session
+  - filter: .reception
+    class: reception
+    text-1: Reception
+  - filter: .track-cx
+    class: track-track
+    text-1: CX Track
+  - filter: .track-engage
+    class: track-engage
+    text-1: Engage Track
