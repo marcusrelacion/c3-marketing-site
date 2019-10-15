@@ -217,3 +217,21 @@ agenda-filter-type:
   - filter: .track-engage
     class: track-engage
     text-1: Engage Track
+
+contact-background-color: bg-white
+contact-header: Contact Us
+contact-button-label: Get in Touch
+contact-button-url: "mailto:events@clarabridge.com?subject=Thanks for reaching out, how can we help?"
+contact-button-style: primary
+contact-employees:
+  - name: Keri Cook
+    title: VP, Demand Gen
+    email: mailto:keri.cook@clarabridge.com
+
+  - name: Kendall Sampson
+    title: Manager, Demand Gen
+    email: mailto:kendall.sampson@clarabridge.com
+
+  - name: Kaitlin Beazell
+    title: Marketing Coordinator
+    email: mailto:kaitlin.beazell@clarabridge.com

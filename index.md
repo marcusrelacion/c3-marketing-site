@@ -39,7 +39,7 @@ agenda-small-dates:
     Feature 3
 agenda-small-has-button: true
 agenda-small-button-label: View Full Agenda
-agenda-small-button-url: "#"
+agenda-small-button-url: "/agenda/"
 agenda-small-button-style: primary
 
 pricing-background-color: bg-white

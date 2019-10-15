@@ -1,40 +1,35 @@
-<section class="block block__contact" style="background-color: white;">
+<section class="block block__contact" style="background-color: {{ site.contact-background-color }};">
     <div class="container">
         {% if page.url == "/contact/" %}
-		{% comment %}
-		Show the events team contact information on the contact page, otherwise show the simplified contact information that directs a user to the contact page
-		{% endcomment %}
+        {% comment %}
+        Show the events team contact information on the contact page, otherwise show the simplified contact information that directs a user to the contact page
+        {% endcomment %}
         <h2>
-            TEXT FIELD - Contact Us
+            {{ site.contact-header }}
         </h2>
         <ul class="grid three-column">
-            {% for employee in site.data.employees.events %}
-            <li class="employee">
-                <div class="employee-card">
-                    <div class="employee-details">
-                        <h3 class="employee-name">
-                            {{ employee.name }}
-                        </h3>
-                        <p class="employee-title">
-                            {{ employee.title }}
-                        </p>
-                        <p class="employee-company">
-                            {{ employee.company }}
-                        </p>
-                        <a class="button button--primary" href="mailto:{{employee.email}}">
-                            TEXT FIELD
-                        </a>
-                    </div>
+            {% for employee in site.contact-employees %}
+            <li class="listing listing__employees">
+                <div class="employee-details">
+                    <h3 class="employee-name">
+                        {{ employee.name }}
+                    </h3>
+                    <p class="employee-title">
+                        {{ employee.title }}
+                    </p>
+                    <a class="button button--primary" href="{{employee.email}}">
+                        {{ site.contact-button-label }}
+                    </a>
                 </div>
             </li>
             {% endfor %}
         </ul>
         {% else %}
         <h2>
-            TEXT FIELD - Contact Us
+            {{ site.contact-header }}
         </h2>
-        <a class="button button--primary" href="mailto:events@clarabridge.com">
-            TEXT FIELD
+        <a class="button button--primary" href="{{ site.contact-button-url }}">
+            {{ site.contact-button-label }}
         </a>
         {% endif %}
     </div>

@@ -3,31 +3,7 @@ layout: default
 ---
 
 {% include block-introduction.html %}
-<section class="block block__agenda-small {{ page.agenda-small-background-color }}">
-    <div class="container">
-        <h2>
-            {{ page.agenda-small-header }}
-        </h2>
-        <ul class="dates grid three-column">
-            {% for date in page.agenda-small-dates %}
-            <li class="date">
-                <h2>
-                    {{ date.header }}
-                </h2>
-                <div class="wysiwyg">
-                    {{ date.body | markdownify }}
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
-        {% if page.agenda-small-has-button == true %}
-        <a class="button button--{{ page.agenda-small-button-style }}" href="{{ page.agenda-small-button-url }}">
-            {{ page.agenda-small-button-label }}
-        </a>
-        {% else %}
-        {% endif %}
-    </div>
-</section>
+{% include block-agenda-small.html %}
 <section class="block block__pricing" style="background-color: white;">
     <div class="container">
         <h2>
