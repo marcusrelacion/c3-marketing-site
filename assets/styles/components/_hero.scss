@@ -4,14 +4,14 @@
 .hero__content {
     position: relative;
     z-index: $index-3;
-    padding: 48px 0;
+    padding: 32px;
     align-items: center;
     color: $white;
     display: flex;
     flex-direction: column;
 }
 .hero__content img {
-    max-width: 288px;
+    max-width: 200px;
 }
 .hero__overlay {
     position: absolute;
