@@ -4,59 +4,8 @@ layout: default
 
 {% include block-introduction.html %}
 {% include block-agenda-small.html %}
-<section class="block block__pricing" style="background-color: white;">
-    <div class="container">
-        <h2>
-            {{ page.pricing-header }}
-        </h2>
-        {% if page.pricing-body %}
-        <div class="wysiwyg">
-            {{ page.pricing-body | markdownify }}
-        </div>
-        {% endif %}
-        <!-- Pricing Table -->
-        <div class="pricing-table">
-            <ul class="grid two-column">
-                {% for tier in page.pricing-table %}
-                <li class="pricing-table__card pricing-table__{{ tier.type }} {% if tier.status == 'active' %} pricing-table__{{ tier.type }}--active {% endif %}">
-                    <h3 class="pricing-table__label">
-                        {{ tier.header }}
-                    </h3>
-                    <div class="pricing-table__label wysiwyg">
-                        {{ tier.price | markdownify }}
-                    </div>
-                    <div class="pricing-table__registration">
-                        <span class="pricing-table__registration-icon">
-                            {{ tier.icon }}
-                        </span>
-                        <div class="pricing-table__registration-label wysiwyg">
-                            {{ tier.registration | markdownify }}
-                        </div>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <!-- Pricing Discounts -->
-        <div class="pricing-discounts">
-            <h3 class="pricing-discounts__header">
-                {{ page.pricing-discounts-header }}
-            </h3>
-            <ul class="grid three-column">
-                {% for discount in page.pricing-discounts %}
-                <li class="pricing-discount">
-                    <span class="pricing-discount__icon">
-                        {{ discount.icon }}
-                    </span>
-                    <div class="pricing-discount__label wysiwyg">
-                        {{ discount.label | markdownify }}
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-</section>
+{% include block-pricing.html %}
+{% include block-speakers-keynote.html %}
 <section class="block block__venue" style="background-color: white;">
     <div class="container">
         <h2>
@@ -72,3 +21,4 @@ layout: default
         </div>
     </div>
 </section>
+

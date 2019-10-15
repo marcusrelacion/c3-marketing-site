@@ -126,6 +126,8 @@ sass:
   sass_dir: "/assets/styles/"
   style: compressed
 
+registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
+
 hero-background-image: /uploads/c3-test-header.jpg
 hero-logo: /uploads/c3-logo.png
 hero-logo-alt: logo alt text

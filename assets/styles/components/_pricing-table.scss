@@ -1,21 +1,43 @@
-.pricing-table__card {
+.pricing-table {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr;
+    margin: 32px 0 16px 0;
+}
+.pricing-table__column {
     background-color: $charcoal-100;
     border: solid 4px transparent;
     border-radius: 2px;
-    cursor: not-allowed;
-    margin: 32px 0;
     opacity: 0.6;
-    padding: 32px;
     text-align: center;
     transition: transform 100ms ease-in-out;
+}
+.pricing-table__column a {
+    cursor: not-allowed;
+    padding: 32px;
+    text-decoration: none;
 }
 .pricing-table__early-bird-pricing--active, .pricing-table__regular-pricing--active {
     background-color: $cb-primary-400;
     border: solid 4px $cb-primary-400;
     color: $white;
-    cursor: pointer;
     opacity: 1;
+    z-index: $index-5;
+}
+.pricing-table__early-bird-pricing--active a, .pricing-table__regular-pricing--active a {
+    color: $white;
+    cursor: pointer;
+    display: block;
 }
 .pricing-table__early-bird-pricing--active:hover, .pricing-table__regular-pricing--active:hover {
-    transform: scale(1.075);
+    transform: scale(1.05);
+}
+.pricing-table__registration-icon,
+.pricing-table__registration-label {
+    display: inline-block;
+}
+@media screen and (min-width: 799px) {
+    .pricing-table {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
