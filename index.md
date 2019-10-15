@@ -5,38 +5,36 @@ has-introduction: true
 introduction-background-color: bg-white
 introduction-header: Introduction
 introduction-body: |-
-    Just my luck, no ice. You really think you can fly that thing? Just my luck, no ice. Jaguar shark! So tell me - does it really exist? This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine?
-
-    Did he just throw my cat out of the window?
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 introduction-has-button: true
-introduction-button-label: Button
+introduction-button-label: Optional Button
 introduction-button-url: "#"
 introduction-button-style: primary
 
 agenda-small-background-color: bg-charcoal-100
 agenda-small-header: Agenda at a Glance
 agenda-small-dates:
-- header: Day 1
+- header: May 6th
   body: |-
-    Feature 1
+    Keynotes
 
-    Feature 2
+    General Sessions 
     
-    Feature 3
-- header: Day 2
+    Closing Reception
+- header: May 7th
   body: |-
-    Feature 1
+    Keynotes
     
-    Feature 2
+    General Sessions 
     
-    Feature 3
-- header: Day 3
+    Closing Reception
+- header: May 8th
   body: |-
-    Feature 1
+    Keynotes
     
-    Feature 2
+    General Sessions 
     
-    Feature 3
+    Closing Reception
 agenda-small-has-button: true
 agenda-small-button-label: View Full Agenda
 agenda-small-button-url: "/agenda/"

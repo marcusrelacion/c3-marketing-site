@@ -1,7 +1,7 @@
 .block {
-    padding: 16px;
+    padding: 32px 16px;
 }
-.block__introduction, .block__contact {
+.block__introduction, .block__agenda-small, .block__contact {
     text-align: center;
 }
 .block__agenda {
@@ -10,11 +10,6 @@
     grid-template-columns: 1fr;
     padding-bottom: 0;
     padding-top: 0;
-}
-@media screen and (min-width: 767px) {
-    .block {
-        padding: 32px;
-    }
 }
 @media screen and (min-width: 1279px) {
     .block {
@@ -27,6 +22,16 @@
         margin: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 .grid {
     align-content: center;

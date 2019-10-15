@@ -3,10 +3,10 @@
     border: solid 2px transparent;
     border-radius: 2px;
     color: $charcoal-400;
-    font-size: 1rem;
     cursor: pointer;
     display: inline-block;
-    padding: 8px;
+    font-size: 1rem;
+    padding: 8px 16px;
     text-decoration: none;
     text-transform: uppercase;
     &:hover {
