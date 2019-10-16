@@ -1,59 +1,42 @@
 .block {
     padding: 32px 16px;
-}
-.block__introduction, .block__agenda-small, .block__pricing, .block__contact {
     text-align: center;
+    &__container {
+        max-width: 1280px;
+        margin: auto;
+    }
+    &__body {
+        text-align: left;
+    }
+    @media screen and (min-width: 1279px) {
+        .block {
+            padding: 64px 32px;
+            &__container {
+                padding: 32px;
+            }
+        }
+    }
 }
-.block__agenda {
+/*.block__introduction, .block__agenda-small, .block__pricing, .block__contact, .block__speakers, .block__venue {}
+.block__agenda, .block__faqs {
     display: grid;
     grid-gap: 16px;
     grid-template-columns: 1fr;
     padding-bottom: 0;
     padding-top: 0;
-}
+}*/
+
 @media screen and (min-width: 1279px) {
-    .block {
-        padding: 64px 32px;
-    }
-    .block__agenda {
+    .block__agenda, .block__faqs {
         grid-gap: 32px;
-        grid-template-columns: 1fr 3fr;
-        max-width: 1279px;
         margin: auto;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-.grid {
-    align-content: center;
-    align-items: center;
-    display: grid;
-    grid-gap: 2rem;
-}
-.grid.one-column {
-    grid-template-columns: 1fr;
-}
-@media screen and (min-width: 767px) {
-    .grid.two-column {
-        grid-template-columns: repeat(2, 1fr);
+    .block__agenda {
+        grid-template-columns: 1fr 3fr;
+        max-width: 1279px;
     }
-    .grid.three-column {
-        grid-template-columns: repeat(3, 1fr);
+    .block__faqs {
+        grid-template-columns: 3fr 1fr;
+        max-width: 1024px;
     }
-    .grid.four-column {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-.container {
-    margin: auto;
-    max-width: 1279px;
 }

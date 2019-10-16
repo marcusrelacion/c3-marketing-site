@@ -1,17 +1,16 @@
 .button {
     background-color: transparent;
-    border: solid 2px transparent;
+    border: solid 4px transparent;
     border-radius: 2px;
     color: $charcoal-400;
     cursor: pointer;
     display: inline-block;
-    font-size: 1rem;
+    font-size: $font-size-5;
+    font-weight: 900;
     padding: 8px 16px;
     text-decoration: none;
-    text-transform: uppercase;
+    transition: color 100ms ease-in-out;
     &:hover {
-        background-color: $white;
-        border: solid 2px $cb-primary-400;
         color: $cb-primary-400;
     }
     &:focus {
@@ -20,6 +19,11 @@
     &--primary {
         background-color: $cb-primary-400;
         color: $white;
+    }
+    &--primary:hover {
+        background-color: transparent;
+        border: solid 4px $cb-primary-400;
+        color: $cb-primary-400;
     }
     &--secondary {
         background-color: $white;

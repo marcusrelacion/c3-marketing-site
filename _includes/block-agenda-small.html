@@ -1,22 +1,22 @@
 <section class="block block__agenda-small {{ page.agenda-small-background-color }}">
-    <div class="container">
-        <h2 class="agenda-small__title">
+    <div class="block__container">
+        <h2 class="block__header">
             {{ page.agenda-small-header }}
         </h2>
-        <ul class="listing listing__agenda-small-dates">
+        <ul class="listing listing__three-columns">
             {% for date in page.agenda-small-dates %}
-            <li class="agenda-small-date">
-                <h2 class="agenda-small-date__title">
+            <li class="listing__item agenda-small-date">
+                <h3 class="listing__header agenda-small-date__title">
                     {{ date.header }}
-                </h2>
-                <div class="agenda-small-date__body wysiwyg">
+                </h3>
+                <div class="listing__body agenda-small-date__body wysiwyg">
                     {{ date.body | markdownify }}
                 </div>
             </li>
             {% endfor %}
         </ul>
         {% if page.agenda-small-has-button == true %}
-        <a class="button button--{{ page.agenda-small-button-style }}" href="{{ page.agenda-small-button-url }}">
+        <a class="block__button button button--{{ page.agenda-small-button-style }}" href="{{ page.agenda-small-button-url }}">
             {{ page.agenda-small-button-label }}
         </a>
         {% else %}

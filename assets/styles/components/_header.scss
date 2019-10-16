@@ -7,6 +7,18 @@
     top: 0;
     z-index: $index-4;
 }
+.site-header .c3-logo {
+    max-width: 48px;
+}
+/*.site-header {
+    background-color: white;
+    border-bottom: solid 2px $charcoal-200;
+    padding: 8px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: $index-4;
+}
 .site-header nav {
     display: flex;
     align-items: center;
@@ -22,10 +34,13 @@
     max-width: 48px;
 }
 @media screen and (min-width: 1279px) {
+    .site-header nav {
+    justify-content: space-between;
+}
     .site-header nav li {
         display: inline-block;
     }
     .site-header nav li:not(:last-child) {
         margin-right: 8px;
     }
-}
+}*/

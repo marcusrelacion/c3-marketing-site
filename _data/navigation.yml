@@ -1,19 +1,2 @@
 # This YML file allows for easy updating of the site's navigation
 
-live-site:
-  - title: "Agenda"
-    url: /agenda/
-  - title: "Speakers"
-    url: /speakers/
-  - title: "Venue"
-    url: /venue/
-  - title: "Networking"
-    url: /networking/
-  - title: "Sponsors"
-    url: /sponsors/
-  - title: "CX Awards"
-    url: /cx-awards/
-  - title: "FAQs"
-    url: /faqs/
-  - title: "Contact Us"
-    url: /contact/

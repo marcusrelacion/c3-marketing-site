@@ -1,0 +1,29 @@
+<section class="block block__speakers block__speakers--keynote" style="background-color: white;">
+    <div class="container">
+        <h2>
+            TEXT FIELD - 2020 Keynote Speakers
+        </h2>
+        <ul class="listing--keynote-speakers grid four-column">
+            {% for speaker in site.speakers-keynote %}
+            <li class="keynote-speaker">
+                <div class="speaker-card">
+                    <a href="#" rel="noopener" target="_blank">
+                        <img alt="{{ speaker.image-alt }}" class="speaker-image" src="{{ speaker.image }}"/>
+                    </a>
+                    <div class="speaker-details">
+                        <h3 class="speaker-name">
+                            {{ speaker.name }}
+                        </h3>
+                        <p class="speaker-title">
+                            {{ speaker.title }}
+                        </p>
+                        <p class="speaker-company">
+                            {{ speaker.company }}
+                        </p>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

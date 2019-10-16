@@ -1,13 +1,13 @@
 <section class="block block__introduction {{ page.introduction-background-color }}">
-    <div class="container">
-        <h2>
+    <div class="block__container">
+        <h2 class="block__header">
             {{ page.introduction-header }}
         </h2>
-        <div class="wysiwyg">
+        <div class="block__body wysiwyg">
             {{ page.introduction-body | markdownify }}
         </div>
         {% if page.introduction-has-button == true %}
-        <a class="button button--{{ page.introduction-button-style }}" href="{{ page.introduction-button-url }}">
+        <a class="block__button button button--{{ page.introduction-button-style }}" href="{{ page.introduction-button-url }}">
             {{ page.introduction-button-label }}
         </a>
         {% else %}

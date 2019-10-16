@@ -1,0 +1,70 @@
+<section class="block block__speakers {{ page.speakers-keynotes-background-color }}">
+    <div class="container">
+        <h2>
+            {{ site.2020-keynote-speakers-header }}
+        </h2>
+        <ul class="listing listing__keynote-speakers">
+            {% for speaker in site.2020-keynote-speakers %}
+            <li class="speaker speaker__keynote">
+                <a href="#" rel="noopener" target="_blank">
+                    <img alt="{{ speaker.image-alt }}" class="speaker__keynote-image" src="{{ speaker.image }}"/>
+                </a>
+                <div class="speaker__keynote-details">
+                    <h3 class="speaker__keynote-name">
+                        {{ speaker.name }}
+                    </h3>
+                    <p class="speaker__keynote-title">
+                        {{ speaker.title }}
+                    </p>
+                    <p class="speaker__keynote-company">
+                        {{ speaker.company }}
+                    </p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+<section class="block block__speakers {{ page.speakers-general-background-color }} bg-charcoal-100">
+    <div class="container">
+        <h2>
+            {{ site.2020-general-speakers-header }}
+        </h2>
+        <ul class="listing listing__general-speakers">
+            {% for speaker in site.2020-general-speakers %}
+            <li class="speaker speaker__general">
+                <a href="#" rel="noopener" target="_blank">
+                    <img alt="{{ speaker.image-alt }}" class="speaker__general-image" src="{{ speaker.image }}"/>
+                </a>
+                <div class="speaker__general-details">
+                    <h3 class="speaker__general-name">
+                        {{ speaker.name }}
+                    </h3>
+                    <p class="speaker__general-title">
+                        {{ speaker.title }}
+                    </p>
+                    <p class="speaker__general-company">
+                        {{ speaker.company }}
+                    </p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+<section class="block block__speakers {{ page.speakers-past-background-color }}">
+    <div class="container">
+        <h2>
+            {{ site.2019-past-speakers-header }}
+        </h2>
+        <ul class="listing listing__past-speakers">
+            {% for speaker in site.2019-past-speakers %}
+            <li class="speaker speaker__past">
+                <a href="#" rel="noopener" target="_blank">
+                    <img alt="{{ speaker.image-alt }}" class="speaker__past-image" src="{{ speaker.image }}"/>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

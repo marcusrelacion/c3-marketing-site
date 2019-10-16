@@ -1,15 +1,10 @@
-.speaker-card,
-.employee-card {
+.speaker, .employee-card {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.speaker-card *+*:not(:last-child),
-.employee-card *+*:not(:last-child) {
-    margin-bottom: 1rem;
-}
-.speaker-image {
-    border: solid 2px lightgray;
+.speaker__keynote-image, .speaker__general-image, .speaker__past-image {
+    border: solid 4px $charcoal-200;
     border-radius: 1000px;
     max-width: 200px;
     margin-left: auto;
@@ -18,11 +13,6 @@
     display: block;
     overflow: hidden;
 }
-.speaker-details,
-.employee-details {
-    min-height: 220px;
-}
-.speaker-title,
-.employee-title {
-	font-style: italic;
+.speaker__keynote-title, .speaker__general-title, .speaker__past-title, .employee-title {
+    font-style: italic;
 }

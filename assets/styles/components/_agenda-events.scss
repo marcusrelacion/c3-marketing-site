@@ -2,6 +2,7 @@
     padding: 32px;
     background-color: $cb-primary-100;
     border-radius: 4px;
+    align-content: start;
 }
 .agenda-event {
     padding: 16px;
@@ -16,21 +17,26 @@
 .agenda-event>*:not(:last-child), .agenda-event__modal>*:not(:last-child) {
     margin-bottom: 16px;
 }
+/* modal */
 .agenda-event__modal {
+
+}
+.agenda-event__content {
     display: grid;
     grid-gap: 16px;
     grid-template-columns: repeat(4,1fr);
 }
-.agenda-event__details {
-	grid-column: 1/5;
+.agenda-event__toolbar {
+	grid-column: span 4;
 }
+.agenda-event__details,
 .agenda-event__title,
 .agenda-event__summary,
 .agenda-event__speakers {
-	grid-column: 1/4;
+	grid-column: span 3;
 }
 .agenda-event__venue {
-	grid-column: 4/5;
+	grid-column: span 1;
 }
 .agenda-event__details {
     align-items: center;
@@ -44,7 +50,6 @@
 .agenda-event__type {
     padding: 8px;
     background-color: transparent;
-    color: $white;
     font-size: 0.8rem;
     font-weight: bold;
 }

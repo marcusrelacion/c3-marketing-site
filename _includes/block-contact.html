@@ -1,10 +1,10 @@
 <section class="block block__contact" style="background-color: {{ site.contact-background-color }};">
-    <div class="container">
+    <div class="block__container">
         {% if page.url == "/contact/" %}
         {% comment %}
         Show the events team contact information on the contact page, otherwise show the simplified contact information that directs a user to the contact page
         {% endcomment %}
-        <h2>
+        <h2 class="block__header">
             {{ site.contact-header }}
         </h2>
         <ul class="grid three-column">
@@ -25,10 +25,10 @@
             {% endfor %}
         </ul>
         {% else %}
-        <h2>
+        <h2 class="block__header">
             {{ site.contact-header }}
         </h2>
-        <a class="button button--primary" href="{{ site.contact-button-url }}">
+        <a class="block__button button button--primary" href="{{ site.contact-button-url }}">
             {{ site.contact-button-label }}
         </a>
         {% endif %}

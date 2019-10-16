@@ -1,0 +1,39 @@
+<div class="faqs">
+    <div class="faqs-content">
+        <h2>
+            Section 1
+            <button aria-label="Section" class="houdini-toggle" data-houdini-toggle="section-1" hidden="">
+                <i class="fas fa-caret-right">
+                </i>
+            </button>
+        </h2>
+        <div data-houdini="" id="section-1">
+            Section 1 Body
+        </div>
+        <h2>
+            Section 2
+            <button aria-label="Section" class="houdini-toggle" data-houdini-toggle="section-2" hidden="">
+                <i class="fas fa-caret-right">
+                </i>
+            </button>
+        </h2>
+        <div data-houdini="" id="section-2">
+            Section 2 Body
+        </div>
+        <h2>
+            Section 3
+            <button aria-label="Section" class="houdini-toggle" data-houdini-toggle="section-3" hidden="">
+                <i class="fas fa-caret-right">
+                </i>
+            </button>
+        </h2>
+        <div data-houdini="" id="section-3">
+            Section 3 Body
+        </div>
+    </div>
+</div>
+<script src="/assets/scripts/vendor/houdini.min.js">
+</script>
+<script>
+    var disclosure = new Houdini('[data-houdini]');
+</script>

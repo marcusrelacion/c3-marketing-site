@@ -126,7 +126,24 @@ sass:
   sass_dir: "/assets/styles/"
   style: compressed
 
+primary-navigation:
+  - title: "Agenda"
+    url: /agenda/
+  - title: "Speakers"
+    url: /speakers/
+  - title: "Venue"
+    url: /venue/
+  - title: "Networking"
+    url: /networking/
+  - title: "CX Awards"
+    url: /cx-awards/
+  - title: "FAQs"
+    url: /faqs/
+  - title: "Contact Us"
+    url: /contact/
+
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
+justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
 
 hero-background-image: /uploads/c3-test-header.jpg
 hero-logo: /uploads/c3-logo.png
@@ -134,49 +151,70 @@ hero-logo-alt: logo alt text
 hero-header: May 5-8, 2019 
 hero-date: San Diego, CA
 
-speakers-keynote:
-    - image: https://picsum.photos/300
-      image-alt:
+2020-keynote-speakers-header: 2020 Keynote Speakers
+2020-keynote-speakers:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: Keynote Speaker Name
       title: Keynote Speaker Title
       company: Keynote Speaker Company
-    - image: https://picsum.photos/300
-      image-alt:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: Keynote Speaker Name
       title: Keynote Speaker Title That Is Long
       company: Keynote Speaker Company
-    - image: https://picsum.photos/300
-      image-alt:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: Keynote Speaker Name
       title: Keynote Speaker Title That Is Super Super Loooooooooong
       company: Keynote Speaker Company
-    - image: https://picsum.photos/300
-      image-alt:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: Keynote Speaker Name
       title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
       company: Keynote Speaker Company
 
-speakers-general:
-    - image: https://picsum.photos/300
-      image-alt:
+2020-general-speakers-header: 2020 General Speakers
+2020-general-speakers:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
-    - image: https://picsum.photos/300
-      image-alt:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
-    - image: https://picsum.photos/300
-      image-alt:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
-    - image: https://picsum.photos/300
-      image-alt:
+    - image: http://placecorgi.com/400
+      image-alt: animated image of cute corgis
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
+
+2019-past-speakers-header: 2019 Past Speakers
+2019-past-speakers:
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
+  - image: http://placecorgi.com/400
+    image-alt: animated image of cute corgis
 
 agenda-filter-time-of-day:
   - filter: .morning
