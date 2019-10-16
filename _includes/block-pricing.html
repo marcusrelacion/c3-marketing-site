@@ -1,60 +1,14 @@
-<section class="block block__pricing" style="background-color: {{ page.pricing-background-color }};">
-    <div class="block__container">
-        <h2 class="block__header pricing__title">
+<section class="block block--pricing {{ page.pricing-background-color }}">
+    <div class="block__content">
+        <h2 class="block__header">
             {{ page.pricing-header }}
         </h2>
-
-        <div class="block__body pricing__body wysiwyg">
+        {% if page.pricing-body %}
+        <div class="block__body wysiwyg">
             {{ page.pricing-body | markdownify }}
         </div>
-
-
-
-        <!-- Pricing Table -->
-        <div class="listing listing__two-columns pricing-table">
-            {% for tier in page.pricing-table %}
-            <div class="pricing-table__column pricing-table__{{ tier.type }} {% if tier.status == 'active' %} pricing-table__{{ tier.type }}--active {% endif %}">
-                {% if tier.status == 'active' %}
-                <a href="{{ site.registration-url }}" rel="noopener" target="_blank">
-                    {% else %}
-                    <a>
-                        {% endif %}
-                        <h3 class="pricing-table__label">
-                            {{ tier.header }}
-                        </h3>
-                        <div class="pricing-table__label wysiwyg">
-                            {{ tier.price | markdownify }}
-                        </div>
-                        <div class="pricing-table__registration">
-                            <span class="pricing-table__registration-icon">
-                                {{ tier.icon }}
-                            </span>
-                            <div class="pricing-table__registration-label wysiwyg">
-                                {{ tier.registration | markdownify }}
-                            </div>
-                        </div>
-                    </a>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-        <!-- Pricing Discounts -->
-        <div class="pricing-discounts">
-            <h3 class="pricing-discounts__header">
-                {{ page.pricing-discounts-header }}
-            </h3>
-            <ul class="grid three-column">
-                {% for discount in page.pricing-discounts %}
-                <li class="pricing-discount">
-                    <span class="pricing-discount__icon">
-                        {{ discount.icon }}
-                    </span>
-                    <div class="pricing-discount__label wysiwyg">
-                        {{ discount.label | markdownify }}
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+        {% endif %}
+        {% include component-pricing-table.html %}
+        {% include component-pricing-discounts.html %}
     </div>
 </section>

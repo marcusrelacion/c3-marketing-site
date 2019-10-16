@@ -1,12 +1,12 @@
 <header class="site-header">
-    <nav>
-        <div class="c3-logo">
+    <nav class="site-header__primary">
+        <div class="site-header__logo">
             <a href="/">
                 <img src="/assets/images/c3-logo-blue.png">
                 </img>
             </a>
         </div>
-        <ul>
+        <ul class="site-header__links">
             {% for link in site.primary-navigation %}
             <li>
                 <a class="button" href="{{ link.url }}">
@@ -15,27 +15,19 @@
             </li>
             {% endfor %}
         </ul>
-        <a class="button button--primary" href="{{ site.registration-url }}" rel="noopener" target="_blank">
-            Register
-        </a>
-        <!-- Off-canvas toggle button -->
-        <button class="button button--secondary mobile-menu" id="my-button" type="button">
-            Menu
-            <i class="fas fa-bars">
-            </i>
-        </button>
+        <div class="site-header__buttons">
+            <div class="site-header__registration">
+                <a class="button button--primary" href="{{ site.registration-url }}" rel="noopener" target="_blank">
+                    Register
+                </a>
+            </div>
+            <!-- Off-canvas toggle button -->
+            <button class="button button--secondary mobile-menu" id="my-button" type="button">
+                Menu
+                <i class="fas fa-bars">
+                </i>
+            </button>
+        </div>
     </nav>
 </header>
-<section class="hero" style="background-image: url({{ site.hero-background-image }}); background-size: cover; background-position: center center;">
-    <div class="hero__content">
-        <img alt="" src="{{ site.hero-logo }}"/>
-        <h1>
-            {{ site.hero-header }}
-        </h1>
-        <small>
-            {{ site.hero-date }}
-        </small>
-    </div>
-    <div class="hero__overlay">
-    </div>
-</section>
+{% include block-hero.html %}

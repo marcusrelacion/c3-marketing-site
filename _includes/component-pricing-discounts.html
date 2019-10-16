@@ -1,0 +1,18 @@
+<!-- component: pricing discounts -->
+<div class="pricing-discounts">
+    <h4 class="pricing-discounts__header">
+        {{ page.pricing-discounts-header }}
+    </h4>
+    <ul class="listing listing--three-column">
+        {% for discount in page.pricing-discounts %}
+        <li class="pricing-discount__item">
+            <span class="pricing-discount__icon">
+                {{ discount.icon }}
+            </span>
+            <div class="pricing-discount__label wysiwyg">
+                {{ discount.label | markdownify }}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,59 @@
+/* component: pricing table */
+
+.pricing-table .listing {
+    margin: 16px 0;
+}
+.pricing-table__item {
+    background-color: $charcoal-100;
+    border: solid 4px transparent;
+    border-radius: 2px;
+    opacity: 0.6;
+    padding: 64px 32px;
+    text-align: center;
+    transition: transform 100ms ease-in-out;
+}
+.pricing-table__item a, .pricing-table__item--active a {
+    text-decoration: none;
+}
+.pricing-table__item--active {
+    background-color: $cb-primary-400;
+    border: solid 4px $cb-primary-400;
+    color: $white;
+    opacity: 1;
+    z-index: $index-3;
+}
+.pricing-table__item--active a {
+    color: $white;
+}
+.pricing-table__item--active:hover {
+    transform: scale(1.05);
+}
+.pricing-table__body p {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.pricing-table__registration-icon, .pricing-table__registration-label {
+    display: inline-block;
+}
+/* component: pricing discounts */
+
+.pricing-discounts {
+    background-color: $white;
+    border: solid 4px $charcoal-100;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+}
+.pricing-discounts .listing {
+    margin: 16px 16px 0 16px;
+}
+.pricing-discount__item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+}
+.pricing-discount__icon {
+    margin-right: 8px;
+}

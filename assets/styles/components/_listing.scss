@@ -1,43 +1,38 @@
 .listing {
     display: grid;
     grid-gap: 16px;
-    padding: 32px 0;
-    &__one-column, &__two-columns, &__three-columns, &__four-columns {
+    &--one-column, &--two-column, &--three-column, &--four-column {
         grid-template-columns: 1fr;
     }
-    @media screen and (min-width: 699px) {
-        &__two-columns {
+    &__item {
+        text-align: center;
+    }
+    &__header {
+        font-size: $font-size-4;
+    }
+    &__button {
+        margin-top: 32px;
+    }
+}
+@media screen and (min-width: 699px) {
+    .listing {
+        &--two-column {
             grid-template-columns: repeat(2, 1fr);
         }
-        &__three-columns {
+        &--three-column {
             grid-template-columns: repeat(3, 1fr);
         }
-        &__four-columns {
+        &--four-column {
             grid-template-columns: repeat(4, 1fr);
         }
     }
 }
-.listing__keynote-speakers, .listing__general-speakers, .listing__past-speakers, .listing__agenda-small-dates {
-    grid-template-columns: 1fr;
-    margin: 16px 0;
-}
-.listing__agenda-speakers {
-    grid-gap: 16px;
-    grid-template-columns: repeat(2, 1fr);
+.block--agenda-small .listing__item {
+    background-color: $white;
+    padding: 16px;
 }
 @media screen and (min-width: 699px) {
-    .listing__keynote-speakers, .listing__general-speakers, .listing__past-speakers, .listing__agenda-small-dates {
-        margin: 32px 0;
-    }
-    .listing__agenda-small-dates, .listing__past-speakers {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .listing__keynote-speakers, .listing__general-speakers, .listing__past-speakers {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media screen and (min-width: 1023px) {
-    .listing__keynote-speakers, .listing__general-speakers, .listing__past-speakers {
-        grid-template-columns: repeat(4, 1fr);
+    .block--agenda-small .listing__item {
+        padding: 32px;
     }
 }

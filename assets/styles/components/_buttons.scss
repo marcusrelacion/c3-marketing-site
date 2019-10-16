@@ -26,8 +26,13 @@
         color: $cb-primary-400;
     }
     &--secondary {
-        background-color: $white;
-        border: solid 2px $charcoal-400;
+        background-color: $cb-primary-100;
+        border: solid 2px transprent;
+        color: $charcoal-400;
+        transition: background-color 100ms ease-in-out;
+    }
+    &--secondary:hover {
+        background-color: $cb-primary-200;
         color: $charcoal-400;
     }
     &--inverse {

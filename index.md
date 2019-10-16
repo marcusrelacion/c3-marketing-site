@@ -42,7 +42,7 @@ agenda-small-button-style: primary
 
 pricing-background-color: bg-white
 pricing-header: Pricing & Discounts
-pricing-body: |-
+pricing-body:
 pricing-table:
 - status: active
   type: early-bird-pricing

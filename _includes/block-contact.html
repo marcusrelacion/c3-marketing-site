@@ -1,5 +1,5 @@
-<section class="block block__contact" style="background-color: {{ site.contact-background-color }};">
-    <div class="block__container">
+<section class="block block--contact" style="background-color: {{ site.contact-background-color }};">
+    <div class="block__content">
         {% if page.url == "/contact/" %}
         {% comment %}
         Show the events team contact information on the contact page, otherwise show the simplified contact information that directs a user to the contact page
@@ -7,17 +7,17 @@
         <h2 class="block__header">
             {{ site.contact-header }}
         </h2>
-        <ul class="grid three-column">
+        <ul class="block__body listing listing--three-column">
             {% for employee in site.contact-employees %}
-            <li class="listing listing__employees">
-                <div class="employee-details">
-                    <h3 class="employee-name">
+            <li class="listing__item">
+                <div class="listing__details">
+                    <h3 class="listing__header">
                         {{ employee.name }}
                     </h3>
-                    <p class="employee-title">
+                    <p class="listing__title">
                         {{ employee.title }}
                     </p>
-                    <a class="button button--primary" href="{{employee.email}}">
+                    <a class="listing__button button button--primary" href="{{employee.email}}">
                         {{ site.contact-button-label }}
                     </a>
                 </div>

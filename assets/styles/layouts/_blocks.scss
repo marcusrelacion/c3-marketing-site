@@ -1,42 +1,27 @@
 .block {
     padding: 32px 16px;
+    position: relative;
     text-align: center;
-    &__container {
-        max-width: 1280px;
+    &__content {
         margin: auto;
+        max-width: 72ch;
     }
     &__body {
+        margin: 16px auto;
         text-align: left;
     }
-    @media screen and (min-width: 1279px) {
-        .block {
-            padding: 64px 32px;
-            &__container {
-                padding: 32px;
-            }
+}
+@media screen and (min-width: 1279px) {
+    .block {
+        padding: 64px 32px;
+        &__body {
+            margin: 32px auto;
         }
     }
 }
-/*.block__introduction, .block__agenda-small, .block__pricing, .block__contact, .block__speakers, .block__venue {}
-.block__agenda, .block__faqs {
-    display: grid;
-    grid-gap: 16px;
-    grid-template-columns: 1fr;
-    padding-bottom: 0;
-    padding-top: 0;
-}*/
-
-@media screen and (min-width: 1279px) {
-    .block__agenda, .block__faqs {
-        grid-gap: 32px;
-        margin: auto;
-    }
-    .block__agenda {
-        grid-template-columns: 1fr 3fr;
-        max-width: 1279px;
-    }
-    .block__faqs {
-        grid-template-columns: 3fr 1fr;
-        max-width: 1024px;
-    }
+.block--agenda-small .block__content, .block--pricing .block__content {
+    max-width: 120ch;
+}
+.block--contact .block__body {
+    margin: 16px auto 0 auto;
 }

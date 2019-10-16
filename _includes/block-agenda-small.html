@@ -1,15 +1,15 @@
-<section class="block block__agenda-small {{ page.agenda-small-background-color }}">
-    <div class="block__container">
+<section class="block block--agenda-small {{ page.agenda-small-background-color }}">
+    <div class="block__content">
         <h2 class="block__header">
             {{ page.agenda-small-header }}
         </h2>
-        <ul class="listing listing__three-columns">
+        <ul class="block__body listing listing--three-column">
             {% for date in page.agenda-small-dates %}
-            <li class="listing__item agenda-small-date">
-                <h3 class="listing__header agenda-small-date__title">
+            <li class="listing__item">
+                <h3 class="listing__header">
                     {{ date.header }}
                 </h3>
-                <div class="listing__body agenda-small-date__body wysiwyg">
+                <div class="listing__body wysiwyg">
                     {{ date.body | markdownify }}
                 </div>
             </li>
