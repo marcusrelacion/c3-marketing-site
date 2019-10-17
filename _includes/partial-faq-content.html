@@ -1,39 +1,41 @@
-<div class="faqs">
-    <div class="faqs-content">
-        <h2>
-            Section 1
-            <button aria-label="Section" class="houdini-toggle" data-houdini-toggle="section-1" hidden="">
-                <i class="fas fa-caret-right">
-                </i>
-            </button>
-        </h2>
-        <div data-houdini="" id="section-1">
-            Section 1 Body
-        </div>
-        <h2>
-            Section 2
-            <button aria-label="Section" class="houdini-toggle" data-houdini-toggle="section-2" hidden="">
-                <i class="fas fa-caret-right">
-                </i>
-            </button>
-        </h2>
-        <div data-houdini="" id="section-2">
-            Section 2 Body
-        </div>
-        <h2>
-            Section 3
-            <button aria-label="Section" class="houdini-toggle" data-houdini-toggle="section-3" hidden="">
-                <i class="fas fa-caret-right">
-                </i>
-            </button>
-        </h2>
-        <div data-houdini="" id="section-3">
-            Section 3 Body
-        </div>
+<div class="faqs__content">
+    <h2 aria-label="section-1" class="" data-houdini-toggle="section-1">
+        Section 1
+        <i class="fas fa-caret-right">
+        </i>
+    </h2>
+    <div class="is-expanded" data-houdini-group="faq" id="section-1">
+        <p>
+            <img src="https://media.giphy.com/media/cImxFRmPTQx5I7HU8l/giphy.gif" />
+        </p>
+    </div>
+    <h2 aria-label="section-2" class="" data-houdini-toggle="section-2">
+        Section 2
+        <i class="fas fa-caret-right">
+        </i>
+    </h2>
+    <div data-houdini-group="faq" id="section-2">
+        <p>
+            <img src="https://media.giphy.com/media/cImxFRmPTQx5I7HU8l/giphy.gif" />
+        </p>
+    </div>
+    <h2 aria-label="section-3" class="" data-houdini-toggle="section-3">
+        Section 3
+        <i class="fas fa-caret-right">
+        </i>
+    </h2>
+    <div data-houdini-group="faq" id="section-3">
+        <p>
+            <img src="https://media.giphy.com/media/cImxFRmPTQx5I7HU8l/giphy.gif" />
+        </p>
     </div>
 </div>
 <script src="/assets/scripts/vendor/houdini.min.js">
 </script>
 <script>
-    var disclosure = new Houdini('[data-houdini]');
+    var disclosure = new Houdini('[data-houdini-group="faq"]', {
+      isAccordion: true,
+      collapseOthers: true,
+      icon: 0
+    });
 </script>

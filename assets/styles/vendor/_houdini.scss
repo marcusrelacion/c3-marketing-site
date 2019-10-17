@@ -25,36 +25,45 @@
 }
 .houdini.is-expanded {
     display: block;
-    padding: 16px;
-    font-size: 1rem;
+    padding: 32px;
 }
 /**
  * Remove button appearance from heading buttons
  */
 
 .houdini-heading .houdini-toggle {
-    background: inherit;
-    border: none;
-    display: block;
-    cursor: pointer;
     font-size: 2rem;
-    padding: 16px 16px 0 16px;
-    text-align: inherit;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    transition: transform 100ms ease-in-out;
+    display: flex;
     width: 100%;
+    cursor: pointer;
+    align-items: center;
+    padding: 32px;
+    justify-content: space-between;
+    background-color: $charcoal-100;
+    font-family: $sans;
+}
+.is-expanded:not(:last-child), .houdini-heading:not(:last-of-type) {
+    margin-bottom: 16px;
 }
 /**
  * Style icon
  */
 
 .houdini-toggle {
-  background-color: transparent;
+    background-color: transparent;
     height: 32px;
     width: 32px;
     font-size: 1.4rem;
     border: none;
-    transition: transform 100ms ease-in-out;
 }
-
-.houdini-toggle[aria-expanded=true] {
-  transform: rotate(90deg);
+.houdini-toggle[aria-expanded=false]>i {
+        transition: transform 100ms ease-in-out;
+}
+.houdini-toggle[aria-expanded=true]>i {
+    transform: rotate(90deg);
+    transition: transform 100ms ease-in-out;
 }

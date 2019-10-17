@@ -1,4 +1,55 @@
-.faqs-content {
-	background-color: $cb-primary-100;
-	padding: 32px;
+.faqs {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-areas: "sidebar" "content";
+    max-width: 1280px;
+    margin: auto;
+    &__content, &__sidebar {
+        padding: 16px;
+    }
+    &__content {
+        grid-area: content;
+    }
+    &__sidebar {
+        grid-area: sidebar;
+        text-align: center;
+        color: white;
+        position: relative;
+        position: sticky;
+        top: 96px;
+        border-radius: 4px;
+    }
+    &__sidebar-content {
+        z-index: $index-1;
+        position: relative;
+    }
+    &__sidebar-header {
+        margin-bottom: 16px;
+    }
+    &__sidebar-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: $charcoal-400;
+        opacity: 0.8;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .faqs {
+        grid-gap: 32px;
+        grid-template-areas: "content content content sidebar";
+        grid-template-columns: repeat(3, 1fr) 1fr;
+        &__content, &__sidebar {
+            padding: 32px;
+        }
+    }
+}
+.faq {
+    &__summary {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
 }
