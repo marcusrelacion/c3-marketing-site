@@ -1,3 +1,4 @@
+{% if page.url == "/speakers/" %}
 <section class="block block--speakers {{ page.speakers-keynotes-background-color }}">
     <div class="block__content">
         <h2 class="block__header">
@@ -5,18 +6,18 @@
         </h2>
         <ul class="listing listing--four-column">
             {% for speaker in site.2020-keynote-speakers %}
-            <li class="speaker speaker__keynote">
+            <li class="speaker speaker--keynote">
                 <a href="#" rel="noopener" target="_blank">
-                    <img alt="{{ speaker.image-alt }}" class="speaker__keynote-image" src="{{ speaker.image }}"/>
+                    <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
                 </a>
-                <div class="speaker__keynote-details">
-                    <h3 class="speaker__keynote-name">
+                <div class="speaker__details">
+                    <h3 class="speaker__name">
                         {{ speaker.name }}
                     </h3>
-                    <p class="speaker__keynote-title">
+                    <p class="speaker__title">
                         {{ speaker.title }}
                     </p>
-                    <p class="speaker__keynote-company">
+                    <p class="speaker__company">
                         {{ speaker.company }}
                     </p>
                 </div>
@@ -25,25 +26,25 @@
         </ul>
     </div>
 </section>
-<section class="block block__speakers {{ page.speakers-general-background-color }} bg-charcoal-100">
-    <div class="container">
-        <h2>
+<section class="block block--speakers {{ page.speakers-general-background-color }} bg-charcoal-100">
+    <div class="block__content">
+        <h2 class="block__header">
             {{ site.2020-general-speakers-header }}
         </h2>
-        <ul class="listing listing__general-speakers">
+        <ul class="listing listing--four-column">
             {% for speaker in site.2020-general-speakers %}
-            <li class="speaker speaker__general">
+            <li class="speaker speaker--general">
                 <a href="#" rel="noopener" target="_blank">
-                    <img alt="{{ speaker.image-alt }}" class="speaker__general-image" src="{{ speaker.image }}"/>
+                    <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
                 </a>
-                <div class="speaker__general-details">
-                    <h3 class="speaker__general-name">
+                <div class="speaker__details">
+                    <h3 class="speaker--name">
                         {{ speaker.name }}
                     </h3>
-                    <p class="speaker__general-title">
+                    <p class="speaker__title">
                         {{ speaker.title }}
                     </p>
-                    <p class="speaker__general-company">
+                    <p class="speaker__company">
                         {{ speaker.company }}
                     </p>
                 </div>
@@ -52,16 +53,17 @@
         </ul>
     </div>
 </section>
-<section class="block block__speakers {{ page.speakers-past-background-color }}">
-    <div class="container">
-        <h2>
+{% endif %}
+<section class="block block--speakers {{ page.speakers-past-background-color }}">
+    <div class="block__content">
+        <h2 class="block__header">
             {{ site.2019-past-speakers-header }}
         </h2>
-        <ul class="listing listing__past-speakers">
+        <ul class="listing listing--four-column">
             {% for speaker in site.2019-past-speakers %}
-            <li class="speaker speaker__past">
+            <li class="speaker speaker--past">
                 <a href="#" rel="noopener" target="_blank">
-                    <img alt="{{ speaker.image-alt }}" class="speaker__past-image" src="{{ speaker.image }}"/>
+                    <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
                 </a>
             </li>
             {% endfor %}
