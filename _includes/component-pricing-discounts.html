@@ -1,15 +1,15 @@
 <!-- component: pricing discounts -->
-<div class="pricing-discounts">
-    <h4 class="pricing-discounts__header">
+<div class="pricing-bar">
+    <h4 class="pricing-bar__header">
         {{ page.pricing-discounts-header }}
     </h4>
-    <ul class="listing listing--three-column">
+    <ul class="pricing-bar__discounts">
         {% for discount in page.pricing-discounts %}
-        <li class="pricing-discount__item">
-            <span class="pricing-discount__icon">
+        <li class="pricing-bar__discount">
+            <span class="pricing-bar__discount-icon">
                 {{ discount.icon }}
             </span>
-            <div class="pricing-discount__label wysiwyg">
+            <div class="pricing-bar__discount-label wysiwyg">
                 {{ discount.label | markdownify }}
             </div>
         </li>

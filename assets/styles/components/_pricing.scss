@@ -1,5 +1,10 @@
 /* component: pricing table */
 
+.pricing {
+    padding: 32px 16px;
+    text-align: center;
+}
+
 .pricing-table .listing {
     margin: 16px 0;
 }
@@ -34,26 +39,4 @@
 }
 .pricing-table__registration-icon, .pricing-table__registration-label {
     display: inline-block;
-}
-/* component: pricing discounts */
-
-.pricing-discounts {
-    background-color: $white;
-    border: solid 4px $charcoal-100;
-    border-radius: 4px;
-    padding: 16px;
-    text-align: center;
-}
-.pricing-discounts .listing {
-    margin: 16px 16px 0 16px;
-}
-.pricing-discount__item {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: auto;
-}
-.pricing-discount__icon {
-    margin-right: 8px;
 }

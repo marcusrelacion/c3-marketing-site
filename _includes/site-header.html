@@ -1,12 +1,15 @@
+<!-- header -->
 <header class="site-header">
-    <nav class="site-header__primary">
-        <div class="site-header__logo">
+    <nav class="navigation">
+        <!-- header logo -->
+        <div class="navigation__logo">
             <a href="/">
                 <img src="/assets/images/c3-logo-blue.png">
                 </img>
             </a>
         </div>
-        <ul class="site-header__links">
+        <!-- header links -->
+        <ul class="navigation__links">
             {% for link in site.primary-navigation %}
             <li>
                 <a class="button" href="{{ link.url }}">
@@ -15,13 +18,15 @@
             </li>
             {% endfor %}
         </ul>
-        <div class="site-header__buttons">
+        <!-- header buttons -->
+        <div class="navigation__buttons">
+            <!-- registration button -->
             <div class="site-header__registration">
                 <a class="button button--primary" href="{{ site.registration-url }}" rel="noopener" target="_blank">
                     Register
                 </a>
             </div>
-            <!-- Off-canvas toggle button -->
+            <!-- mobile button -->
             <button class="button button--secondary mobile-menu" id="my-button" type="button">
                 Menu
                 <i class="fas fa-bars">

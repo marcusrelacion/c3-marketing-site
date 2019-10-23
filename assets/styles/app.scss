@@ -6,6 +6,7 @@
 @import "global/general";
 @import "global/colors";
 
+@import "components/agenda-small";
 @import "components/agenda-events";
 @import "components/agenda-filter";
 @import "components/buttons";
@@ -13,9 +14,11 @@
 @import "components/faqs";
 @import "components/footer";
 @import "components/header";
+@import "components/introduction";
 @import "components/listing";
 @import "components/hero";
 @import "components/pricing";
+@import "components/pricing-discounts-bar";
 @import "components/speaker";
 
 @import "layouts/agenda";
