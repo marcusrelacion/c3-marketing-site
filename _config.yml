@@ -62,45 +62,7 @@ defaults:
       is-track-cx: Select True if event matches
       is-track-engage: Select True if event matches
     layout: page-agenda-single
-exclude:
-- package.json
-- package-lock.json
-- Gemfile
-- Gemfile.lock
-- node_modules
-- netlify.toml
-- README.md
-- vendor
-- ".bundle"
-plugins:
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-feed
-email: 
-author: Marcus Relacion
-lang: en_US
-logo: ''
-social:
-  name: 
-  links: 
-twitter:
-  username: 
-  card: summary
-markdown: kramdown
-kramdown:
-  smart_quotes: apos,apos,quot,quot
-  typographic_symbols:
-    hellip: "..."
-permalink: pretty
-encoding: utf-8
-description: 
-url: ''
-baseurl: ''
-domain: 
-repo: https://github.com/marcusrelacion/c3-marketing-site
-sass:
-  sass_dir: "/assets/styles/"
-  style: compressed
+divider: <----- divider, please ignore ----->
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
@@ -116,13 +78,17 @@ primary-navigation:
   url: "/faqs/"
 - title: Contact Us
   url: "/contact/"
+divider: <----- divider, please ignore ----->
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
+divider: <----- divider, please ignore ----->
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
+divider: <----- divider, please ignore ----->
 hero-background-image: "/uploads/c3-test-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: logo alt text
 hero-header: May 5-8, 2019
 hero-date: San Diego, CA
+divider: <----- divider, please ignore ----->
 2020-keynote-speakers-header: 2020 Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
@@ -145,6 +111,7 @@ hero-date: San Diego, CA
   name: Keynote Speaker Name
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
+divider: <----- divider, please ignore ----->
 2020-general-speakers-header: 2020 General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
@@ -167,6 +134,7 @@ hero-date: San Diego, CA
   name: General Speaker Name
   title: General Speaker Title
   company: General Speaker Company
+divider: <----- divider, please ignore ----->
 2019-past-speakers-header: 2019 Past Speakers
 2019-past-speakers:
 - image: https://picsum.photos/800
@@ -185,6 +153,7 @@ hero-date: San Diego, CA
   image-alt: provide description of the image
 - image: https://picsum.photos/800
   image-alt: provide description of the image
+divider: <----- divider, please ignore ----->
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -224,6 +193,7 @@ agenda-filter-type:
 - filter: ".track-engage"
   class: track-engage
   text-1: Engage Track
+divider: <----- divider, please ignore ----->
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
@@ -242,6 +212,7 @@ networking-receptions:
   date: Date
   time: Time
   body: Description
+divider: <----- divider, please ignore ----->
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
@@ -258,3 +229,42 @@ contact-employees:
 - name: Kaitlin Beazell
   title: Marketing Coordinator
   email: mailto:kaitlin.beazell@clarabridge.com
+divider: <----- divider, please ignore ----->
+exclude:
+- package.json
+- package-lock.json
+- Gemfile
+- Gemfile.lock
+- node_modules
+- netlify.toml
+- README.md
+- vendor
+- ".bundle"
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+author: Marcus Relacion
+lang: en_US
+logo: ''
+social:
+  name: 
+  links: 
+twitter:
+  username: 
+  card: summary
+markdown: kramdown
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+  typographic_symbols:
+    hellip: "..."
+permalink: pretty
+encoding: utf-8
+description: 
+url: ''
+baseurl: ''
+domain: 
+repo: https://github.com/marcusrelacion/c3-marketing-site
+sass:
+  sass_dir: "/assets/styles/"
+  style: compressed
