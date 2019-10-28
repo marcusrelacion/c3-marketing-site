@@ -62,7 +62,7 @@ defaults:
       is-track-cx: Select True if event matches
       is-track-engage: Select True if event matches
     layout: page-agenda-single
-divider-1: <----- divider, please ignore ----->
+divider-1: "<----- divider, please ignore ----->"
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
@@ -78,17 +78,17 @@ primary-navigation:
   url: "/faqs/"
 - title: Contact Us
   url: "/contact/"
-divider-2: <----- divider, please ignore ----->
+divider-2: "<----- divider, please ignore ----->"
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
-divider-3: <----- divider, please ignore ----->
+divider-3: "<----- divider, please ignore ----->"
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
-divider-4: <----- divider, please ignore ----->
+divider-4: "<----- divider, please ignore ----->"
 hero-background-image: "/uploads/c3-test-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: logo alt text
 hero-header: May 5-8, 2019
 hero-date: San Diego, CA
-divider-5: <----- divider, please ignore ----->
+divider-5: "<----- divider, please ignore ----->"
 2020-keynote-speakers-header: 2020 Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
@@ -111,7 +111,7 @@ divider-5: <----- divider, please ignore ----->
   name: Keynote Speaker Name
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
-divider-6: <----- divider, please ignore ----->
+divider-6: "<----- divider, please ignore ----->"
 2020-general-speakers-header: 2020 General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
@@ -134,7 +134,7 @@ divider-6: <----- divider, please ignore ----->
   name: General Speaker Name
   title: General Speaker Title
   company: General Speaker Company
-divider-7: <----- divider, please ignore ----->
+divider-7: "<----- divider, please ignore ----->"
 2019-past-speakers-header: 2019 Past Speakers
 2019-past-speakers:
 - image: https://picsum.photos/800
@@ -153,7 +153,7 @@ divider-7: <----- divider, please ignore ----->
   image-alt: provide description of the image
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-divider-8: <----- divider, please ignore ----->
+divider-8: "<----- divider, please ignore ----->"
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -193,7 +193,7 @@ agenda-filter-type:
 - filter: ".track-engage"
   class: track-engage
   text-1: Engage Track
-divider-9: <----- divider, please ignore ----->
+divider-9: "<----- divider, please ignore ----->"
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
@@ -212,7 +212,7 @@ networking-receptions:
   date: Date
   time: Time
   body: Description
-divider-10: <----- divider, please ignore ----->
+divider-10: "<----- divider, please ignore ----->"
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
@@ -229,7 +229,7 @@ contact-employees:
 - name: Kaitlin Beazell
   title: Marketing Coordinator
   email: mailto:kaitlin.beazell@clarabridge.com
-divider-11: <----- divider, please ignore ----->
+divider-11: "<----- divider, please ignore ----->"
 exclude:
 - package.json
 - package-lock.json
