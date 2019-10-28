@@ -153,68 +153,68 @@ hero-date: San Diego, CA
 
 2020-keynote-speakers-header: 2020 Keynote Speakers
 2020-keynote-speakers:
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: Keynote Speaker Name
       title: Keynote Speaker Title
       company: Keynote Speaker Company
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: Keynote Speaker Name
       title: Keynote Speaker Title That Is Long
       company: Keynote Speaker Company
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: Keynote Speaker Name
       title: Keynote Speaker Title That Is Super Super Loooooooooong
       company: Keynote Speaker Company
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: Keynote Speaker Name
       title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
       company: Keynote Speaker Company
 
 2020-general-speakers-header: 2020 General Speakers
 2020-general-speakers:
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
-    - image: http://placecorgi.com/400
-      image-alt: animated image of cute corgis
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
       name: General Speaker Name
       title: General Speaker Title
       company: General Speaker Company
 
 2019-past-speakers-header: 2019 Past Speakers
 2019-past-speakers:
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
-  - image: http://placecorgi.com/400
-    image-alt: animated image of cute corgis
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
+  - image: https://picsum.photos/800
+    image-alt: provide description of the image
 
 agenda-filter-time-of-day:
   - filter: .morning
@@ -257,6 +257,25 @@ agenda-filter-type:
   - filter: .track-engage
     class: track-engage
     text-1: Engage Track
+
+networking-receptions-header: Networking Receptions
+networking-receptions:
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
+      title: Title
+      location: Location
+      location-url: https://www.google.com/maps/dir//San+Diego,+CA/@32.8248175,-117.389171,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!2m2!1d-117.1610838!2d32.715738
+      date: Date
+      time: Time
+      body: Description
+    - image: https://picsum.photos/800
+      image-alt: provide description of the image
+      title: Title
+      location: Location
+      location-url: https://www.google.com/maps/dir//San+Diego,+CA/@32.8248175,-117.389171,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!2m2!1d-117.1610838!2d32.715738
+      date: Date
+      time: Time
+      body: Description
 
 contact-background-color: bg-white
 contact-header: Contact Us

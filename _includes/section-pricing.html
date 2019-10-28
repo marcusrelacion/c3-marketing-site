@@ -3,11 +3,6 @@
         <h2 class="section__header">
             {{ page.pricing-header }}
         </h2>
-        {% if page.pricing-body %}
-        <div class="section__body wysiwyg">
-            {{ page.pricing-body | markdownify }}
-        </div>
-        {% endif %}
         {% include component-pricing-table.html %}
         {% include component-pricing-discounts.html %}
     </div>
