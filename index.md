@@ -1,16 +1,17 @@
 ---
 layout: page-home
-
 has-introduction: true
 introduction-background-color: bg-white
 introduction-header: Introduction
-introduction-body: Clarabridge Customer Connections (C3), our electrifying three-day conference is kicking off in San Diego, April 20 - 22, 2020. Hear from industry experts, thought leaders, and top practitioners in customer experience (CX) and digital customer service leaders for examples and best practices needed to say ahead of the curve. 
-
+introduction-body: Clarabridge Customer Connections (C3), our electrifying three-day
+  conference is kicking off in San Diego, April 20 - 22, 2020. Hear from industry
+  experts, thought leaders, and top practitioners in customer experience (CX) and
+  digital customer service leaders for examples and best practices needed to say ahead
+  of the curve.
 introduction-has-button: true
 introduction-button-label: Optional Button
 introduction-button-url: "#"
 introduction-button-style: primary
-
 agenda-small-background-color: bg-charcoal-100
 agenda-small-header: Agenda Highlights
 agenda-small-dates:
@@ -45,7 +46,6 @@ agenda-small-has-button: true
 agenda-small-button-label: See Full Agenda
 agenda-small-button-url: "/agenda/"
 agenda-small-button-style: primary
-
 pricing-background-color: bg-white
 pricing-header: Pricing & Discounts
 pricing-body: 

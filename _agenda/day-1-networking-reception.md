@@ -5,13 +5,13 @@ description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20
+  date: 2020-04-19 20:00:00 -04:00
   start-time: 5:00pm
   end-time: 6:00pm
 speakers:
 - name: 
-  title:
-  company:
+  title: 
+  company: 
 venue:
   name: Montcalm Royal London House
   address: 22-25 Finsbury Square, Finsbury, London EC2A 1DX
@@ -23,3 +23,4 @@ filter-time:
 filter-type:
   is-reception: true
 ---
+

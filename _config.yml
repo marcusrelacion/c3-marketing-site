@@ -19,7 +19,7 @@ defaults:
     has-introduction: true
     introduction-background-color: bg-white
     introduction-header: Introduction
-    introduction-body:
+    introduction-body: 
     introduction-has-button: true
     introduction-button-label: Optional Button
     introduction-button-url: "#"
@@ -61,8 +61,6 @@ divider-1: "<----- divider, please ignore ----->"
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
-#- title: Speakers
-#  url: "/speakers/"
 - title: Lodging
   url: "/lodging/"
 - title: Networking
@@ -77,14 +75,14 @@ divider-2: "<----- divider, please ignore ----->"
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
 divider-3: "<----- divider, please ignore ----->"
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
-divider-4: <----- divider, please ignore ----->
+divider-4: "<----- divider, please ignore ----->"
 hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: logo alt text
 hero-header: Clarabridge Customer Connections
 hero-date: April 20-22, 2020
 hero-location: Hard Rock Hotel San Diego
-divider-5: <----- divider, please ignore ----->
+divider-5: "<----- divider, please ignore ----->"
 show-2020-keynote-speakers: false
 2020-keynote-speakers-header: 2020 Keynote Speakers
 2020-keynote-speakers:
@@ -108,7 +106,7 @@ show-2020-keynote-speakers: false
   name: Keynote Speaker Name
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
-divider-6: <----- divider, please ignore ----->
+divider-6: "<----- divider, please ignore ----->"
 show-2020-general-speakers: false
 2020-general-speakers-header: 2020 General Speakers
 2020-general-speakers:
@@ -132,29 +130,29 @@ show-2020-general-speakers: false
   name: General Speaker Name
   title: General Speaker Title
   company: General Speaker Company
-divider-7: <----- divider, please ignore ----->
+divider-7: "<----- divider, please ignore ----->"
 show-2019-past-speakers: true
 2019-past-speakers-header: 2019 Past Speakers
 2019-past-speakers:
-- image: /uploads/speaker-adobe.png
+- image: "/uploads/speaker-adobe.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-fidelity.png
+- image: "/uploads/speaker-fidelity.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-sams-club.png
+- image: "/uploads/speaker-sams-club.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-shark-ninja.png
+- image: "/uploads/speaker-shark-ninja.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-united.png
+- image: "/uploads/speaker-united.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-usa-today.png
+- image: "/uploads/speaker-usa-today.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-usbank.png
+- image: "/uploads/speaker-usbank.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-vera-bradley.png
+- image: "/uploads/speaker-vera-bradley.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-vmware.png
+- image: "/uploads/speaker-vmware.png"
   image-alt: provide description of the image
-- image: /uploads/speaker-whirlpool.png
+- image: "/uploads/speaker-whirlpool.png"
   image-alt: provide description of the image
 divider-8: "<----- divider, please ignore ----->"
 agenda-filter-time-of-day:
@@ -196,19 +194,19 @@ agenda-filter-type:
 - filter: ".track-product"
   class: track-product
   text-1: Product Track
-divider-9: <----- divider, please ignore ----->
+divider-9: "<----- divider, please ignore ----->"
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
   title: Welcome Reception
   location: TBA
-  location-url:
+  location-url: 
   date: Monday, April 20th
-  time: 6:00 - 9:00 PM 
-  body: |-
-    What better way to kick off C3 2020 than by enjoying cocktails and dinner, all while networking with your peers! Chat with Clarabridge experts and partners, exchange ideas, and make lasting connections.
-
+  time: 6:00 - 9:00 PM
+  body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
+    all while networking with your peers! Chat with Clarabridge experts and partners,
+    exchange ideas, and make lasting connections.
 - image: https://picsum.photos/800
   image-alt: provide description of the image
 contact-background-color: bg-white
@@ -230,7 +228,7 @@ contact-employees:
   title: Senior Marketing Coordinator
   email-url: mailto:kaitlin.beazell@clarabridge.com
   email-label: kaitlin.beazell@clarabridge.com
-divider-11: <----- divider, please ignore ----->
+divider-11: "<----- divider, please ignore ----->"
 exclude:
 - package.json
 - package-lock.json

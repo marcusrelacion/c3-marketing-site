@@ -3,19 +3,19 @@ title: C3 Welcome Reception
 date: 2019-09-02 14:27:00 -04:00
 description: Description of event
 modal:
-  url:
+  url: 
 event:
-  date: 2020-04-20
+  date: 2020-04-19 20:00:00 -04:00
   start-time: 6:00pm
   end-time: 9:00pm
 speakers:
 - name: 
-  title:
-  company:
+  title: 
+  company: 
 venue:
-  name:
-  address:
-  directions:
+  name: 
+  address: 
+  directions: 
 filter-date:
   is-day-1: true
 filter-time:
@@ -23,3 +23,4 @@ filter-time:
 filter-type:
   is-reception: true
 ---
+

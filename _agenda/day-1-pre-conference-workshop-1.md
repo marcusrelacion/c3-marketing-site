@@ -3,15 +3,15 @@ title: Pre-Conference Workshop
 date: 2019-09-02 14:27:00 -04:00
 description: Description of event
 modal:
-  url:
+  url: 
 event:
-  date: 2020-04-20
+  date: 2020-04-19 20:00:00 -04:00
   start-time: 1:00pm
   end-time: 4:00pm
 speakers:
 - name: 
-  title:
-  company:
+  title: 
+  company: 
 venue:
   name: Montcalm Royal London House
   address: 22-25 Finsbury Square, Finsbury, London EC2A 1DX
@@ -23,3 +23,4 @@ filter-time:
 filter-type:
   is-session-workshop: true
 ---
+
