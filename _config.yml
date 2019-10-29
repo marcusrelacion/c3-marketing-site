@@ -19,12 +19,7 @@ defaults:
     has-introduction: true
     introduction-background-color: bg-white
     introduction-header: Introduction
-    introduction-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-      sunt in culpa qui officia deserunt mollit anim id est laborum.
+    introduction-body:
     introduction-has-button: true
     introduction-button-label: Optional Button
     introduction-button-url: "#"
@@ -66,10 +61,10 @@ divider-1: <----- divider, please ignore ----->
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
-- title: Speakers
-  url: "/speakers/"
-- title: Venue
-  url: "/venue/"
+#- title: Speakers
+#  url: "/speakers/"
+- title: Lodging
+  url: "/lodging/"
 - title: Networking
   url: "/networking/"
 - title: CX Awards
@@ -83,12 +78,14 @@ registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tu
 divider-3: <----- divider, please ignore ----->
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
 divider-4: <----- divider, please ignore ----->
-hero-background-image: "/uploads/c3-test-header.jpg"
+hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: logo alt text
-hero-header: May 5-8, 2019
-hero-date: San Diego, CA
+hero-header: Clarabridge Customer Connections
+hero-date: April 20-22, 2020
+hero-location: Hard Rock Hotel San Diego
 divider-5: <----- divider, please ignore ----->
+show-2020-keynote-speakers: false
 2020-keynote-speakers-header: 2020 Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
@@ -112,6 +109,7 @@ divider-5: <----- divider, please ignore ----->
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
 divider-6: <----- divider, please ignore ----->
+show-2020-general-speakers: false
 2020-general-speakers-header: 2020 General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
@@ -135,23 +133,28 @@ divider-6: <----- divider, please ignore ----->
   title: General Speaker Title
   company: General Speaker Company
 divider-7: <----- divider, please ignore ----->
+show-2019-past-speakers: true
 2019-past-speakers-header: 2019 Past Speakers
 2019-past-speakers:
-- image: https://picsum.photos/800
+- image: /uploads/speaker-adobe.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-fidelity.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-sams-club.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-shark-ninja.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-united.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-usa-today.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-usbank.png
   image-alt: provide description of the image
-- image: https://picsum.photos/800
+- image: /uploads/speaker-vera-bradley.png
+  image-alt: provide description of the image
+- image: /uploads/speaker-vmware.png
+  image-alt: provide description of the image
+- image: /uploads/speaker-whirlpool.png
   image-alt: provide description of the image
 divider-8: <----- divider, please ignore ----->
 agenda-filter-time-of-day:
@@ -167,13 +170,13 @@ agenda-filter-time-of-day:
 agenda-filter-date:
 - filter: ".day-1"
   class: day-1
-  text-1: Tuesday, May 6th
+  text-1: Monday, April 20th
 - filter: ".day-2"
   class: day-2
-  text-1: Wednesday, May 7th
+  text-1: Tuesday, April 21st
 - filter: ".day-3"
   class: day-3
-  text-1: Thursday, May 8th
+  text-1: Wednesday, April 22nd
 agenda-filter-type:
 - filter: ".session-keynote"
   class: session-keynote
@@ -187,31 +190,35 @@ agenda-filter-type:
 - filter: ".reception"
   class: reception
   text-1: Reception
-- filter: ".track-cx"
-  class: track-track
-  text-1: CX Track
-- filter: ".track-engage"
-  class: track-engage
-  text-1: Engage Track
+- filter: ".track-customer"
+  class: track-customer
+  text-1: Customer Track
+- filter: ".track-product"
+  class: track-product
+  text-1: Product Track
 divider-9: <----- divider, please ignore ----->
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  title: Title
-  location: Location
-  location-url: https://www.google.com/maps/dir//San+Diego,+CA/@32.8248175,-117.389171,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!2m2!1d-117.1610838!2d32.715738
-  date: Date
-  time: Time
-  body: Description
+  title: Welcome Reception
+  location: TBA
+  location-url:
+  date: Monday, April 20th
+  time: 6:00 - 9:00 PM 
+  body: |-
+    What better way to kick off C3 2020 than by enjoying cocktails and dinner, all while networking with your peers! Chat with Clarabridge experts and partners, exchange ideas, and make lasting connections.
+
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  title: Title
-  location: Location
-  location-url: https://www.google.com/maps/dir//San+Diego,+CA/@32.8248175,-117.389171,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!2m2!1d-117.1610838!2d32.715738
-  date: Date
-  time: Time
-  body: Description
+  title: Connections Reception
+  location: TBA
+  location-url:
+  date: Tuesday, April 21st
+  time: 7:00 - 10:00 PM
+  body: |-
+    Join us Tuesday evening for a night of cocktails, food, networking and entertainment. Trust us, this is something you don’t want to miss!
+
 divider-10: <----- divider, please ignore ----->
 contact-background-color: bg-white
 contact-header: Contact Us
@@ -222,13 +229,16 @@ contact-button-style: primary
 contact-employees:
 - name: Keri Cook
   title: VP, Demand Gen
-  email: mailto:keri.cook@clarabridge.com
+  email-url: mailto:keri.cook@clarabridge.com
+  email-label: keri.cook@clarabridge.com
 - name: Kendall Sampson
   title: Manager, Demand Gen
-  email: mailto:kendall.sampson@clarabridge.com
+  email-url: mailto:kendall.sampson@clarabridge.com
+  email-label: kendall.sampson@clarabridge.com
 - name: Kaitlin Beazell
-  title: Marketing Coordinator
-  email: mailto:kaitlin.beazell@clarabridge.com
+  title: Senior Marketing Coordinator
+  email-url: mailto:kaitlin.beazell@clarabridge.com
+  email-label: kaitlin.beazell@clarabridge.com
 divider-11: <----- divider, please ignore ----->
 exclude:
 - package.json

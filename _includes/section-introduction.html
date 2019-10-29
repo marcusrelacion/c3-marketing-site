@@ -3,9 +3,11 @@
         <h2 class="section__header">
             {{ page.introduction-header }}
         </h2>
+        {% if page.introduction-body %}
         <div class="section__body wysiwyg">
             {{ page.introduction-body | markdownify }}
         </div>
+        {% endif %}
         {% if page.introduction-has-button == true %}
         <a class="button button button--{{ page.introduction-button-style }}" href="{{ page.introduction-button-url }}">
             {{ page.introduction-button-label }}

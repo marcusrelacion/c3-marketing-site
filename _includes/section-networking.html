@@ -11,8 +11,12 @@
                     <h3 class="networking-reception__name">
                         {{ reception.title }}
                     </h3>
-                    <p class="networking-reception__location">
-                        <i class="fad fa-map-marker-alt"></i> <a href="{{ reception.location-url }}" target="_blank" rel="noopener">{{ reception.location }}</a>
+                    <p class="networking-reception__location"> 
+                        {% if reception.location-url %}
+                            <a href="{{ reception.location-url }}" target="_blank" rel="noopener"><i class="fad fa-map-marker-alt"></i> {{ reception.location }}</a>
+                        {% else %}
+                            <p><i class="fad fa-map-marker-alt"></i> {{ reception.location }}</p>
+                        {% endif %}
                     </p>
                     <p class="networking-reception__date">
                     	<i class="fad fa-calendar-day"></i> {{ reception.date }}

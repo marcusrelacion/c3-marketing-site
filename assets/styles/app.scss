@@ -6,6 +6,7 @@
 @import "global/general";
 @import "global/colors";
 
+@import "components/agenda";
 @import "components/agenda-small";
 @import "components/agenda-events";
 @import "components/agenda-filter";
@@ -24,6 +25,8 @@
 
 @import "layouts/agenda";
 @import "layouts/blocks";
+
+@import "pages/agenda";
 
 @import "vendor/houdini";
 @import "vendor/modals";

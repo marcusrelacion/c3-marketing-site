@@ -1,3 +1,4 @@
+{% if site.show-2020-keynote-speakers == true %}
 <section class="block block--speakers {{ page.speakers-keynotes-background-color }}">
     <div class="block__content">
         <h2 class="block__header">
@@ -25,6 +26,8 @@
         </ul>
     </div>
 </section>
+{% endif %}
+{% if site.show-2020-general-speakers == true %}
 <section class="block block--speakers {{ page.speakers-general-background-color }} bg-charcoal-100">
     <div class="block__content">
         <h2 class="block__header">
@@ -52,12 +55,15 @@
         </ul>
     </div>
 </section>
+{% endif %}
+{% if page.url == "/" %}
+{% if site.show-2019-past-speakers == true %}
 <section class="block block--speakers {{ page.speakers-past-background-color }}">
     <div class="block__content">
         <h2 class="block__header">
             {{ site.2019-past-speakers-header }}
         </h2>
-        <ul class="listing listing--four-column">
+        <ul class="listing listing--five-column">
             {% for speaker in site.2019-past-speakers %}
             <li class="speaker speaker--past">
                 <a href="#" rel="noopener" target="_blank">
@@ -68,3 +74,5 @@
         </ul>
     </div>
 </section>
+{% endif %}
+{% endif %}

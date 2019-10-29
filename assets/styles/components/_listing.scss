@@ -25,6 +25,9 @@
         &--four-column {
             grid-template-columns: repeat(4, 1fr);
         }
+        &--five-column {
+            grid-template-columns: repeat(5, 1fr);
+        }
     }
 }
 .block--agenda-small .listing__item {
