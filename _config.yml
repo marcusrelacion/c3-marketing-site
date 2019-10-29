@@ -57,7 +57,7 @@ defaults:
       is-track-cx: Select True if event matches
       is-track-engage: Select True if event matches
     layout: page-agenda-single
-divider-1: <----- divider, please ignore ----->
+divider-1: "<----- divider, please ignore ----->"
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
@@ -73,9 +73,9 @@ primary-navigation:
   url: "/faqs/"
 - title: Contact Us
   url: "/contact/"
-divider-2: <----- divider, please ignore ----->
+divider-2: "<----- divider, please ignore ----->"
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
-divider-3: <----- divider, please ignore ----->
+divider-3: "<----- divider, please ignore ----->"
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
 divider-4: <----- divider, please ignore ----->
 hero-background-image: "/uploads/c3-san-diego-header.jpg"
@@ -156,7 +156,7 @@ show-2019-past-speakers: true
   image-alt: provide description of the image
 - image: /uploads/speaker-whirlpool.png
   image-alt: provide description of the image
-divider-8: <----- divider, please ignore ----->
+divider-8: "<----- divider, please ignore ----->"
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -211,15 +211,6 @@ networking-receptions:
 
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  title: Connections Reception
-  location: TBA
-  location-url:
-  date: Tuesday, April 21st
-  time: 7:00 - 10:00 PM
-  body: |-
-    Join us Tuesday evening for a night of cocktails, food, networking and entertainment. Trust us, this is something you don’t want to miss!
-
-divider-10: <----- divider, please ignore ----->
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
