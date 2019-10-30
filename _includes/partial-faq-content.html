@@ -1,35 +1,16 @@
 <div class="faqs__content">
-    <h2 aria-label="section-1" class="" data-houdini-toggle="section-1">
-        Section 1
+    {% for faq in page.faqs %}
+    <h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
+        {{ faq.heading }}
         <i class="fas fa-caret-right">
         </i>
     </h2>
-    <div class="is-expanded" data-houdini-group="faq" id="section-1">
-        <p>
-            <img src="https://media.giphy.com/media/cImxFRmPTQx5I7HU8l/giphy.gif" />
-        </p>
+    <div class="{% if faq.expanded == true %} is-expanded {% else %} {% endif %}" data-houdini-group="faq" id="{{ faq.trigger }}">
+        {{ faq.body | markdownify }}
     </div>
-    <h2 aria-label="section-2" class="" data-houdini-toggle="section-2">
-        Section 2
-        <i class="fas fa-caret-right">
-        </i>
-    </h2>
-    <div data-houdini-group="faq" id="section-2">
-        <p>
-            <img src="https://media.giphy.com/media/cImxFRmPTQx5I7HU8l/giphy.gif" />
-        </p>
-    </div>
-    <h2 aria-label="section-3" class="" data-houdini-toggle="section-3">
-        Section 3
-        <i class="fas fa-caret-right">
-        </i>
-    </h2>
-    <div data-houdini-group="faq" id="section-3">
-        <p>
-            <img src="https://media.giphy.com/media/cImxFRmPTQx5I7HU8l/giphy.gif" />
-        </p>
-    </div>
+    {% endfor %}
 </div>
+
 <script src="/assets/scripts/vendor/houdini.min.js">
 </script>
 <script>

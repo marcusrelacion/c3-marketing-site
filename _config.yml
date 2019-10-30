@@ -135,25 +135,25 @@ show-2019-past-speakers: true
 2019-past-speakers-header: 2019 Past Speakers
 2019-past-speakers:
 - image: "/uploads/speaker-adobe.png"
-  image-alt: provide description of the image
+  image-alt: logo for adobe
 - image: "/uploads/speaker-fidelity.png"
-  image-alt: provide description of the image
+  image-alt: logo for fidelity
 - image: "/uploads/speaker-sams-club.png"
-  image-alt: provide description of the image
+  image-alt: logo for sams club
 - image: "/uploads/speaker-shark-ninja.png"
-  image-alt: provide description of the image
+  image-alt: logo for shark ninja
 - image: "/uploads/speaker-united.png"
-  image-alt: provide description of the image
+  image-alt: logo for united
 - image: "/uploads/speaker-usa-today.png"
-  image-alt: provide description of the image
+  image-alt: logo for usa today
 - image: "/uploads/speaker-usbank.png"
-  image-alt: provide description of the image
+  image-alt: logo for usbank
 - image: "/uploads/speaker-vera-bradley.png"
-  image-alt: provide description of the image
+  image-alt: logo for vera bradley
 - image: "/uploads/speaker-vmware.png"
-  image-alt: provide description of the image
+  image-alt: logo for vmware
 - image: "/uploads/speaker-whirlpool.png"
-  image-alt: provide description of the image
+  image-alt: logo for whirlpool
 divider-8: "<----- divider, please ignore ----->"
 agenda-filter-time-of-day:
 - filter: ".morning"
