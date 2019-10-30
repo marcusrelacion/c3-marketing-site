@@ -65,6 +65,8 @@ primary-navigation:
   url: "/lodging/"
 - title: Networking
   url: "/networking/"
+- title: Sponsors
+  url: "/sponsors/"
 - title: CX Awards
   url: "/cx-awards/"
 - title: FAQs
