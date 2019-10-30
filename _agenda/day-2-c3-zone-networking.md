@@ -1,11 +1,11 @@
 ---
 title: Networking - C3 Zone
-date: 2020-04-21 17:00:00 -07:00
+date: 2020-04-21 20:00:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-21 17:00:00 -07:00
+  date: 2020-04-21 20:00:00 -04:00
   start-time: 5:00pm
   end-time: 6:30pm
 speakers:

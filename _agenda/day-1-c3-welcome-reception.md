@@ -1,11 +1,11 @@
 ---
 title: C3 Welcome Reception
-date: 2020-04-20 18:00:00 -07:00
+date: 2020-04-20 21:00:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20 18:00:00 -07:00
+  date: 2020-04-20 21:00:00 -04:00
   start-time: 6:00pm
   end-time: 9:00pm
 speakers:

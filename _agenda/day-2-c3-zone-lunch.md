@@ -1,11 +1,11 @@
 ---
-title: 'Lunch - C3 Zone'
-date: 2020-04-21 12:15:00 -07:00
+title: Lunch - C3 Zone
+date: 2020-04-21 15:15:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-21 12:15:00 -07:00
+  date: 2020-04-21 15:15:00 -04:00
   start-time: 12:15pm
   end-time: 1:15pm
 speakers:
@@ -23,3 +23,4 @@ filter-time:
 filter-type:
   is-session-general: true
 ---
+

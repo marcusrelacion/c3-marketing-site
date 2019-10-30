@@ -1,11 +1,11 @@
 ---
 title: Registration
-date: 2020-04-20 12:00:00 -07:00
+date: 2020-04-20 15:00:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20 12:00:00 -07:00
+  date: 2020-04-20 15:00:00 -04:00
   start-time: 12:00pm
   end-time: 2:00pm
 speakers:

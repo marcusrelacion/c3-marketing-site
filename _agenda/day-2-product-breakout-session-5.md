@@ -1,11 +1,11 @@
 ---
 title: Product Track Breakout Session 5
-date: 2020-04-21 10:30:00 -07:00
+date: 2020-04-21 13:30:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-21 10:30:00 -07:00
+  date: 2020-04-21 13:30:00 -04:00
   start-time: 10:30am
   end-time: 11:00am
 speakers:

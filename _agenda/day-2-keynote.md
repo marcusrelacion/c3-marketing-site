@@ -1,11 +1,11 @@
 ---
 title: Keynote Session
-date: 2020-04-21 16:05:00 -07:00
+date: 2020-04-21 19:05:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-21 16:05:00 -07:00
+  date: 2020-04-21 19:05:00 -04:00
   start-time: 4:05pm
   end-time: 5:00pm
 speakers:

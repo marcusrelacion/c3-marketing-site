@@ -1,11 +1,11 @@
 ---
 title: Networking Reception
-date: 2020-04-20 17:00:00 -07:00
+date: 2020-04-20 20:00:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20 17:00:00 -07:00
+  date: 2020-04-20 20:00:00 -04:00
   start-time: 5:00pm
   end-time: 6:00pm
 speakers:

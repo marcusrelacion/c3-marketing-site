@@ -1,11 +1,11 @@
 ---
 title: Pre-Conference Workshop
-date: 2020-04-20 13:00:00 -07:00
+date: 2020-04-20 16:00:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20 13:00:00 -07:00
+  date: 2020-04-20 16:00:00 -04:00
   start-time: 1:00pm
   end-time: 4:00pm
 speakers:
