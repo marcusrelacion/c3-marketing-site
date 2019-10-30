@@ -1,8 +1,7 @@
 
 <!-- listing -->
 <ul class="agenda__events listing listing__agenda mixitup-container">
-    {% assign sorted = (site.agenda | sort: 'event.date' and 'event.start-time') %}
-    {% for posts in sorted %}
+    {% for posts in site.agenda | sort: 'page.event.date' %}
         <!-- agenda-event -->
         <li class="
 

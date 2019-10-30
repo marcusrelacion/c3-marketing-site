@@ -1,13 +1,13 @@
 ---
-title: 'Break: C3 Zone'
-date: 2020-04-21 10:00:00 -07:00
+title: Product Track Breakout Session 1
+date: 2020-04-21 10:30:00 -07:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-21 10:00:00 -07:00
-  start-time: 10:00am
-  end-time: 10:30am
+  date: 2020-04-21 10:30:00 -07:00
+  start-time: 10:30am
+  end-time: 11:00am
 speakers:
 - name: 
   title: 
@@ -21,6 +21,6 @@ filter-date:
 filter-time:
   is-morning: true
 filter-type:
-  is-session-general: true
+  is-track-product: true
 ---
 
