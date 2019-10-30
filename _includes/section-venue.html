@@ -1,0 +1,47 @@
+{% if page.show-venue == true %}
+<section class="section section--venue" style="background-color: white;">
+
+    <div class="section__content">
+
+        <h2 class="section__header">
+            {{ site.venue-header }}
+        </h2>
+        
+        {% for lodging in site.venue-lodging %}
+            <div class="venue-lodging">
+                <figure class="venue-lodging__image">
+                    <img alt="{{ lodging.image-alt }}" src="{{ lodging.image }}"/>
+                </figure>
+                <div class="venue-lodging__content">
+                    <div class="venue-lodging__body wysiwyg">
+                        {{ lodging.body | markdownify }}
+                    </div>
+                    <a class="button button button--primary" href="{{ venue.button-url }}">
+                        {{ lodging.button-label }}
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+        
+        {% if page.url == "/venue/" %}
+        {% for hotel in site.venue-hotel %}
+            <div class="venue-hotel">
+                <div class="venue-hotel__content">
+                    <div class="venue-hotel__body wysiwyg">
+                        {{ hotel.body | markdownify }}
+                    </div>
+                    <a class="button button button--primary" href="{{ hotel.button-url }}">
+                        {{ hotel.button-label }}
+                    </a>
+                </div>
+                <figure class="venue-hotel__image">
+                    <img alt="{{ hotel.image-alt }}" src="{{ hotel.image }}"/>
+                </figure>
+            </div>
+        {% endfor %}
+        {% endif %}
+
+    </div>
+
+</section>
+{% endif %}

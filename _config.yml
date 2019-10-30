@@ -61,8 +61,8 @@ divider-1: "<----- divider, please ignore ----->"
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
-- title: Lodging
-  url: "/lodging/"
+- title: Venue
+  url: "/venue/"
 - title: Networking
   url: "/networking/"
 - title: Sponsors
@@ -86,7 +86,7 @@ hero-date: April 20-22, 2020
 hero-location: Hard Rock Hotel San Diego
 divider-5: "<----- divider, please ignore ----->"
 show-2020-keynote-speakers: false
-2020-keynote-speakers-header: 2020 Keynote Speakers
+2020-keynote-speakers-header: Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
@@ -110,7 +110,7 @@ show-2020-keynote-speakers: false
   company: Keynote Speaker Company
 divider-6: "<----- divider, please ignore ----->"
 show-2020-general-speakers: false
-2020-general-speakers-header: 2020 General Speakers
+2020-general-speakers-header: General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
@@ -134,7 +134,7 @@ show-2020-general-speakers: false
   company: General Speaker Company
 divider-7: "<----- divider, please ignore ----->"
 show-2019-past-speakers: true
-2019-past-speakers-header: 2019 Past Speakers
+2019-past-speakers-header: Past Speakers
 2019-past-speakers:
 - image: "/uploads/speaker-adobe.png"
   image-alt: logo for adobe
@@ -211,6 +211,41 @@ networking-receptions:
     exchange ideas, and make lasting connections.
 - image: https://picsum.photos/800
   image-alt: provide description of the image
+  title: Welcome Reception
+  location: TBA
+  location-url: 
+  date: Monday, April 20th
+  time: 6:00 - 9:00 PM
+  body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
+    all while networking with your peers! Chat with Clarabridge experts and partners,
+    exchange ideas, and make lasting connections.
+venue-header: Venue & Lodging
+venue-lodging:
+- image: https://picsum.photos/800
+  image-alt: provide description of the image
+  name: Hard Rock Hotel San Diego
+  body: |-
+    ### Venue
+    
+    C3 2020 will be hosted at The Hard Rock Hotel San Diego 
+
+    ### Lodging
+    
+    The Hard Rock Hotel San Diego is located in the heart of downtown in the famed Gaslamp Quarter. With a contemporary and chic design, and tons of unique features, you’re not just treated like a guest, you’re treated like a rock star.
+  has-button: true
+  button-url: "/venue/"
+  button-label: Find Out More
+venue-hotel:
+- image: https://picsum.photos/800
+  image-alt: provide description of the image
+  name: Room Block
+  body: |-
+    A special room rate of $249 per night has been secured exclusively for C3 attendees. Please note there are a limited number of rooms available, so be sure to book your reservation as soon as possible.
+
+    **Discounted Rate Expires March 27th, 2020**
+  has-button: true
+  button-url: https://book.passkey.com/go/CLAR0419
+  button-label: Book Your Room
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch

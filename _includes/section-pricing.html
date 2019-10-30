@@ -1,3 +1,4 @@
+{% if page.show-pricing == true %}
 <section class="section section--pricing {{ page.pricing-background-color }}">
     <div class="section__content">
         <h2 class="section__header">
@@ -7,3 +8,4 @@
         {% include component-pricing-discounts.html %}
     </div>
 </section>
+{% endif %}

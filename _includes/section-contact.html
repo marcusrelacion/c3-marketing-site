@@ -1,13 +1,13 @@
-<section class="block block--contact" style="background-color: {{ site.contact-background-color }};">
-    <div class="block__content">
+<section class="section section--contact" style="background-color: {{ site.contact-background-color }};">
+    <div class="section__content">
         {% if page.url == "/contact/" %}
         {% comment %}
         Show the events team contact information on the contact page
         {% endcomment %}
-        <h2 class="block__header">
+        <h2 class="section__header">
             {{ site.contact-header }}
         </h2>
-        <ul class="block__body listing listing--three-column">
+        <ul class="section__body listing listing--three-column">
             {% for employee in site.contact-employees %}
             <li class="listing__item">
                 <div class="listing__details">
@@ -28,20 +28,20 @@
         {% comment %}
         Show the custom contact information on the sponsors page
         {% endcomment %}
-        <h2 class="block__header">
+        <h2 class="section__header">
             {{ page.contact-header }}
         </h2>
-        <a class="block__button button button--primary" href="{{ page.contact-button-url }}">
+        <a class="section__button button button--primary" href="{{ page.contact-button-url }}">
             {{ page.contact-button-label }}
         </a>
         {% else %}
         {% comment %}
         Show the default contact information on all pages
         {% endcomment %}
-        <h2 class="block__header">
+        <h2 class="section__header">
             {{ site.contact-header }}
         </h2>
-        <a class="block__button button button--primary" href="{{ site.contact-button-url }}">
+        <a class="section__button button button--primary" href="{{ site.contact-button-url }}">
             {{ site.contact-button-label }}
         </a>
         {% endif %}

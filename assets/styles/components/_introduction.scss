@@ -1,41 +1,4 @@
-.introduction {
-}
-
-.section {
-    padding: 32px 16px;
-    position: relative;
-    text-align: center;
-
-    &__content {
-        margin: auto;
-        max-width: 72ch;
-    }
-
-    &__body {
-        margin: 16px auto;
-        text-align: left;
-    }
-
-}
-
-@media screen and (min-width:1279px) {
-    .section {
-        padding: 64px 32px;
-
-        &__body {
-            margin: 32px auto;
-        }
-
-    }
-
-}
-
-.section--agenda-small .section__content,
-.section--pricing .section__content,
-.section--speakers .section__content {
-    max-width: 120ch;
-}
-
-.section--contact .section__body {
-    margin: 16px auto 0 auto;
+.section--introduction .section__content {
+    margin: auto;
+    max-width: 72ch;
 }

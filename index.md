@@ -1,6 +1,6 @@
 ---
 layout: page-home
-has-introduction: true
+show-introduction: true
 introduction-background-color: bg-white
 introduction-header: Introduction
 introduction-body: Clarabridge Customer Connections (C3), our electrifying three-day
@@ -12,7 +12,7 @@ introduction-has-button: true
 introduction-button-label: Optional Button
 introduction-button-url: "#"
 introduction-button-style: primary
-agenda-small-background-color: bg-charcoal-100
+agenda-small-background-color: bg-cb-primary-100
 agenda-small-header: Agenda Highlights
 agenda-small-dates:
 - header: Monday, April 20th
@@ -42,10 +42,13 @@ agenda-small-dates:
     Panels
 
     CX Awards
+show-speakers-keynote: false
 agenda-small-has-button: true
 agenda-small-button-label: See Full Agenda
 agenda-small-button-url: "/agenda/"
 agenda-small-button-style: primary
+show-sponsors: false
+show-pricing: true
 pricing-background-color: bg-white
 pricing-header: Pricing & Discounts
 pricing-body: 
@@ -71,5 +74,7 @@ pricing-discounts:
   label: Buy 4 Passes, Get 2 Free
 - icon: <i class="fad fa-ticket-alt"></i>
   label: Buy 6 Passes, Get 3 Free
+show-speakers-past: true
+show-venue: true
 ---
 

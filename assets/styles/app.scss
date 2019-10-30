@@ -6,12 +6,12 @@
 @import "global/general";
 @import "global/colors";
 
+@import "components/sections";
 @import "components/agenda";
 @import "components/agenda-small";
 @import "components/agenda-events";
 @import "components/agenda-filter";
 @import "components/buttons";
-@import "components/cards";
 @import "components/faqs";
 @import "components/footer";
 @import "components/header";
@@ -22,11 +22,9 @@
 @import "components/pricing";
 @import "components/pricing-discounts-bar";
 @import "components/speaker";
+@import "components/venue";
 
-@import "layouts/agenda";
 @import "layouts/blocks";
-
-@import "pages/agenda";
 
 @import "vendor/houdini";
 @import "vendor/modals";
