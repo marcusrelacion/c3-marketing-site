@@ -4,6 +4,9 @@
     &--one-column, &--two-column, &--three-column, &--four-column {
         grid-template-columns: 1fr;
     }
+    &--five-column {
+        grid-template-columns: repeat(2, 1fr);
+    }
     &__item {
         text-align: center;
     }
@@ -25,6 +28,14 @@
         &--four-column {
             grid-template-columns: repeat(4, 1fr);
         }
+        &--five-column {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 1279px) {
+        .listing {
         &--five-column {
             grid-template-columns: repeat(5, 1fr);
         }

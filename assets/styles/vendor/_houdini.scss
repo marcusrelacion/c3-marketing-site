@@ -11,28 +11,30 @@
  */
 
 .houdini {
-    display: none;
+    display: none;    /**
+       * Remove focus styles from content
+       * @type {String}
+       */
+
     /**
-   * Remove focus styles from content
-   * @type {String}
-   */
-    /**
-   * Show expanded content
-   */
+       * Show expanded content
+       */
 }
+
 .houdini[tabindex="-1"]:focus {
     outline: none;
 }
+
 .houdini.is-expanded {
     display: block;
-    padding: 32px;
+    padding: 16px;
 }
+
 /**
  * Remove button appearance from heading buttons
  */
-
 .houdini-heading .houdini-toggle {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 700;
     border: none;
     border-radius: 2px;
@@ -41,18 +43,21 @@
     width: 100%;
     cursor: pointer;
     align-items: center;
-    padding: 32px;
+    padding: 32px 16px;
     justify-content: space-between;
     background-color: $charcoal-100;
     font-family: $sans;
+    text-align: left;
 }
-.is-expanded:not(:last-child), .houdini-heading:not(:last-of-type) {
+
+.is-expanded:not(:last-child),
+.houdini-heading:not(:last-of-type) {
     margin-bottom: 16px;
 }
+
 /**
  * Style icon
  */
-
 .houdini-toggle {
     background-color: transparent;
     height: 32px;
@@ -60,9 +65,11 @@
     font-size: 1.4rem;
     border: none;
 }
+
 .houdini-toggle[aria-expanded=false]>i {
-        transition: transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out;
 }
+
 .houdini-toggle[aria-expanded=true]>i {
     transform: rotate(90deg);
     transition: transform 100ms ease-in-out;

@@ -2,30 +2,40 @@
     display: grid;
     grid-gap: 16px;
     grid-template-areas: "sidebar" "content";
-    max-width: 1280px;
+    max-width: 1024px;
     margin: auto;
-    &__content, &__sidebar {
-        padding: 16px;
-    }
+    padding: 32px 16px;
+
     &__content {
         grid-area: content;
     }
+
     &__sidebar {
         grid-area: sidebar;
         text-align: center;
         color: white;
         position: relative;
-        position: sticky;
-        top: 96px;
         border-radius: 4px;
     }
+
     &__sidebar-content {
         z-index: $index-1;
         position: relative;
+        padding: 16px;
     }
+
     &__sidebar-header {
         margin-bottom: 16px;
     }
+
+    &__sidebar-content h3 {
+        font-size: $font-size-5;
+    }
+
+    &__sidebar-content a {
+        font-size: $font-size-6;
+    }
+
     &__sidebar-overlay {
         position: absolute;
         top: 0;
@@ -35,21 +45,36 @@
         background-color: $charcoal-400;
         opacity: 0.8;
     }
+
 }
-@media screen and (min-width: 1023px) {
+
+@media screen and (min-width:1023px) {
     .faqs {
         grid-gap: 32px;
-        grid-template-areas: "content content content sidebar";
-        grid-template-columns: repeat(3, 1fr) 1fr;
-        &__content, &__sidebar {
-            padding: 32px;
+        grid-template-areas: "content sidebar";
+        grid-template-columns: 3fr 1fr;
+
+        &__sidebar {
+            max-height: 17vh;
+            position: sticky;
+            top: 96px;
         }
+
+        &__sidebar-content {
+            padding: 32px;
+            position: sticky;
+            top: 64px;
+        }
+
     }
+
 }
+
 .faq {
     &__summary {
         align-items: center;
         display: flex;
         flex-direction: row;
     }
+
 }

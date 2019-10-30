@@ -26,6 +26,9 @@
         {% if page.url == "/venue/" %}
         {% for hotel in site.venue-hotel %}
             <div class="venue-hotel">
+                <figure class="venue-hotel__image">
+                    <img alt="{{ hotel.image-alt }}" src="{{ hotel.image }}"/>
+                </figure>
                 <div class="venue-hotel__content">
                     <div class="venue-hotel__body wysiwyg">
                         {{ hotel.body | markdownify }}
@@ -34,9 +37,6 @@
                         {{ hotel.button-label }}
                     </a>
                 </div>
-                <figure class="venue-hotel__image">
-                    <img alt="{{ hotel.image-alt }}" src="{{ hotel.image }}"/>
-                </figure>
             </div>
         {% endfor %}
         {% endif %}
