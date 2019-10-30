@@ -1,20 +1,15 @@
 ---
 layout: page-venue
-
 show-venue: true
 venue-header: Networking Receptions
 venue-lodging:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
   name: Hard Rock Hotel San Diego
-  body: |-
-    ### Venue
-    
-    C3 2020 will be hosted at The Hard Rock Hotel San Diego 
-
-    ### Lodging
-    
-    The Hard Rock Hotel San Diego is located in the heart of downtown in the famed Gaslamp Quarter. With a contemporary and chic design, and tons of unique features, you’re not just treated like a guest, you’re treated like a rock star.
+  body: "### Venue\n\nC3 2020 will be hosted at The Hard Rock Hotel San Diego \n\n###
+    Lodging\n\nThe Hard Rock Hotel San Diego is located in the heart of downtown in
+    the famed Gaslamp Quarter. With a contemporary and chic design, and tons of unique
+    features, you’re not just treated like a guest, you’re treated like a rock star."
   has-button: true
   button-url: "/venue/"
   button-label: Find Out More
