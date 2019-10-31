@@ -28,36 +28,36 @@ defaults:
     path: ''
     type: agenda
   values:
-    description:
+    description: 
     modal:
-      url:
+      url: 
     event:
-      date:
-      start-time:
-      end-time:
+      date: 
+      start-time: 
+      end-time: 
     venue:
-      name:
-      address:
-      directions:
+      name: 
+      address: 
+      directions: 
     speakers:
-    - name:
-      title:
-      company:
+    - name: 
+      title: 
+      company: 
     filter-date:
-      is-day-1:
-      is-day-2:
-      is-day-3:
+      is-day-1: 
+      is-day-2: 
+      is-day-3: 
     filter-time:
-      is-morning:
-      is-daytime:
-      is-evening:
+      is-morning: 
+      is-daytime: 
+      is-evening: 
     filter-type:
-      is-session-keynote:
-      is-session-workshop:
-      is-session-general:
-      is-reception:
-      is-track-customer:
-      is-track-product:
+      is-session-keynote: 
+      is-session-workshop: 
+      is-session-general: 
+      is-reception: 
+      is-track-customer: 
+      is-track-product: 
     layout: page-agenda-single
 DIVIDER-1: Ignore Field
 primary-navigation:

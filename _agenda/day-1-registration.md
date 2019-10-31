@@ -1,7 +1,7 @@
 ---
 title: Registration
 date: 2020-04-20 15:00:00 -04:00
-description:
+description: 
 event:
   date: 2020-04-20 15:00:00 -04:00
   start-time: 12:00pm
@@ -13,3 +13,4 @@ filter-time:
 filter-type:
   is-session-general: true
 ---
+
