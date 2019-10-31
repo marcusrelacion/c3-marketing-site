@@ -128,7 +128,7 @@
                 </div>
                 <!-- agenda-summary -->
                 <div class="agenda-event__summary">
-                    {{ post.content | markdownify }}
+                    {{ post.description | markdownify }}
                 </div>
                 {% if post.speaker.name %}
                 <!-- agenda-speakers -->
@@ -177,6 +177,8 @@
                     </p>
                 </div>
                 {% endif %}
+                {% comment %}
+                Not sure why the site isn't generating pages for agenda...
                 <!-- agenda-share -->
                 <div class="agenda-event__share">
                     <a href="{{ post.url }}" target="_blank" rel="noopener">
@@ -185,6 +187,7 @@
                         Permalink
                     </a>
                 </div>
+                {% endcomment %}
             </div>
         </div>
         <!-- end modal -->
