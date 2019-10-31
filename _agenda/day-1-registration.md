@@ -8,7 +8,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
   officia deserunt mollit anim id est laborum.
 modal:
-  url: test
+  url: test registration
 event:
   date: 2020-04-20 22:00:00 -04:00
   start-time: 10:00pm
