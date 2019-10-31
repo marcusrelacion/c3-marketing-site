@@ -28,36 +28,38 @@ defaults:
     path: ''
     type: agenda
   values:
-    description: Provide description of event
+    description:
+    modal:
+      url:
     event:
-      date: Select event date
-      start-time: Select event start time
-      end-time: Select event end time
+      date:
+      start-time:
+      end-time:
     venue:
-      name: Provide venue name
-      address: Provide venue address
-      directions: Provide venue directions (google maps)
+      name:
+      address:
+      directions:
     speakers:
-    - name: Provide Speaker name
-      title: Provide Speaker title
-      company: Provide Speaker company
+    - name:
+      title:
+      company:
     filter-date:
-      is-day-1: Select True if event occurs on day 1
-      is-day-2: Select True if event occurs on day 2
-      is-day-3: Select True if event occurs on day 3
+      is-day-1:
+      is-day-2:
+      is-day-3:
     filter-time:
-      is-morning: Select True if event occurs during the morning
-      is-daytime: Select True if event occurs during the day
-      is-evening: Select True if event occurs during the evening
+      is-morning:
+      is-daytime:
+      is-evening:
     filter-type:
-      is-session-keynote: Select True if event matches
-      is-session-workshop: Select True if event matches
-      is-session-general: Select True if event matches
-      is-reception: Select True if event matches
-      is-track-cx: Select True if event matches
-      is-track-engage: Select True if event matches
+      is-session-keynote:
+      is-session-workshop:
+      is-session-general:
+      is-reception:
+      is-track-customer:
+      is-track-product:
     layout: page-agenda-single
-divider-1: "<----- divider, please ignore ----->"
+DIVIDER-1: Ignore Field
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
@@ -73,19 +75,18 @@ primary-navigation:
   url: "/faqs/"
 - title: Contact Us
   url: "/contact/"
-divider-2: "<----- divider, please ignore ----->"
+DIVIDER-2: Ignore Field
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
-divider-3: "<----- divider, please ignore ----->"
+DIVIDER-3: Ignore Field
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
-divider-4: "<----- divider, please ignore ----->"
+DIVIDER-4: Ignore Field
 hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
-hero-logo-alt: logo alt text
+hero-logo-alt: clarabridge logo
 hero-header: Clarabridge Customer Connections
 hero-date: April 20-22, 2020
 hero-location: Hard Rock Hotel San Diego
-divider-5: "<----- divider, please ignore ----->"
-show-2020-keynote-speakers: false
+DIVIDER-5: Ignore Field
 2020-keynote-speakers-header: Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
@@ -108,8 +109,7 @@ show-2020-keynote-speakers: false
   name: Keynote Speaker Name
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
-divider-6: "<----- divider, please ignore ----->"
-show-2020-general-speakers: false
+DIVIDER-6: Ignore Field
 2020-general-speakers-header: General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
@@ -132,8 +132,7 @@ show-2020-general-speakers: false
   name: General Speaker Name
   title: General Speaker Title
   company: General Speaker Company
-divider-7: "<----- divider, please ignore ----->"
-show-2019-past-speakers: true
+DIVIDER-7: Ignore Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
 - image: "/uploads/speaker-adobe.png"
@@ -156,7 +155,7 @@ show-2019-past-speakers: true
   image-alt: logo for vmware
 - image: "/uploads/speaker-whirlpool.png"
   image-alt: logo for whirlpool
-divider-8: "<----- divider, please ignore ----->"
+DIVIDER-8: Ignore Field
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -196,7 +195,7 @@ agenda-filter-type:
 - filter: ".track-product"
   class: track-product
   text-1: Product Track
-divider-9: "<----- divider, please ignore ----->"
+DIVIDER-9: Ignore Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
@@ -219,6 +218,7 @@ networking-receptions:
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
     exchange ideas, and make lasting connections.
+DIVIDER-10: Ignore Field
 venue-header: Venue & Lodging
 venue-lodging:
 - image: https://picsum.photos/800
@@ -242,6 +242,7 @@ venue-hotel:
   has-button: true
   button-url: https://book.passkey.com/go/CLAR0419
   button-label: Book Your Room
+DIVIDER-11: Ignore Field
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
@@ -261,7 +262,7 @@ contact-employees:
   title: Senior Marketing Coordinator
   email-url: mailto:kaitlin.beazell@clarabridge.com
   email-label: Email
-divider-11: "<----- divider, please ignore ----->"
+DIVIDER-12: Ignore Field
 exclude:
 - package.json
 - package-lock.json
