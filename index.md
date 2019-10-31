@@ -8,10 +8,7 @@ introduction-body: Clarabridge Customer Connections (C3), our electrifying three
   experts, thought leaders, and top practitioners in customer experience (CX) and
   digital customer service leaders for examples and best practices needed to say ahead
   of the curve.
-introduction-has-button: true
-introduction-button-label: Optional Button
-introduction-button-url: "#"
-introduction-button-style: primary
+introduction-has-button: false
 agenda-small-background-color: bg-cb-primary-100
 agenda-small-header: Agenda Highlights
 agenda-small-dates:
@@ -75,6 +72,8 @@ pricing-discounts:
 - icon: <i class="fad fa-ticket-alt"></i>
   label: Buy 6 Passes, Get 3 Free
 show-speakers-past: true
+speakers-past-background-color: bg-cb-primary-100
 show-venue: true
+contact-background-color: bg-cb-primary-100
 ---
 

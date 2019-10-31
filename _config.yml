@@ -252,15 +252,15 @@ contact-employees:
 - name: Keri Cook
   title: VP, Demand Gen
   email-url: mailto:keri.cook@clarabridge.com
-  email-label: keri.cook@clarabridge.com
+  email-label: Email
 - name: Kendall Sampson
   title: Manager, Demand Gen
   email-url: mailto:kendall.sampson@clarabridge.com
-  email-label: kendall.sampson@clarabridge.com
+  email-label: Email
 - name: Kaitlin Beazell
   title: Senior Marketing Coordinator
   email-url: mailto:kaitlin.beazell@clarabridge.com
-  email-label: kaitlin.beazell@clarabridge.com
+  email-label: Email
 divider-11: "<----- divider, please ignore ----->"
 exclude:
 - package.json
