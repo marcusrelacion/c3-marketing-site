@@ -67,12 +67,12 @@ primary-navigation:
   url: "/venue/"
 - title: Networking
   url: "/networking/"
+- title: Contact Us
+  url: "/contact/"
 - title: CX Awards
   url: "/cx-awards/"
 - title: FAQs
   url: "/faqs/"
-- title: Contact Us
-  url: "/contact/"
 DIVIDER-2: Ignore Field
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
 DIVIDER-3: Ignore Field
@@ -82,7 +82,7 @@ hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: clarabridge logo
 hero-header: Clarabridge Customer Connections
-hero-date: April 20-22, 2020
+hero-date: 2022-04-20 00:00:00.000000000 Z
 hero-location: Hard Rock Hotel San Diego
 DIVIDER-5: Ignore Field
 2020-keynote-speakers-header: Keynote Speakers
@@ -193,6 +193,9 @@ agenda-filter-type:
 - filter: ".track-product"
   class: track-product
   text-1: Product Track
+- filter: 
+  class: 
+  text-1: 
 DIVIDER-9: Ignore Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
