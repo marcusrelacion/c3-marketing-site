@@ -57,7 +57,7 @@
     &__event-date time {
         font-weight: 400;
     }
-
+    
     &__event-type {
         border-radius: 100px;
         display: inline-block;
@@ -101,6 +101,12 @@
     &__toolbar {
         text-align: right;
     }
+}
+
+.agenda-event__toolbar {
+
+    margin-bottom: 32px;
+
 }
 
 @media screen and (min-width: 1023px) {
