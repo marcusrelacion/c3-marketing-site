@@ -84,7 +84,7 @@ hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: clarabridge logo
 hero-header: Clarabridge Customer Connections
-hero-date: April 20-22, 2020
+hero-date: 2022-04-20 00:00:00.000000000 Z
 hero-location: Hard Rock Hotel San Diego
 DIVIDER-5: Ignore Field
 2020-keynote-speakers-header: Keynote Speakers
@@ -203,7 +203,7 @@ networking-receptions:
   title: Welcome Reception
   location: TBA
   location-url: 
-  date: Monday, April 20th
+  date: 2020-01-01 05:00:00.000000000 Z
   time: 6:00 - 9:00 PM
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
@@ -213,7 +213,7 @@ networking-receptions:
   title: Welcome Reception
   location: TBA
   location-url: 
-  date: Monday, April 20th
+  date: 2020-01-01 05:00:00.000000000 Z
   time: 6:00 - 9:00 PM
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
@@ -252,15 +252,18 @@ contact-button-style: primary
 contact-employees:
 - name: Keri Cook
   title: VP, Demand Gen
-  email-url: mailto:keri.cook@clarabridge.com
+  email-url: mailto:keri.cook@clarabridge.com?subject=Thanks for reaching out, how
+    can I help?
   email-label: Email
 - name: Kendall Sampson
   title: Manager, Demand Gen
-  email-url: mailto:kendall.sampson@clarabridge.com
+  email-url: mailto:kendall.sampson@clarabridge.com?subject=Thanks for reaching out,
+    how can I help?
   email-label: Email
 - name: Kaitlin Beazell
   title: Senior Marketing Coordinator
-  email-url: mailto:kaitlin.beazell@clarabridge.com
+  email-url: mailto:kaitlin.beazell@clarabridge.com?subject=Thanks for reaching out,
+    how can I help?
   email-label: Email
 DIVIDER-12: Ignore Field
 exclude:
@@ -279,7 +282,7 @@ plugins:
 - jekyll-feed
 author: Marcus Relacion
 lang: en_US
-logo: ''
+logo: 
 social:
   name: 
   links: 
@@ -294,8 +297,8 @@ kramdown:
 permalink: pretty
 encoding: utf-8
 description: 
-url: ''
-baseurl: ''
+url: 
+baseurl: 
 domain: 
 repo: https://github.com/marcusrelacion/c3-marketing-site
 sass:
