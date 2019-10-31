@@ -3,7 +3,6 @@ title: 2020 C3 San Diego
 timezone: America/New_York
 collections:
   agenda:
-    title: Agenda
     output: true
     permalink: "/agenda/:title/"
   posts:
