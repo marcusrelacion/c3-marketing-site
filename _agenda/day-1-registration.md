@@ -1,7 +1,7 @@
 ---
 title: Registration
 date: 2020-04-20 15:00:00 -04:00
-permalink: /test/
+permalink: "/test/"
 description: Description of event
 modal:
   url: 
