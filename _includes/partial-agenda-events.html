@@ -1,7 +1,7 @@
 
 <!-- listing -->
 <ul class="agenda__events listing listing__agenda mixitup-container">
-    {% for posts in site.agenda | sort: 'page.event.date' %}
+    {% for posts in site.agenda | sort: 'posts.event.date' %}
         <!-- agenda-event -->
         <li class="
 
@@ -50,8 +50,7 @@
                         {% endif %} 
                         ">
                         <p>
-                            <i class="fas fa-hashtag">
-                            </i>
+                            <i class="fad fa-tags"></i>
                             {% if posts.filter-type.is-session-keynote == true %} Keynote
                             {% elsif posts.filter-type.is-session-workshop == true %} Workshop
                             {% elsif posts.filter-type.is-session-general == true %} General
@@ -106,8 +105,7 @@
                     {% endif %} 
                     ">
                         <p>
-                            <i class="fas fa-hashtag">
-                            </i>
+                            <i class="fad fa-tags"></i>
                             {% if posts.filter-type.is-session-keynote == true %} Keynote
                             {% elsif posts.filter-type.is-session-workshop == true %} Workshop
                             {% elsif posts.filter-type.is-session-general == true %} General

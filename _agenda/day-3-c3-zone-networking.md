@@ -1,14 +1,13 @@
 ---
-title: Registration
-date: 2020-04-20 15:00:00 -04:00
-permalink: /test/
+title: Networking - C3 Zone
+date: 2020-04-21 20:00:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20 15:00:00 -04:00
-  start-time: 12:00pm
-  end-time: 2:00pm
+  date: 2020-04-21 20:00:00 -04:00
+  start-time: 5:00pm
+  end-time: 6:30pm
 speakers:
 - name: 
   title: 
@@ -18,9 +17,9 @@ venue:
   address: 
   directions: 
 filter-date:
-  is-day-1: true
+  is-day-2: true
 filter-time:
-  is-daytime: true
+  is-evening: true
 filter-type:
   is-session-general: true
 ---

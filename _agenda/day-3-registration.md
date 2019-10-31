@@ -1,14 +1,13 @@
 ---
 title: Registration
-date: 2020-04-20 15:00:00 -04:00
-permalink: /test/
+date: 2020-04-22 10:30:00 -04:00
 description: Description of event
 modal:
   url: 
 event:
-  date: 2020-04-20 15:00:00 -04:00
-  start-time: 12:00pm
-  end-time: 2:00pm
+  date: 2020-04-22 10:30:00 -04:00
+  start-time: 7:30am
+  end-time: 12:00pm
 speakers:
 - name: 
   title: 
@@ -18,9 +17,9 @@ venue:
   address: 
   directions: 
 filter-date:
-  is-day-1: true
+  is-day-3: true
 filter-time:
-  is-daytime: true
+  is-morning: true
 filter-type:
   is-session-general: true
 ---
