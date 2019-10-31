@@ -19,7 +19,5 @@
     "url": "https://github.com/marcusrelacion/c3-marketing-site/issues"
   },
   "homepage": "https://github.com/marcusrelacion/c3-marketing-site#readme",
-  "dependencies": {
-    "@projectwallace/css-analyzer": "^2.6.0"
-  }
+  "dependencies": {}
 }

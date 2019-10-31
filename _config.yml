@@ -5,7 +5,7 @@ collections:
   agenda:
     title: Agenda
     output: true
-    permalink: "/agenda/:name/"
+    permalink: "/agenda/:title/"
   posts:
     title: Posts
     output: true
