@@ -1,21 +1,10 @@
 ---
-title: Product Track Breakout Session 2
-date: 2020-04-21 14:05:00 -04:00
-description: Description of event
-modal:
-  url: 
+title: Day 3 - Product Track Breakout Session 2
+date: 2020-04-21 10:10:00 -04:00
 event:
-  date: 2020-04-21 14:05:00 -04:00
-  start-time: 11:05am
-  end-time: 11:35am
-speakers:
-- name: 
-  title: 
-  company: 
-venue:
-  name: 
-  address: 
-  directions: 
+  date: 2020-04-21 10:10:00 -04:00
+  start-time: 10:10am
+  end-time: 10:40am
 filter-date:
   is-day-2: true
 filter-time:
