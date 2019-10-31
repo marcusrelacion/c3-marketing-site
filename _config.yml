@@ -67,8 +67,8 @@ primary-navigation:
   url: "/venue/"
 - title: Networking
   url: "/networking/"
-- title: Sponsors
-  url: "/sponsors/"
+#- title: Sponsors
+#  url: "/sponsors/"
 - title: CX Awards
   url: "/cx-awards/"
 - title: FAQs
