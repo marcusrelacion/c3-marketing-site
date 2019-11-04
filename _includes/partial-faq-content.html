@@ -5,7 +5,7 @@
         <i class="fas fa-caret-right">
         </i>
     </h2>
-    <div class="{% if faq.expanded == true %} is-expanded {% else %} {% endif %}" data-houdini-group="faq" id="{{ faq.trigger }}">
+    <div class="{% if faq.expanded == true %} is-expanded {% else %} {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
         {{ faq.body | markdownify }}
     </div>
     {% endfor %}

@@ -59,7 +59,7 @@ defaults:
       is-track-customer: 
       is-track-product: 
     layout: page-agenda-single
-DIVIDER-1: Ignore Field
+DIVIDER-1: Ignore This Field
 primary-navigation:
 - title: Agenda
   url: "/agenda/"
@@ -67,24 +67,26 @@ primary-navigation:
   url: "/venue/"
 - title: Networking
   url: "/networking/"
+- title: Sponsors
+  url: "/sponsors/"
 - title: Contact Us
   url: "/contact/"
 - title: CX Awards
   url: "/cx-awards/"
 - title: FAQs
   url: "/faqs/"
-DIVIDER-2: Ignore Field
+DIVIDER-2: Ignore This Field
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
-DIVIDER-3: Ignore Field
+DIVIDER-3: Ignore This Field
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
-DIVIDER-4: Ignore Field
+DIVIDER-4: Ignore This Field
 hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: clarabridge logo
 hero-header: Clarabridge Customer Connections
 hero-date: 2022-04-20 00:00:00.000000000 Z
 hero-location: Hard Rock Hotel San Diego
-DIVIDER-5: Ignore Field
+DIVIDER-5: Ignore This Field
 2020-keynote-speakers-header: Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
@@ -107,7 +109,7 @@ DIVIDER-5: Ignore Field
   name: Keynote Speaker Name
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
-DIVIDER-6: Ignore Field
+DIVIDER-6: Ignore This Field
 2020-general-speakers-header: General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
@@ -130,7 +132,7 @@ DIVIDER-6: Ignore Field
   name: General Speaker Name
   title: General Speaker Title
   company: General Speaker Company
-DIVIDER-7: Ignore Field
+DIVIDER-7: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
 - image: "/uploads/speaker-adobe.png"
@@ -153,7 +155,7 @@ DIVIDER-7: Ignore Field
   image-alt: logo for vmware
 - image: "/uploads/speaker-whirlpool.png"
   image-alt: logo for whirlpool
-DIVIDER-8: Ignore Field
+DIVIDER-8: Ignore This Field
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -193,10 +195,7 @@ agenda-filter-type:
 - filter: ".track-product"
   class: track-product
   text-1: Product Track
-- filter: 
-  class: 
-  text-1: 
-DIVIDER-9: Ignore Field
+DIVIDER-9: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
@@ -219,7 +218,7 @@ networking-receptions:
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
     exchange ideas, and make lasting connections.
-DIVIDER-10: Ignore Field
+DIVIDER-10: Ignore This Field
 venue-header: Venue & Lodging
 venue-lodging:
 - image: https://picsum.photos/800
@@ -243,7 +242,7 @@ venue-hotel:
   has-button: true
   button-url: https://book.passkey.com/go/CLAR0419
   button-label: Book Your Room
-DIVIDER-11: Ignore Field
+DIVIDER-11: Ignore This Field
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
@@ -266,7 +265,7 @@ contact-employees:
   email-url: mailto:kaitlin.beazell@clarabridge.com?subject=Thanks for reaching out,
     how can I help?
   email-label: Email
-DIVIDER-12: Ignore Field
+DIVIDER-12: Ignore This Field
 exclude:
 - package.json
 - package-lock.json

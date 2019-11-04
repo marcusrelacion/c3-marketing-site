@@ -5,11 +5,11 @@
         </h2>
         <ul class="agenda-small__days">
             {% for date in page.agenda-small-dates %}
-            <li class="agenda-small__day listing__item">
+            <li class="agenda-small__day listing__item wysiwyg">
                 <h3 class="agenda-small__day-header">
                     {{ date.header }}
                 </h3>
-                <div class="agenda-small__day-body wysiwyg">
+                <div class="agenda-small__day-body">
                     {{ date.body | markdownify }}
                 </div>
             </li>

@@ -11,19 +11,18 @@
 	&__body {
 		margin: 24px 0;
 	}
+
 }
+
 .venue-lodging {
 	margin-bottom: 32px;
 }
 
-.wysiwyg p {
-	margin-bottom: 16px;
-}
-
-@media screen and (min-width: 1023px) {
+@media screen and (min-width:1023px) {
 	.venue-lodging,
-.venue-hotel {
-	grid-gap: 32px;
-	grid-template-columns: repeat(2,1fr);
-}
+	.venue-hotel {
+		grid-gap: 32px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 }
