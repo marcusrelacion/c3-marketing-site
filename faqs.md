@@ -23,11 +23,11 @@ faqs:
     group discounts available? \n\nYes Register 2 people, get 1 free registration
     Register 4 people, get 2 free registrations Register 6 people, get 3 free registrations
     \n\nContact ClarabridgeEvents@clarabridge.com (add link) for situation-specific
-    pricing questions.\n\n### What is the payment policy? \n\nThe easiest way to
-    pay for your C3 registration is with a credit card through the online registration
-    process \n\n### What is the cancellation policy? \n\nYou will receive a full
-    refund if you cancel before March 15th. Cancellations received after March 15th
-    will not be eligible for a refund \n\nTo cancel a registration, email ClarabridgeEvents@clarabridge.com
+    pricing questions.\n\n### What is the payment policy? \n\nThe easiest way to pay
+    for your C3 registration is with a credit card through the online registration
+    process \n\n### What is the cancellation policy? \n\nYou will receive a full refund
+    if you cancel before March 15th. Cancellations received after March 15th will
+    not be eligible for a refund \n\nTo cancel a registration, email ClarabridgeEvents@clarabridge.com
     (add link) to let us know you are unable to attend \n\nCancelling a registration
     does not automatically cancel hotel and/or travel arrangements, you are responsible
     for cancelling any accommodations \n\n### Can I transfer my registration to someone
@@ -100,8 +100,8 @@ faqs:
 - heading: Stay Informed
   body: "### How can I stay up to date on all things C3 before and during the event\n\nConnect
     with us on Facebook, follow @Clarabridge on Twitter and keep up with all things
-    C3 with hashtag '#C320' on social media (add links)\n\n### Who can I contact
-    with questions that weren’t answered here? \n\nPlease email ClarabridgeEvents@clarabridge.com
+    C3 with hashtag '#C320' on social media (add links)\n\n### Who can I contact with
+    questions that weren’t answered here? \n\nPlease email ClarabridgeEvents@clarabridge.com
     (add link) for\nanswers to any and all of your C3-related questions."
   trigger: section-7
   expanded: false
