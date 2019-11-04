@@ -71,31 +71,8 @@
     &__event-type--reception,
     &__event-type--track-customer,
     &__event-type--track-product {
-        color: $charcoal-400;
-    }
-
-    &__event-type--session-keynote {
-        border: solid 2px $cb-primary-600;
-    }
-
-    &__event-type--session-general {
-        border: solid 2px $cb-primary-500;
-    }
-
-    &__event-type--session-workshop {
-        border: solid 2px $cb-primary-400;
-    }
-
-    &__event-type--reception {
-        border: solid 2px $cb-primary-300;
-    }
-
-    &__event-type--track-customer {
-        border: solid 2px $cb-primary-200;
-    }
-
-    &__event-type--track-product {
-        border: solid 2px $cb-primary-100;
+        background-color: $cb-primary-600;
+        color: $white;
     }
 }
 

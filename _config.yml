@@ -159,13 +159,13 @@ DIVIDER-8: Ignore This Field
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
-  text-1: Morning
+  text-1: <i class="fad fa-sunrise"></i> Morning
 - filter: ".daytime"
   class: daytime
-  text-1: Daytime
+  text-1: <i class="fad fa-sun"></i> Daytime
 - filter: ".evening"
   class: evening
-  text-1: Evening
+  text-1: <i class="fad fa-sunset"></i> Evening
 agenda-filter-date:
 - filter: ".day-1"
   class: day-1
