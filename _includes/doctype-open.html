@@ -4,7 +4,7 @@
     <!-- Off-canvas element  -->
     <nav id="my-menu">
         <ul>
-            {% for link in site.data.navigation.live-site %}
+            {% for link in site.primary-navigation %}
             <li>
                 <a class="button button--inverse {{ link.class }}" href="{{ link.url }}">
                     {{ link.title }}
