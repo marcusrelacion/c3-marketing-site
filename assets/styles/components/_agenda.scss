@@ -62,7 +62,7 @@
         border-radius: 100px;
         display: inline-block;
         font-size: 14px;
-        padding: 8px;
+        padding: 8px 16px;
     }
 
     &__event-type--session-keynote,
@@ -73,16 +73,28 @@
     &__event-type--track-product {
         background-color: $cb-primary-600;
         color: $white;
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
     }
+
+}
+
+.agenda-event__title {
+    margin-top: 16px;
 }
 
 .agenda-event__summary {
     margin-top: 16px;
 }
+
 .agenda-event__toolbar {
     margin-bottom: 32px;
 }
 
+.events-filter__dates:not(:last-child) {
+    margin-bottom: 24px;
+}
 @media screen and (min-width:1023px) {
     .agenda {
         &__content {
