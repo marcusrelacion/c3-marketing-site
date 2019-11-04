@@ -69,12 +69,12 @@ primary-navigation:
   url: "/networking/"
 - title: Sponsors
   url: "/sponsors/"
-- title: Contact Us
-  url: "/contact/"
 - title: CX Awards
   url: "/cx-awards/"
 - title: FAQs
   url: "/faqs/"
+- title: Contact Us
+  url: "/contact/"
 DIVIDER-2: Ignore This Field
 registration-url: http://66.media.tumblr.com/a27d0b35ba7fc47ae3fd5021de718d4d/tumblr_mlcpj44xUi1snc7wxo3_250.gif
 DIVIDER-3: Ignore This Field
@@ -84,7 +84,7 @@ hero-background-image: "/uploads/c3-san-diego-header.jpg"
 hero-logo: "/uploads/c3-logo.png"
 hero-logo-alt: clarabridge logo
 hero-header: Clarabridge Customer Connections
-hero-date: 2022-04-20 00:00:00.000000000 Z
+hero-dates: April 20-22, 2020  
 hero-location: Hard Rock Hotel San Diego
 DIVIDER-5: Ignore This Field
 2020-keynote-speakers-header: Keynote Speakers
@@ -179,22 +179,22 @@ agenda-filter-date:
 agenda-filter-type:
 - filter: ".session-keynote"
   class: session-keynote
-  text-1: Keynote
+  text-1: <i class="fad fa-tags"></i> Keynote
 - filter: ".session-workshop"
   class: session-workshop
-  text-1: Workshop
+  text-1: <i class="fad fa-tags"></i> Workshop
 - filter: ".session-general"
   class: session-general
-  text-1: General Session
+  text-1: <i class="fad fa-tags"></i> General Session
 - filter: ".reception"
   class: reception
-  text-1: Reception
+  text-1: <i class="fad fa-tags"></i> Reception
 - filter: ".track-customer"
   class: track-customer
-  text-1: Customer Track
+  text-1: <i class="fad fa-tags"></i> Customer Track
 - filter: ".track-product"
   class: track-product
-  text-1: Product Track
+  text-1: <i class="fad fa-tags"></i> Product Track
 DIVIDER-9: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
@@ -235,24 +235,20 @@ DIVIDER-11: Ignore This Field
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
-contact-button-url: mailto:events@clarabridge.com?subject=Thanks for reaching out,
-  how can we help?
+contact-button-url: mailto:events@clarabridge.com
 contact-button-style: primary
 contact-employees:
 - name: Keri Cook
   title: VP, Demand Gen
-  email-url: mailto:keri.cook@clarabridge.com?subject=Thanks for reaching out, how
-    can I help?
+  email-url: mailto:events@clarabridge.com
   email-label: Email
 - name: Kendall Sampson
   title: Manager, Demand Gen
-  email-url: mailto:kendall.sampson@clarabridge.com?subject=Thanks for reaching out,
-    how can I help?
+  email-url: mailto:events@clarabridge.com
   email-label: Email
 - name: Kaitlin Beazell
   title: Senior Marketing Coordinator
-  email-url: mailto:kaitlin.beazell@clarabridge.com?subject=Thanks for reaching out,
-    how can I help?
+  email-url: mailto:events@clarabridge.com
   email-label: Email
 DIVIDER-12: Ignore This Field
 exclude:

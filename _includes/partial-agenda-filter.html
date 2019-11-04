@@ -1,9 +1,9 @@
 <div class="agenda__filter">
     <form>
         <div>
-            <h4 data-houdini-toggle="additional-filters">
+            <h5 data-houdini-toggle="additional-filters">
                 Use the filters below to navigate the C3 agenda.
-            </h4>
+            </h5>
             <div data-houdini-group="additional-filters" id="additional-filters">
                 <div class="events-filter__dates control-group" data-filter-group="">
                     {% for control in site.agenda-filter-date %}
@@ -22,30 +22,32 @@
                     </button>
                     {% endfor %}
                 </div>
-                <div data-filter-group="">
+                <div class="events-filter__dates control-group" data-filter-group="">
                     <div>
-                        <h4>
+                        <h5>
                             Time:
-                        </h4>
+                        </h5>
                         {% for control in site.agenda-filter-time-of-day %}
-                        <div class="radio">
-                            <label class="radio-label">
-                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                        <button class="events-filter__date-button control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
+                            <span class="control-text-1">
                                 {{ control.text-1 }}
-                            </label>
-                        </div>
+                            </span>
+                        </button>
                         {% endfor %}
                     </div>
+                </div>
+                <div class="events-filter__dates control-group" data-filter-group="">
                     <div>
-                        <h4>
+                        <h5>
                             Type:
-                        </h4>
+                        </h5>
                         {% for control in site.agenda-filter-type %}
                         <div class="radio">
-                            <label class="radio-label">
-                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
-                                {{ control.text-1 }}
-                            </label>
+                            <button class="events-filter__date-button control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
+                                <span class="control-text-1">
+                                    {{ control.text-1 }}
+                                </span>
+                            </button>
                         </div>
                         {% endfor %}
                     </div>
