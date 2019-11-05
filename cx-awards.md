@@ -1,8 +1,9 @@
 ---
+title: CX Awards
 position: 6
-layout: page-cx-awards
 has-award-winners: true
 contact-background-color: bg-cb-primary-100
+layout: page-cx-awards
 ---
 
 # CX Awards
