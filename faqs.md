@@ -1,4 +1,5 @@
 ---
+position: 7
 layout: page-faqs
 faqs:
 - heading: General Information

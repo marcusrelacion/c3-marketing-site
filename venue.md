@@ -1,4 +1,5 @@
 ---
+position: 6
 layout: page-venue
 show-venue: true
 venue:

@@ -1,4 +1,5 @@
 ---
+position: 4
 layout: page-cx-awards
 contact-background-color: bg-cb-primary-100
 ---

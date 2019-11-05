@@ -1,4 +1,5 @@
 ---
+position: 0
 layout: page-home
 show-introduction: true
 introduction-background-color: bg-white
