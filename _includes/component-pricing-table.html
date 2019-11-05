@@ -2,7 +2,7 @@
 <div class="pricing-table">
     <ul class="listing listing--two-column">
         {% for tier in page.pricing-table %}
-        <li class="pricing-table__item {% if tier.status == 'active' %} pricing-table__item--active {% endif %} {{ tier.type }}">
+        <li class="pricing-table__item {% if tier.status == 'active' %} pricing-table__item--active {% else %} pricing-table__item--inactive {% endif %} {{ tier.type }}">
             {% if tier.status == 'active' %}
             <a href="{{ site.registration-url }}" rel="noopener" target="_blank">
                 {% else %}
