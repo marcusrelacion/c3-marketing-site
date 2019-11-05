@@ -1,5 +1,5 @@
 ---
-position: 6
+position: 8
 layout: page-contact
 ---
 
