@@ -1,4 +1,3 @@
-
 <!-- listing -->
 <ul class="agenda__events listing listing__agenda mixitup-container">
     {% for post in site.agenda | sort: 'post.event.date' %}
@@ -203,14 +202,14 @@
 </script>
 <script>
     var containerEl = document.querySelector('.mixitup-container');
-            var mixer = mixitup(containerEl, {
-                multifilter: {
-                    enable: true
-                },
-                animation: {
-                    enable: false
-                }
-            });
+    var mixer = mixitup(containerEl, {
+        multifilter: {
+            enable: true
+        },
+        animation: {
+            enable: false
+        }
+    });
 </script>
 <script>
     modals.init({
