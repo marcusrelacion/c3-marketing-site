@@ -10,45 +10,56 @@
     padding: 8px 16px;
     text-decoration: none;
     transition: color 100ms ease-in-out;
+
     &:hover {
         color: $cb-primary-400;
     }
+
     &:focus {
         outline: solid 4px $cb-primary-300;
     }
+
     &--primary {
         background-color: $cb-primary-400;
         color: $white;
     }
+
     &--primary:hover {
         background-color: transparent;
         border: solid 4px $cb-primary-400;
         color: $cb-primary-400;
     }
+
     &--secondary {
         background-color: $cb-primary-100;
         border: solid 2px transprent;
         color: $charcoal-400;
         transition: background-color 100ms ease-in-out;
     }
+
     &--secondary:hover {
         background-color: $cb-primary-200;
         color: $charcoal-400;
     }
+
     &--inverse {
         color: $white;
         display: block;
         margin-bottom: 8px;
     }
+
     &--inverse:hover {
         background-color: transparent;
         border-color: $white;
         color: $white;
         margin-bottom: 8px;
     }
+
 }
-@media screen and (min-width: 1279px) {
+
+@media screen and (min-width:1279px) {
     .mobile-menu {
         display: none;
     }
+
 }

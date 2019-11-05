@@ -9,23 +9,22 @@
 /* Off-canvas element CSS */
 
 .offside {
-    position: fixed;
-    /* Does not play well with some old browsers (see: README) */
+    position: fixed;    /* Does not play well with some old browsers (see: README) */
     width: 200px;
     height: 100%;
     top: 0;
     z-index: 9999;
     overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    /* enables momentum scrolling in iOS overflow elements */
+    -webkit-overflow-scrolling: touch;    /* enables momentum scrolling in iOS overflow elements */
 }
-/* Left off-canvas elements default status: out of the page */
 
-.offside, .offside--left {
+/* Left off-canvas elements default status: out of the page */
+.offside,
+.offside--left {
     left: -200px;
 }
-/* Right off-canvas elements default status: out of the page */
 
+/* Right off-canvas elements default status: out of the page */
 .offside--right {
     left: auto;
     right: -200px;
@@ -33,48 +32,51 @@
     background-color: $charcoal-400;
     padding: 24px;
 }
+
 /*
  * Left off-canvas element is open:
  * - off-canvas element slides in
  * - container elements slides out
  */
-
-.offside--left.is-open, .offside-js--is-left .offside-sliding-element {
+.offside--left.is-open,
+.offside-js--is-left .offside-sliding-element {
     -webkit-transform: translate3d(200px, 0, 0);
     -moz-transform: translate3d(200px, 0, 0);
     -ms-transform: translate3d(200px, 0, 0);
     -o-transform: translate3d(200px, 0, 0);
     transform: translate3d(200px, 0, 0);
 }
+
 /*
  * Right off-canvas element is open:
  * - off-canvas element slides in
  * - container elements slides out
  */
-
-.offside--right.is-open, .offside-js--is-right .offside-sliding-element {
+.offside--right.is-open,
+.offside-js--is-right .offside-sliding-element {
     -webkit-transform: translate3d(-200px, 0, 0);
     -moz-transform: translate3d(-200px, 0, 0);
     -ms-transform: translate3d(-200px, 0, 0);
     -o-transform: translate3d(-200px, 0, 0);
     transform: translate3d(-200px, 0, 0);
 }
-/* Elements Transitions */
 
-.offside-js--interact .offside, .offside-js--interact .offside-sliding-element {
+/* Elements Transitions */
+.offside-js--interact .offside,
+.offside-js--interact .offside-sliding-element {
     -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99);
     -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
     -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99);
-    transition: transform .2s cubic-bezier(.16, .68, .43, .99);
-    /* improves performance issues on mobile*/
+    transition: transform .2s cubic-bezier(.16, .68, .43, .99);    /* improves performance issues on mobile*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
 }
-/* Body overflow */
 
+/* Body overflow */
 .offside-js--init {
     overflow-x: hidden;
 }
+
 /* Fallback movements for browser not supporting CSS 3d Transitions
 ----------------------------------------------- */
 
@@ -84,28 +86,31 @@
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
 .no-csstransforms3d .offside-sliding-element {
     overflow-x: hidden;
     position: relative;
 }
-/* Element is open: off-canvas element slides in */
 
+/* Element is open: off-canvas element slides in */
 .no-csstransforms3d .offside--left.is-open {
     left: 0;
 }
+
 .no-csstransforms3d .offside--right.is-open {
     right: 0;
 }
-/* Element is open: container elements slide out */
 
+/* Element is open: container elements slide out */
 .no-csstransforms3d>.offside-js--is-left .offside-sliding-element {
     right: -200px;
 }
+
 .no-csstransforms3d>.offside-js--is-right .offside-sliding-element {
     left: -200px;
 }
-/* custom */
 
+/* custom */
 .site-overlay {
     z-index: 1;
     position: absolute;
@@ -122,8 +127,8 @@
     -o-transition: visibility 0s ease, opacity .2s ease;
     transition: visibility 0s ease, opacity .2s ease;
 }
-/* Just few cosmetic CSS for overlay fade in/out */
 
+/* Just few cosmetic CSS for overlay fade in/out */
 .offside-js--is-open .site-overlay {
     visibility: visible;
     opacity: .5;
