@@ -1,6 +1,6 @@
 ---
+title: Venue
 position: 2
-layout: page-venue
 has-venue: true
 venue:
 - image: "/uploads/c3-venue-hard-rock.jpg"
@@ -18,5 +18,6 @@ venue:
   button-url: "#"
   button-label: Book A Reservation
 contact-background-color: bg-cb-primary-100
+layout: page-venue
 ---
 
