@@ -1,6 +1,6 @@
 ---
+title: Sponsors
 position: 4
-layout: page-sponsors
 has-introduction: true
 introduction-background-color: bg-white
 introduction-header: Become a C3 2020 Sponsor!
@@ -17,5 +17,6 @@ contact-background-color: bg-cb-primary-100
 contact-header: Want to learn more about becoming a sponsor?
 contact-button-label: Learn More
 contact-button-url: mailto:events@clarabridge.com
+layout: page-sponsors
 ---
 
