@@ -31,15 +31,15 @@
     }
 
     &--secondary {
-        background-color: $cb-primary-100;
-        border: solid 2px transprent;
+        background-color: transparent;
+        border: solid 4px $charcoal-400;
         color: $charcoal-400;
         transition: background-color 100ms ease-in-out;
     }
 
     &--secondary:hover {
-        background-color: $cb-primary-200;
-        color: $charcoal-400;
+        background-color: $charcoal-400;
+        color: $white;
     }
 
     &--inverse {

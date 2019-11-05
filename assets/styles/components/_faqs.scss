@@ -2,26 +2,26 @@
     display: grid;
     grid-gap: 16px;
     grid-template-areas: "sidebar" "content";
-    max-width: 1024px;
     margin: auto;
-    padding: 32px 16px;
+    max-width: 1024px;
+    padding: 16px;
 
     &__content {
+        background-color: $cb-primary-100;
         grid-area: content;
+        padding: 16px;
     }
 
     &__sidebar {
         grid-area: sidebar;
-        text-align: center;
-        color: white;
         position: relative;
-        border-radius: 4px;
+        text-align: center;
     }
 
     &__sidebar-content {
-        z-index: $index-1;
-        position: relative;
         padding: 16px;
+        position: relative;
+        z-index: $index-1;
     }
 
     &__sidebar-header {
@@ -42,7 +42,6 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: $charcoal-400;
         opacity: 0.8;
     }
 
@@ -53,28 +52,18 @@
         grid-gap: 32px;
         grid-template-areas: "content sidebar";
         grid-template-columns: 3fr 1fr;
+        padding: 32px 16px;
 
-        &__sidebar {
-            max-height: 17vh;
-            position: sticky;
-            top: 96px;
+        &__content {
+            padding: 32px;
         }
 
         &__sidebar-content {
-            padding: 32px;
+            padding: 32px 16px;
             position: sticky;
             top: 64px;
         }
 
-    }
-
-}
-
-.faq {
-    &__summary {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
     }
 
 }
