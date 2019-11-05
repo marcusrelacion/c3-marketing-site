@@ -1,6 +1,6 @@
 ---
+title: Home
 position: 0
-layout: page-home
 has-introduction: true
 introduction-background-color: bg-white
 introduction-header: Introduction
@@ -76,5 +76,6 @@ has-speakers-past: true
 speakers-past-background-color: bg-cb-primary-100
 has-venue: true
 contact-background-color: bg-cb-primary-100
+layout: page-home
 ---
 
