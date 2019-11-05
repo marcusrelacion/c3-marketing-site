@@ -1,5 +1,5 @@
 ---
-position: 6
+position: 7
 layout: page-sponsors
 show-introduction: true
 introduction-background-color: bg-white
