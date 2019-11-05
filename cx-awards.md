@@ -1,5 +1,6 @@
 ---
 layout: page-cx-awards
+contact-background-color: bg-cb-primary-100
 ---
 
 ## Who can win?

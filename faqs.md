@@ -107,5 +107,6 @@ faqs:
     (add link) for\nanswers to any and all of your C3-related questions."
   trigger: section-7
   expanded: false
+contact-background-color: bg-cb-primary-100
 ---
 
