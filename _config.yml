@@ -230,7 +230,7 @@ networking-receptions:
   title: Welcome Reception
   location: TBA
   location-url: 
-  date: 
+  date: 2020-04-20 04:00:00.000000000 Z
   time: 6:00 - 9:00 PM
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
@@ -240,11 +240,10 @@ networking-receptions:
   title: Welcome Reception
   location: TBA
   location-url: 
-  date: 
-  time: 6:00 - 9:00 PM
-  body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
-    all while networking with your peers! Chat with Clarabridge experts and partners,
-    exchange ideas, and make lasting connections.
+  date: 2020-04-21 04:00:00.000000000 Z
+  time: 7:00 - 10:00 PM
+  body: Join us Tuesday evening for a night of cocktails, food, networking and entertainment.
+    Trust us, this is something you don’t want to miss!
 DIVIDER-11: Ignore This Field
 venue-header: Venue & Accomodations
 venue:
