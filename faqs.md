@@ -23,18 +23,17 @@ faqs:
     are optional and only available only to main conference registrants \n\n### Are
     group discounts available? \n\nYes Register 2 people, get 1 free registration
     Register 4 people, get 2 free registrations Register 6 people, get 3 free registrations
-    \n\nContact [events@clarabridge.com](mailto:events@clarabridge.com)
-    for situation-specific pricing questions.\n\n### What is the payment policy? \n\nThe
-    easiest way to pay for your C3 registration is with a credit card through the
-    online registration process \n\n### What is the cancellation policy? \n\nYou will
-    receive a full refund if you cancel before March 15th. Cancellations received
-    after March 15th will not be eligible for a refund \n\nTo cancel a registration,
-    email [events@clarabridge.com](mailto:events@clarabridge.com) to let
-    us know you are unable to attend \n\nCancelling a registration does not automatically
-    cancel hotel and/or travel arrangements, you are responsible for cancelling any
-    accommodations \n\n### Can I transfer my registration to someone else? \n\nRegistrations
-    can be transferred to another individual at no charge until March 15th To transfer
-    a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
+    \n\nContact [events@clarabridge.com](mailto:events@clarabridge.com) for situation-specific
+    pricing questions.\n\n### What is the payment policy? \n\nThe easiest way to pay
+    for your C3 registration is with a credit card through the online registration
+    process \n\n### What is the cancellation policy? \n\nYou will receive a full refund
+    if you cancel before March 15th. Cancellations received after March 15th will
+    not be eligible for a refund \n\nTo cancel a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
+    to let us know you are unable to attend \n\nCancelling a registration does not
+    automatically cancel hotel and/or travel arrangements, you are responsible for
+    cancelling any accommodations \n\n### Can I transfer my registration to someone
+    else? \n\nRegistrations can be transferred to another individual at no charge
+    until March 15th To transfer a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
     with the new registrant’s information (full name, email address, title, company)
     as well as the full name of whom they will be replacing. \n\n### How can I become
     a sponsor at C3 2020? \n\nWe offer a variety of sponsorship packages. To learn
@@ -104,7 +103,8 @@ faqs:
     with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge) on
     Twitter and keep up with all things C3 with hashtag ['#C320'](https://twitter.com/search?q=C320&src=typed_query)
     on social media\n\n### Who can I contact with questions that weren’t answered
-    here? \n\nPlease email [events@clarabridge.com](mailto:events@clarabridge.com) for\nanswers to any and all of your C3-related questions."
+    here? \n\nPlease email [events@clarabridge.com](mailto:events@clarabridge.com)
+    for\nanswers to any and all of your C3-related questions."
   trigger: section-7
   expanded: false
 contact-background-color: bg-cb-primary-100
