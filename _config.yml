@@ -18,11 +18,11 @@ defaults:
   values:
     has-introduction: false
     introduction-background-color: bg-white
-    introduction-header:
+    introduction-header: 
     introduction-body: 
     introduction-has-button: false
-    introduction-button-label:
-    introduction-button-url:
+    introduction-button-label: 
+    introduction-button-url: 
     introduction-button-style: primary
 - scope:
     path: ''
