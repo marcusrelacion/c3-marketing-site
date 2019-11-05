@@ -1,7 +1,7 @@
 ---
 position: 4
 layout: page-sponsors
-show-introduction: true
+has-introduction: true
 introduction-background-color: bg-white
 introduction-header: Become a C3 2020 Sponsor!
 introduction-body: C3 is more than just a conference - it’s a community. Become a

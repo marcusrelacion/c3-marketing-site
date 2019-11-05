@@ -1,14 +1,11 @@
-{% if page.has-speakers-past == true %}
-<section class="section section--speakers {{ page.speakers-past-background-color }}">
-
+{% if page.has-award-winners == true %}
+<section class="section section--award-winners {{ page.award-winners-past-background-color }}">
     <div class="section__content">
-
         <h2 class="section__header">
-            {{ site.2019-past-speakers-header }}
+            {{ site.award-winners-header }}
         </h2>
-
-        <ul class="listing listing--five-column">
-            {% for speaker in site.2019-past-speakers %}
+        <ul class="listing listing--four-column">
+            {% for speaker in site.award-winners %}
             <li class="speaker speaker--past">
                 <a href="#" rel="noopener" target="_blank">
                     <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
@@ -16,8 +13,6 @@
             </li>
             {% endfor %}
         </ul>
-
     </div>
-    
 </section>
 {% endif %}

@@ -1,8 +1,11 @@
 ---
 position: 6
 layout: page-cx-awards
+has-award-winners: true
 contact-background-color: bg-cb-primary-100
 ---
+
+# CX Awards
 
 ## Who can win?
 
@@ -46,8 +49,3 @@ Be sure to thoroughly describe the program, initiative, or business process that
 ***CX Revvie Award:*** Recognizes an organization with proven return on investment and bottom line revenue impact. 
 
 ***CX Innovation Award:*** Recognizes an organization whose CX program demonstrates out-of-the-box thinking and/or innovative concepts to the business or industry. 
-
-
-## Past Winners
-
-***include the logos from the 2018 N.A. awards page

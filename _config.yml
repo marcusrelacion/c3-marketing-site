@@ -16,13 +16,13 @@ defaults:
 - scope:
     path: ''
   values:
-    has-introduction: true
+    has-introduction: false
     introduction-background-color: bg-white
-    introduction-header: Introduction
+    introduction-header:
     introduction-body: 
-    introduction-has-button: true
-    introduction-button-label: Optional Button
-    introduction-button-url: "#"
+    introduction-has-button: false
+    introduction-button-label:
+    introduction-button-url:
     introduction-button-style: primary
 - scope:
     path: ''
@@ -135,27 +135,54 @@ DIVIDER-6: Ignore This Field
 DIVIDER-7: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
-- image: "/uploads/speaker-adobe.png"
+- image: "/uploads/logo-adobe.png"
   image-alt: logo for adobe
-- image: "/uploads/speaker-fidelity.png"
+- image: "/uploads/logo-fidelity.png"
   image-alt: logo for fidelity
-- image: "/uploads/speaker-sams-club.png"
+- image: "/uploads/logo-sams-club.png"
   image-alt: logo for sams club
-- image: "/uploads/speaker-shark-ninja.png"
+- image: "/uploads/logo-shark-ninja.png"
   image-alt: logo for shark ninja
-- image: "/uploads/speaker-united.png"
+- image: "/uploads/logo-united.png"
   image-alt: logo for united
-- image: "/uploads/speaker-usa-today.png"
+- image: "/uploads/logo-usa-today.png"
   image-alt: logo for usa today
-- image: "/uploads/speaker-usbank.png"
+- image: "/uploads/logo-usbank.png"
   image-alt: logo for usbank
-- image: "/uploads/speaker-vera-bradley.png"
+- image: "/uploads/logo-vera-bradley.png"
   image-alt: logo for vera bradley
-- image: "/uploads/speaker-vmware.png"
+- image: "/uploads/logo-vmware.png"
   image-alt: logo for vmware
-- image: "/uploads/speaker-whirlpool.png"
+- image: "/uploads/logo-whirlpool.png"
   image-alt: logo for whirlpool
 DIVIDER-8: Ignore This Field
+award-winners-header: Past Winners
+award-winners:
+- image: "/uploads/logo-aarp.png"
+  image-alt: logo for aarp
+- image: "/uploads/logo-accenture.png"
+  image-alt: logo for accenture
+- image: "/uploads/logo-adp.png"
+  image-alt: logo for adp
+- image: "/uploads/logo-capital-one.png"
+  image-alt: logo for capital-one
+- image: "/uploads/logo-cibc.png"
+  image-alt: logo for cibc
+- image: "/uploads/logo-dell.png"
+  image-alt: logo for dell
+- image: "/uploads/logo-expedia-inc.png"
+  image-alt: logo for expedia
+- image: "/uploads/logo-hcsc.png"
+  image-alt: logo for hcsc
+- image: "/uploads/logo-ihg.png"
+  image-alt: logo for ihg
+- image: "/uploads/logo-orbitz.png"
+  image-alt: logo for orbitz
+- image: "/uploads/logo-usaa.png"
+  image-alt: logo for usaa
+- image: "/uploads/logo-whirlpool.png"
+  image-alt: logo for whirlpool
+DIVIDER-9: Ignore This Field
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -195,7 +222,7 @@ agenda-filter-type:
 - filter: ".track-product"
   class: track-product
   text-1: <i class="fad fa-tags"></i> Product Track
-DIVIDER-9: Ignore This Field
+DIVIDER-10: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
@@ -218,7 +245,7 @@ networking-receptions:
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
     exchange ideas, and make lasting connections.
-DIVIDER-10: Ignore This Field
+DIVIDER-11: Ignore This Field
 venue-header: Venue & Accomodations
 venue:
 - image: "/uploads/c3-venue-hard-rock.jpg"
@@ -231,7 +258,7 @@ venue:
   has-button: true
   button-url: "/venue/"
   button-label: Find Out More
-DIVIDER-11: Ignore This Field
+DIVIDER-12: Ignore This Field
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
@@ -250,7 +277,7 @@ contact-employees:
   title: Senior Marketing Coordinator
   email-url: mailto:events@clarabridge.com
   email-label: Email
-DIVIDER-12: Ignore This Field
+DIVIDER-13: Ignore This Field
 exclude:
 - package.json
 - package-lock.json

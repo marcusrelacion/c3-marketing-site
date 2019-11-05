@@ -1,7 +1,7 @@
 ---
 position: 2
 layout: page-venue
-show-venue: true
+has-venue: true
 venue:
 - image: "/uploads/c3-venue-hard-rock.jpg"
   image-alt: provide description of the image
