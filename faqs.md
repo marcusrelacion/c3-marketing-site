@@ -21,7 +21,7 @@ faqs:
     **Pre-Conference Workshops:** Monday, April 20
 
     **Welcome Reception:** Monday, April 20 at 6PM
-    
+
     **Main Conference:** Tuesday, April 21 – Wednesday, April 22
   trigger: section-1
   expanded: true
