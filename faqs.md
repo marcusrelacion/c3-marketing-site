@@ -10,7 +10,7 @@ faqs:
 
     ### Where will C3 2020 take place?
 
-    C3 2020 will take place at the iconic Hard Rock San Diego
+    C3 2020 will take place at the iconic [Hard Rock San Diego](http://www.hardrockhotelsd.com)
 
     207 5th Avenu San Diego, CA. 9210
 
@@ -50,19 +50,20 @@ faqs:
   expanded: false
 - heading: Hotel & Travel
   body: "### How long does it take to get to the hotel from the airport? \n\nThe Hard
-    Rock San Diego is closest to San Diego International Airport (approximately 4
-    miles from the Hard Rock San Diego For ground transportation options please visit
-    the San Diego International Airport website.\n\n### What kind of weather should
-    I expect for C3?\n\nThe weather in San Diego in late April is beautiful! Plan
-    for daytime temperatures in the 70s, and evening temperatures in the upper-50s.
-    We recommend wearing layers as session rooms run cooler.\n\n### Are there special
-    hotel rates for C3?\n\nA discounted room rate of of $249 per night has been secured
-    at the Hard Rock Hotel San Diego. The discounted rate is available exclusively
-    to attendees until March 27, 2020 (or when the room block sells out). You can
-    book your room here and additional venue details can be found here.\n\n### When
-    should I book my travel home? \n\nC3 will conclude around 3 PM on Wednesday, April
-    22nd.\n\nAttendees are encouraged to stay until the end since all sessions are
-    extremely valuable and the CX Awards will be announced at the conclusion of C3."
+    Rock San Diego is closest to [San Diego International Airport](https://www.san.org)
+    (approximately 4 miles from the Hard Rock San Diego For ground transportation
+    options please visit the [San Diego International Airport](https://www.san.org)
+    website.\n\n### What kind of weather should I expect for C3?\n\nThe weather in
+    San Diego in late April is beautiful! Plan for daytime temperatures in the 70s,
+    and evening temperatures in the upper-50s. We recommend wearing layers as session
+    rooms run cooler.\n\n### Are there special hotel rates for C3?\n\nA discounted
+    room rate of of $249 per night has been secured at the [Hard Rock Hotel San Diego](http://www.hardrockhotelsd.com).
+    The discounted rate is available exclusively to attendees until March 27, 2020
+    (or when the room block sells out). You can book your room here and additional
+    venue details can be found here.\n\n### When should I book my travel home? \n\nC3
+    will conclude around 3 PM on Wednesday, April 22nd.\n\nAttendees are encouraged
+    to stay until the end since all sessions are extremely valuable and the CX Awards
+    will be announced at the conclusion of C3."
   trigger: section-3
   expanded: false
 - heading: Food & Beverage
