@@ -1,6 +1,6 @@
 ---
 layout: page-sponsors
-has-introduction: true
+show-introduction: true
 introduction-background-color: bg-white
 introduction-header: Become a C3 2020 Sponsor!
 introduction-body: C3 is more than just a conference - it’s a community. Become a
@@ -12,10 +12,9 @@ introduction-has-button: false
 introduction-button-label: Button
 introduction-button-url: "#"
 introduction-button-style: primary
-contact-background-color: bg-white
+contact-background-color: bg-cb-primary-100
 contact-header: Want to learn more about becoming a sponsor?
 contact-button-label: Learn More
-contact-button-url: mailto:events@clarabridge.com?subject=Thanks for reaching out,
-  how can we help?
+contact-button-url: mailto:events@clarabridge.com
 ---
 

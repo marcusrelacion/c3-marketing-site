@@ -16,5 +16,6 @@ venue:
   has-button: true
   button-url: "#"
   button-label: Book A Reservation
+contact-background-color: bg-cb-primary-100
 ---
 
