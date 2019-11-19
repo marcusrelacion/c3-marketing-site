@@ -12,7 +12,14 @@ introduction-body: Clarabridge Customer Connections (C3), our electrifying three
 introduction-has-button: false
 agenda-small-background-color: bg-cb-primary-100
 agenda-small-header: Agenda Highlights
+has-speakers-keynote: false
 agenda-small-dates:
+- header: Sunday, April 19th
+  body: |+
+    Customer Day
+
+    Hands-On Trainings
+
 - header: Monday, April 20th
   body: |-
     Pre-Conference Workshops
@@ -40,7 +47,6 @@ agenda-small-dates:
     Panels
 
     CX Awards
-has-speakers-keynote: false
 agenda-small-has-button: true
 agenda-small-button-label: See Full Agenda
 agenda-small-button-url: "/agenda/"
