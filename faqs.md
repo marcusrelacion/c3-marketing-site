@@ -107,7 +107,7 @@ faqs:
 
     ### Do you offer any off-site transportation?
 
-    The Hard Rock San Diego does not offer off-site transportation. Any additional transportation off-site will be at your personal expense and coordination.
+    The Hard Rock Hotel San Diego does not offer off-site transportation. Any additional transportation off-site will be at your personal expense and coordination.
   trigger: section-6
   expanded: false
 - heading: Stay Informed
