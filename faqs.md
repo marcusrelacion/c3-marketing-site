@@ -63,7 +63,7 @@ faqs:
     The discounted rate is available exclusively to attendees until March 27, 2020
     (or when the room block sells out). You can book your room here and additional
     venue details can be found here.\n\n### When should I book my travel home? \n\nC3
-    will conclude around 3 PM on Wednesday, April 22nd.\n\nAttendees are encouraged
+    will conclude around 3PM on Wednesday, April 22nd.\n\nAttendees are encouraged
     to stay until the end since all sessions are extremely valuable and the CX Awards
     will be announced at the conclusion of C3."
   trigger: section-3
@@ -77,7 +77,7 @@ faqs:
   expanded: false
 - heading: Agenda & Sessions
   body: "### What kind of sessions can I expect this year? \n\nThe C3 agenda will
-    have 2 tracks again this year so bring your team and don’t miss out on these valuable
+    have 4 tracks again this year so bring your team and don’t miss out on these valuable
     sessions The agenda is constructed by Clarabridge customers, industry analysts
     and thought leaders You can expect to:\n\n- Discover current and emerging trends
     from industry experts and thought leaders\n- How to leverage CEM and digital customer
@@ -114,7 +114,7 @@ faqs:
   body: |-
     ### How can I stay up to date on all things C3 before and during the event?
 
-    Connect with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge) on Twitter and keep up with all things C3 with hashtag ['#C320'](https://twitter.com/search?q=C320&src=typed_query) on social media.
+    Connect with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge) on Twitter and keep up with all things C3 with hashtag ['#C32020'](https://twitter.com/search?q=C320&src=typed_query) on social media.
 
     ### Who can I contact with questions that weren’t answered here?
 
