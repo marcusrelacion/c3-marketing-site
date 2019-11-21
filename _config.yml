@@ -87,6 +87,47 @@ hero-header: Clarabridge Customer Connections
 hero-dates: April 20-22, 2020
 hero-location: Hard Rock Hotel San Diego
 DIVIDER-5: Ignore This Field
+agenda-small-background-color: bg-cb-primary-100
+agenda-small-header: Agenda Highlights
+agenda-small-dates:
+- header: Sunday, April 19th
+  body: |+
+    Customer Day
+
+    Hands-On Trainings
+
+- header: Monday, April 20th
+  body: |-
+    Pre-Conference Workshops
+
+    Welcome Reception
+- header: Tuesday, April 21st
+  body: |-
+    Keynotes
+
+    General Sessions
+
+    Breakout Sessions
+
+    Panels
+
+    Connections Reception
+- header: Wednesday, April 22nd
+  body: |-
+    Keynotes
+
+    General Sessions
+
+    Breakout Sessions
+
+    Panels
+
+    CX Awards
+agenda-small-has-button: true
+agenda-small-button-label: See Full Agenda
+agenda-small-button-url: "/agenda/"
+agenda-small-button-style: primary
+DIVIDER-6: Ignore This Field
 2020-keynote-speakers-header: Keynote Speakers
 2020-keynote-speakers:
 - image: https://picsum.photos/800
@@ -109,7 +150,7 @@ DIVIDER-5: Ignore This Field
   name: Keynote Speaker Name
   title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
   company: Keynote Speaker Company
-DIVIDER-6: Ignore This Field
+DIVIDER-7: Ignore This Field
 2020-general-speakers-header: General Speakers
 2020-general-speakers:
 - image: https://picsum.photos/800
@@ -132,7 +173,7 @@ DIVIDER-6: Ignore This Field
   name: General Speaker Name
   title: General Speaker Title
   company: General Speaker Company
-DIVIDER-7: Ignore This Field
+DIVIDER-8: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
 - image: "/uploads/logo-adobe.png"
@@ -155,7 +196,7 @@ DIVIDER-7: Ignore This Field
   image-alt: logo for vmware
 - image: "/uploads/logo-whirlpool.png"
   image-alt: logo for whirlpool
-DIVIDER-8: Ignore This Field
+DIVIDER-9: Ignore This Field
 award-winners-header: Past Winners
 award-winners:
 - image: "/uploads/logo-aarp.png"
@@ -182,7 +223,7 @@ award-winners:
   image-alt: logo for usaa
 - image: "/uploads/logo-whirlpool.png"
   image-alt: logo for whirlpool
-DIVIDER-9: Ignore This Field
+DIVIDER-10: Ignore This Field
 agenda-filter-time-of-day:
 - filter: ".morning"
   class: morning
@@ -222,7 +263,7 @@ agenda-filter-type:
 - filter: ".track-product"
   class: track-product
   text-1: <i class="fad fa-tags"></i> Product Track
-DIVIDER-10: Ignore This Field
+DIVIDER-11: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
 - image: https://picsum.photos/800
@@ -244,7 +285,7 @@ networking-receptions:
   time: 7:00 - 10:00 PM
   body: Join us Tuesday evening for a night of cocktails, food, networking and entertainment.
     Trust us, this is something you don’t want to miss!
-DIVIDER-11: Ignore This Field
+DIVIDER-12: Ignore This Field
 venue-header: Venue & Accomodations
 venue:
 - image: "/uploads/c3-venue-hard-rock.jpg"
@@ -257,7 +298,7 @@ venue:
   has-button: true
   button-url: "/venue/"
   button-label: Find Out More
-DIVIDER-12: Ignore This Field
+DIVIDER-13: Ignore This Field
 contact-background-color: bg-white
 contact-header: Contact Us
 contact-button-label: Get in Touch
@@ -276,7 +317,7 @@ contact-employees:
   title: Senior Marketing Coordinator
   email-url: mailto:events@clarabridge.com
   email-label: Email
-DIVIDER-13: Ignore This Field
+DIVIDER-14: Ignore This Field
 exclude:
 - package.json
 - package-lock.json

@@ -1,10 +1,11 @@
+{% if page.has-agenda-small == true %}
 <section class="agenda-small {{ page.agenda-small-background-color }}">
     <div class="agenda-small__content">
         <h2 class="agenda-small__header">
-            {{ page.agenda-small-header }}
+            {{ site.agenda-small-header }}
         </h2>
         <ul class="agenda-small__days">
-            {% for date in page.agenda-small-dates %}
+            {% for date in site.agenda-small-dates %}
             <li class="agenda-small__day listing__item wysiwyg">
                 <h3 class="agenda-small__day-header">
                     {{ date.header }}
@@ -16,10 +17,11 @@
             {% endfor %}
         </ul>
         {% if page.agenda-small-has-button == true %}
-        <a class="button button--{{ page.agenda-small-button-style }}" href="{{ page.agenda-small-button-url }}">
-            {{ page.agenda-small-button-label }}
+        <a class="button button--{{ site.agenda-small-button-style }}" href="{{ site.agenda-small-button-url }}">
+            {{ site.agenda-small-button-label }}
         </a>
         {% else %}
         {% endif %}
     </div>
 </section>
+{% endif %}
