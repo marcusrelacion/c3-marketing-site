@@ -15,7 +15,7 @@ venue:
     be sure to book your reservation as soon as possible.\n\n**Discounted Rate Expires
     March 27th, 2020** "
   has-button: true
-  button-url: "#"
+  button-url: http://www.hardrockhotelsd.com/clarabridge-2020
   button-label: Book A Reservation
 contact-background-color: bg-cb-primary-100
 layout: page-venue

@@ -266,7 +266,7 @@ agenda-filter-type:
 DIVIDER-11: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
-- image: /uploads/c3-welcome.jpg
+- image: "/uploads/c3-welcome.jpg"
   image-alt: provide description of the image
   title: Welcome Reception
   location: TBA
@@ -276,7 +276,7 @@ networking-receptions:
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
     exchange ideas, and make lasting connections.
-- image: /uploads/c3-liv.jpg
+- image: "/uploads/c3-liv.jpg"
   image-alt: provide description of the image
   title: Welcome Reception
   location: TBA
