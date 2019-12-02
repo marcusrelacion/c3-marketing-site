@@ -18,6 +18,8 @@ faqs:
 
     ### When is C3 2020?
 
+    **Customer Day: **Sunday, April 19
+
     **Pre-Conference Workshops:** Monday, April 20
 
     **Welcome Reception:** Monday, April 20 at 6PM
@@ -92,7 +94,7 @@ faqs:
     full conference passes include invitations to all evening events and receptions.\n\n###
     Can I bring friends and family to C3 social events?\n\nC3 social events are exclusively
     for full conference registrants only. An official conference badge is required
-    to attend all C3 events unless otherwise noted.\""
+    to attend all C3 events unless otherwise noted."
   trigger: section-5
   expanded: false
 - heading: The Little Things
