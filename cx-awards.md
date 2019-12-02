@@ -6,7 +6,7 @@ contact-background-color: bg-cb-primary-100
 layout: page-cx-awards
 ---
 
-# CX Awards
+# CX Awards North America 2020
 
 ## Who can win?
 
@@ -28,7 +28,7 @@ The application form should take you no more than 20 to 30 minutes to complete; 
 
 ## What will the winners receive? 
 
-Award winners with receive their awards at our annual Clarabridge Customer Connections (C3) conference, at the Hard Rock Hotel San Diego, April 20 - 22nd 2020. 
+Award winners with receive their awards at our annual Clarabridge Customer Connections (C3) conference, at the Hard Rock Hotel San Diego, April 19 - 22nd 2020. 
 
 Winners will receive two free passes to attend next year’s C3 2021 event. In addition, they will be given a CX Award Winner logo to display on their website and social media pages. 
 
