@@ -13,7 +13,7 @@ layout: page-cx-awards
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
 - You complete the full application by **5:00 PM EST on Friday, March 6th**
-- You allow us to announce you as an award winner at our C3 event in April (you do not need to attend C3 to accept or apply for the award)
+
 
 If you have questions about the Clarabridge Customer Experience Awards or the application process, contact your Clarabridge Account Manager, or email [events@clarabridge.com](mailto:events@clarabridge.com). 
 
