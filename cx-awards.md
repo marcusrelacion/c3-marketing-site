@@ -8,7 +8,7 @@ layout: page-cx-awards
 
 # CX Awards North America 2020
 
-## Who can win?
+## Apply for an award if?
 
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
