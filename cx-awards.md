@@ -19,9 +19,10 @@ If you have questions about the Clarabridge Customer Experience Awards or the ap
 
 ## How do I submit an application?
 
-To apply for the awards, please click here. 
+To apply for the awards, please click [here](https://docs.google.com/forms/d/1qBqahFVGkLzQsNchimqOAqk3IG1tnqEFV_WRhlyiPTo/edit). 
 
-You will be prompted to select the award category that you want to enter (we have four) and you can choose more than one. See below for details on the categories. **Applications are due by 5:00 PM EST on Friday, March 6th.** 
+You will be prompted to select the award category that you want to enter (we have four). 
+**Applications are due by 5:00 PM EST on Friday, March 6th.** 
 
 The application form should take you no more than 20 to 30 minutes to complete; bullet point responses are fine! Reach out to your Clarabridge Account Manager or to [events@clarabridge.com](mailto:events@clarabridge.com) if you’d like additional help; we are more than happy to help write the application responses with you. 
 
