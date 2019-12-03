@@ -16,7 +16,7 @@ defaults:
 - scope:
     path: ''
   values:
-    image: /uploads/c3-na-2020-og-image.jpg
+    image: "/uploads/c3-na-2020-og-image.jpg"
     has-introduction: false
     introduction-background-color: bg-white
     introduction-header: 
@@ -338,14 +338,14 @@ plugins:
 - jekyll-feed
 author: Clarabridge
 lang: en_US
-logo: 
+logo: "/uploads/cb-logo-horizontal.svg"
 social:
   name: Clarabridge
   links:
-    - https://twitter.com/clarabridge/
-    - https://www.facebook.com/Clarabridge/
-    - https://www.linkedin.com/company/clarabridge/
-    - https://www.youtube.com/channel/UCq3eNnwPsrO9Wlf6o86ccHw
+  - https://twitter.com/clarabridge/
+  - https://www.facebook.com/Clarabridge/
+  - https://www.linkedin.com/company/clarabridge/
+  - https://www.youtube.com/channel/UCq3eNnwPsrO9Wlf6o86ccHw
 twitter:
   username: clarabridge
   card: summary
@@ -356,11 +356,13 @@ kramdown:
     hellip: "..."
 permalink: pretty
 encoding: utf-8
-description: Clarabridge Customer Connections (C3), our electrifying four-day conference is kicking off in San Diego, April 19 - 22, 2020. Hear from industry experts, thought leaders, and top practitioners in customer experience (CX) and digital customer service leaders for examples and best practices needed to say ahead of the curve.
+description: Clarabridge Customer Connections (C3), our electrifying four-day conference
+  is kicking off in San Diego, April 19 - 22, 2020. Hear from industry experts, thought
+  leaders, and top practitioners in customer experience (CX) and digital customer
+  service leaders for examples and best practices needed to say ahead of the curve.
 url: 
 baseurl: 
-domain:
-logo: /uploads/cb-logo-horizontal.svg 
+domain: 
 repo: https://github.com/marcusrelacion/c3-marketing-site
 sass:
   sass_dir: "/assets/styles/"
