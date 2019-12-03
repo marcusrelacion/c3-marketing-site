@@ -23,13 +23,13 @@ layout: page-cx-awards
 - The application form should take you no more than 20 to 30 minutes to complete; bullet point responses are fine! Reach out to your Clarabridge Account Manager or email [events@clarabridge.com](mailto:events@clarabridge.com) if you’d like additional help; we are more than happy to help write the application responses with you. 
 
 
-## What will the winners receive? 
+## When will CX award winners be announced? 
 
-Award winners with receive their awards at our annual Clarabridge Customer Connections (C3) conference, at the Hard Rock Hotel San Diego, April 19 - 22nd 2020. 
+- Award winners will be notified prior to C3 2020 and they will be announced on stage at the Hard Rock Hotel San Diego during our CX awards ceremony. 
 
-Winners will receive two free passes to attend next year’s C3 2021 event. In addition, they will be given a CX Award Winner logo to display on their website and social media pages. 
+- Winners will receive two free passes to attend our C3 2021 event. In addition, they will be given a CX Award Winner logo to display on their website and social media pages. 
 
-Winning an award will carry some major clout for your business, and for you as a professional. You know you’re a CX star and this is your chance to shout it out to the world: you love your customers!
+- Winning an award will carry some major clout for your business, and for you as a professional. You know you’re a CX star and this is your chance to shout it out to the world: you love your customers!
 
 
  
