@@ -33,12 +33,9 @@ faqs:
     
     Registration instructions here (add link) 
     
-    ###
-    Are Pre-Conference Workshops included in the price of registration? 
+    ### Are Pre-Conference Workshops included in the price of registration? 
     
-    Yes, Pre-Conference
-    Workshops are available on a first come, first served basis. Pre-Conference Workshops
-    are optional and only available only to main conference registrants. 
+    Yes, Pre-Conference Workshops are available on a first come, first served basis. Pre-Conference Workshops are optional and only available only to main conference registrants. 
     
     ### Are group discounts available?  
     
@@ -47,30 +44,19 @@ faqs:
     
     ### What is the payment policy? 
     
-    The easiest way to pay for your C3 registration is with a credit card through the
-    online registration process. 
+    The easiest way to pay for your C3 registration is with a credit card through the online registration process. 
     
     ### What is the cancellation policy? 
     
-    You will receive a full refund if you cancel before March 15th. Cancellations received
-    after March 15th will not be eligible for a refund. To cancel a registration,
-    email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you
-    are unable to attend. **Please note, cancelling a registration does not automatically
-    cancel hotel and/or travel arrangements, you are responsible for cancelling any
-    accommodations.** 
+    You will receive a full refund if you cancel before March 15th. Cancellations received after March 15th will not be eligible for a refund. To cancel a registration, email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you are unable to attend. **Please note, cancelling a registration does not automatically cancel hotel and/or travel arrangements, you are responsible for cancelling any accommodations.** 
     
     ### Can I transfer my registration to someone else? 
     
-    Registrations
-    can be transferred to another individual at no charge until March 15th To transfer
-    a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
-    with the new registrant’s information (full name, email address, title, company)
-    as well as the full name of whom they will be replacing. 
+    Registrations can be transferred to another individual at no charge until March 15th To transfer a registration, email [events@clarabridge.com](mailto:events@clarabridge.com) with the new registrant’s information (full name, email address, title, company) as well as the full name of whom they will be replacing. 
     
     ### How can I become a sponsor at C3 2020? 
     
-    We offer a variety of sponsorship packages. To learn
-    more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/){:target="_blank"}{:rel="noopener"}.
+    We offer a variety of sponsorship packages. To learn more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/){:target="_blank"}{:rel="noopener"}.
   trigger: section-2
   expanded: false
 - heading: Hotel & Travel
@@ -123,9 +109,7 @@ faqs:
     
     ### What is the C3 Zone? 
     
-    The C3 Zone is located amongst the meeting space and is a place to network and unwind with your fellow attendees. Relax, network with peers, take a coffee break, or enjoy a nice snack.
-    Clarabridge experts will have kiosks set up for you to stop and learn best practices
-    and exchange ideas. 
+    The C3 Zone is located amongst the meeting space and is a place to network and unwind with your fellow attendees. Relax, network with peers, take a coffee break, or enjoy a nice snack. Clarabridge experts will have kiosks set up for you to stop and learn best practices and exchange ideas. 
     
     ### Are the evening receptions included in my registration?
     
@@ -156,7 +140,7 @@ faqs:
   body: |-
     ### How can I stay up to date on all things C3 before and during the event?
 
-    Connect with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge) on Twitter and keep up with all things C3 with hashtag ['#C32020'](https://twitter.com/search?q=C320&src=typed_query) on social media.
+    Connect with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge){:target="_blank"}{:rel="noopener"} on Twitter and keep up with all things C3 with hashtag ['#C32020'](https://twitter.com/search?q=C320&src=typed_query){:target="_blank"}{:rel="noopener"} on social media.
 
     ### Who can I contact with questions that weren’t answered here?
 
@@ -164,6 +148,7 @@ faqs:
     answers to any and all of your C3-related questions.
   trigger: section-7
   expanded: false
+justification-letter: /uploads/c3-na-2020-justification-letter.docx
 contact-background-color: bg-cb-primary-100
 layout: page-faqs
 ---
