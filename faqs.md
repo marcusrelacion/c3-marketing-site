@@ -6,7 +6,7 @@ faqs:
   body: |-
     ### What is C3?
 
-    The 12th annual Clarabridge Customer Connections (C3) conference is the leading event for customer experience management and social customer service professionals. This 4-day event features a lineup of cutting-edge keynote speakers and more than 40 sessions featuring Clarabridge customers, partners, and analysts. The agenda is made up of 4 tracks, industry-specific sessions, as well as the opportunity for hands-on training with Clarabridge experts during advanced sessions for customers.
+    The 12th annual Clarabridge Customer Connections (C3) conference is the leading event for customer experience management and social customer service professionals. This 4-day event features a lineup of cutting-edge keynote speakers and more than 30 sessions featuring Clarabridge customers, partners, and analysts. The agenda is made up of 4 tracks, industry-specific sessions, as well as the opportunity for hands-on training with Clarabridge experts during advanced sessions for customers.
 
     ### Where will C3 2020 take place?
 
@@ -38,17 +38,17 @@ faqs:
     easiest way to pay for your C3 registration is with a credit card through the
     online registration process.\n\n### What is the cancellation policy?\n\nYou will
     receive a full refund if you cancel before March 15th. Cancellations received
-    after March 15th will not be eligible for a refund.To cancel a registration, email
-    [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you are
-    unable to attend.\n\n\nCancelling a registration does not automatically cancel
-    hotel and/or travel arrangements, you are responsible for cancelling any accommodations.\n\n###
-    Can I transfer my registration to someone else?\n\nRegistrations can be transferred
-    to another individual at no charge until March 15th To transfer a registration,
-    email [events@clarabridge.com](mailto:events@clarabridge.com) with the new registrant’s
-    information (full name, email address, title, company) as well as the full name
-    of whom they will be replacing.\n\n### How can I become a sponsor at C3 2020?\n\nWe
-    offer a variety of sponsorship packages. To learn more about sponsorship opportunities,
-    check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/).
+    after March 15th will not be eligible for a refund. To cancel a registration,
+    email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you
+    are unable to attend. ** Please note, cancelling a registration does not automatically
+    cancel hotel and/or travel arrangements, you are responsible for cancelling any
+    accommodations. **\n\n### Can I transfer my registration to someone else?\n\nRegistrations
+    can be transferred to another individual at no charge until March 15th To transfer
+    a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
+    with the new registrant’s information (full name, email address, title, company)
+    as well as the full name of whom they will be replacing.\n\n### How can I become
+    a sponsor at C3 2020?\n\nWe offer a variety of sponsorship packages. To learn
+    more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/).
     Need help convincing your boss Download our Justify Your Trip letter here (add
     link."
   trigger: section-2
