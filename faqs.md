@@ -33,8 +33,7 @@ faqs:
     Are Pre-Conference Workshops included in the price of registration?\n\nYes, Pre-Conference
     Workshops are available on a first come, first served basis. Pre-Conference Workshops
     are optional and only available only to main conference registrants.\n\n### Are
-    group discounts available? \n\nYes, please reach out to us for additional discounts
-    for groups of 4 or more. Contact [events@clarabridge.com](mailto:events@clarabridge.com)
+    group discounts available? \n\nYes, please contact [events@clarabridge.com](mailto:events@clarabridge.com)
     for situation-specific pricing questions.\n\n### What is the payment policy?\n\nThe
     easiest way to pay for your C3 registration is with a credit card through the
     online registration process.\n\n### What is the cancellation policy?\n\nYou will
@@ -49,8 +48,9 @@ faqs:
     information (full name, email address, title, company) as well as the full name
     of whom they will be replacing.\n\n### How can I become a sponsor at C3 2020?\n\nWe
     offer a variety of sponsorship packages. To learn more about sponsorship opportunities,
-    check out our sponsor page. Need help convincing your boss Download our Justify
-    Your Trip letter here (add link."
+    check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/).
+    Need help convincing your boss Download our Justify Your Trip letter here (add
+    link."
   trigger: section-2
   expanded: false
 - heading: Hotel & Travel
