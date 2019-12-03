@@ -54,7 +54,7 @@ faqs:
 - heading: Hotel & Travel
   body: "### How long does it take to get to the hotel from the airport? \n\nThe Hard
     Rock Hotel San Diego is closest to [San Diego International Airport](https://www.san.org)
-    (approximately 4 miles from the Hard Rock Hotel San Diego. For ground transportation
+    (approximately 4 miles from the Hard Rock Hotel San Diego.) For ground transportation
     options please visit [San Diego International Airport](https://www.san.org).\n\n###
     What kind of weather should I expect for C3?\n\nThe weather in San Diego in late
     April is beautiful! Plan for daytime temperatures in the 70s, and evening temperatures
