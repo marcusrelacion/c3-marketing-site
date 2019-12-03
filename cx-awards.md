@@ -13,15 +13,12 @@ layout: page-cx-awards
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
 - Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform?usp=sf_link) to submit an application 
-- You must apply for an award by **5:00 PM EST on Friday, March 6th**
- 
-
-## How do I submit an application?
 
 - You will be prompted to select an award category that you want to enter (we have four) and you are welcome to apply for more than one award.  
 
 - The application form should take you no more than 20 to 30 minutes to complete; bullet point responses are fine! Reach out to your Clarabridge Account Manager or email [events@clarabridge.com](mailto:events@clarabridge.com) if you’d like additional help; we are more than happy to help write the application responses with you. 
 
+- You must apply for an award by **5:00 PM EST on Friday, March 6th**
 
 ## When will CX award winners be announced? 
 
