@@ -10,9 +10,7 @@
         <ul class="listing listing--five-column">
             {% for speaker in site.2019-past-speakers %}
             <li class="speaker speaker--past">
-                <a href="#" rel="noopener" target="_blank">
-                    <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
-                </a>
+                <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
             </li>
             {% endfor %}
         </ul>
