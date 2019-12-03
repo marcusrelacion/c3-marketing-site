@@ -70,7 +70,7 @@ pricing-table:
   icon: <i class="fad fa-calendar-check"></i>
   registration: Begins February 1, 2020
 pricing-has-discounts: true
-pricing-discounts-header: Discounts
+pricing-discounts-header: Group Discounts
 pricing-discounts-text: "Please email events@clarabridge.com for additional group
   discounts\n\n"
 has-speakers-past: true
