@@ -13,7 +13,7 @@ faqs:
     C3 2020 will take place at the iconic [Hard Rock San Diego](http://www.hardrockhotelsd.com)
 
 
-    [207 5th Avenue San Diego, CA. 92101](https://www.google.com/maps/dir//207+Fifth+Ave,+San+Diego,+CA+92101/@32.7075649,-117.1620988,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80d9535a590ad079:0x536d10a44a3bc561!2m2!1d-117.1599101!2d32.7075604)
+    207 5th Avenue San Diego, CA. 92101
 
     (619) 702-3000
 
