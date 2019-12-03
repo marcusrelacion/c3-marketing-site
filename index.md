@@ -47,7 +47,7 @@ agenda-small-dates:
     Panels
 
     CX Awards
-agenda-small-has-button: true
+agenda-small-has-button: false
 agenda-small-button-label: See Full Agenda
 agenda-small-button-url: "/agenda/"
 agenda-small-button-style: primary
@@ -70,7 +70,7 @@ pricing-table:
   icon: <i class="fad fa-calendar-check"></i>
   registration: Begins February 1, 2020
 pricing-has-discounts: true
-pricing-discounts-header: Group Discounts
+pricing-discounts-header: Discounts automatically applied at checkout
 pricing-discounts:
 - icon: <i class="fad fa-ticket-alt"></i>
   label: Buy 2 Passes, Get 1 Free
