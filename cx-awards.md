@@ -12,7 +12,7 @@ layout: page-cx-awards
 
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
-- Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform?usp=sf_link) to submit an application. 
+- Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform?usp=sf_link) to submit an application 
 - You must apply for an award by **5:00 PM EST on Friday, March 6th**
  
 
