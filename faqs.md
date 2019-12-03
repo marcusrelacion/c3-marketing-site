@@ -28,7 +28,7 @@ faqs:
   trigger: section-1
   expanded: false
 - heading: Registration
-  body: "### How do I register? \n\nRegistration instructions [here](http://www.cvent.com/d/qhqzh7/4W)\n{:target=\"_blank\"}{:rel=\"noopener\"}\n\n###
+  body: "### How do I register? \n\nRegistration instructions [here](http://www.cvent.com/d/qhqzh7/4W{:target=\"_blank\"}{:rel=\"noopener\"}\n\n###
     Are Pre-Conference Workshops included in the price of registration? \n\nYes, Pre-Conference
     Workshops are available on a first come, first served basis. Pre-Conference Workshops
     are optional and only available only to main conference registrants. \n\n### Are
