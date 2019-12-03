@@ -15,7 +15,7 @@ introduction-button-url: "#"
 introduction-button-style: primary
 contact-background-color: bg-cb-primary-100
 contact-header: Want to learn more about becoming a sponsor?
-contact-button-label: Learn More
+contact-button-label: Get in Touch
 contact-button-url: mailto:events@clarabridge.com
 layout: page-sponsors
 ---
