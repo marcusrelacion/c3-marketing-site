@@ -48,9 +48,7 @@ faqs:
     with the new registrant’s information (full name, email address, title, company)
     as well as the full name of whom they will be replacing.\n\n### How can I become
     a sponsor at C3 2020?\n\nWe offer a variety of sponsorship packages. To learn
-    more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/).
-    Need help convincing your boss Download our Justify Your Trip letter here (add
-    link."
+    more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/)."
   trigger: section-2
   expanded: false
 - heading: Hotel & Travel
