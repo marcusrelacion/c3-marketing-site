@@ -80,20 +80,20 @@ faqs:
   body: "### What kind of sessions can I expect this year? \n\nThe C3 agenda will
     have 4 tracks again this year so bring your team and don’t miss out on these valuable
     sessions The agenda is constructed by Clarabridge customers, industry analysts
-    and thought leaders You can expect to:\n\n- Discover current and emerging trends
-    from industry experts and thought leaders\n- How to leverage CEM and digital customer
-    service initiatives that result in happier customers\n- Explore the latest products
-    and strategies designed to take your company to the next level\n- Learn best practices
-    from top companies who are championing customer service initiatives and paving
-    the way for others\n\n### What is the C3 Zone?\n\nThe C3 Zone is located amongst
-    the meeting space and is a place to network and unwind with your fellow attendees.
-    Relax, network with peers, take a coffee break, or enjoy a nice snack Clarabridge
-    experts will have kiosks set up for you to stop and learn best practices and exchange
-    ideas.\n\n### Are the evening receptions included in my registration? \n\nYes,
-    full conference passes include invitations to all evening events and receptions.\n\n###
-    Can I bring friends and family to C3 social events?\n\nC3 networking and social
-    events are exclusively for full conference registrants only. An official conference
-    badge is required to attend all C3 events unless otherwise noted."
+    and thought leaders. You can expect to:\n\n- Discover current and emerging trends
+    from industry experts and thought leaders\n- Learn how to leverage CEM and digital
+    customer service initiatives that result in happier customers\n- Explore the latest
+    products and strategies designed to take your company to the next level\n- Learn
+    best practices from top companies who are championing customer service initiatives
+    and paving the way for others\n\n### What is the C3 Zone?\n\nThe C3 Zone is located
+    amongst the meeting space and is a place to network and unwind with your fellow
+    attendees. Relax, network with peers, take a coffee break, or enjoy a nice snack
+    Clarabridge experts will have kiosks set up for you to stop and learn best practices
+    and exchange ideas.\n\n### Are the evening receptions included in my registration?
+    \n\nYes, full conference passes include invitations to all evening events and
+    receptions.\n\n### Can I bring friends and family to C3 social events?\n\nC3 networking
+    and social events are exclusively for full conference registrants only. An official
+    conference badge is required to attend all C3 events unless otherwise noted."
   trigger: section-5
   expanded: false
 - heading: The Little Things
