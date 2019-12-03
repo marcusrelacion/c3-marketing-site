@@ -26,7 +26,7 @@ faqs:
 
     **Main Conference:** Tuesday, April 21 – Wednesday, April 22
   trigger: section-1
-  expanded: true
+  expanded: false
 - heading: Registration
   body: |-
     ### How do I register? 
