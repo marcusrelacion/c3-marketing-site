@@ -64,12 +64,11 @@ faqs:
     Are there special hotel rates for C3?\n\nA discounted room rate of of $249 per
     night has been secured at the [Hard Rock Hotel San Diego](http://www.hardrockhotelsd.com).
     The discounted rate is available exclusively to attendees until March 27, 2020
-    (or when the room block sells out). You can book your room [here](http://www.hardrockhotelsd.com/clarabridge-2020)
-    and additional venue details can be found [here](http://www.hardrockhotelsd.com).\n\n###
-    When should I book my travel home? \n\nC3 will conclude around 3PM on Wednesday,
-    April 22nd.\n\nAttendees are encouraged to stay until the end since all sessions
-    are extremely valuable and the CX Awards will be announced at the conclusion of
-    C3."
+    (or when the room block sells out). You can book your room [here](http://www.hardrockhotelsd.com/clarabridge-2020).
+    \n\n### When should I book my travel home? \n\nC3 will conclude around 3PM on
+    Wednesday, April 22nd.\n\nAttendees are encouraged to stay until the end since
+    all sessions are extremely valuable and the CX Awards will be announced at the
+    conclusion of C3."
   trigger: section-3
   expanded: false
 - heading: Food & Beverage
