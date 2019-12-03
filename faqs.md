@@ -28,11 +28,12 @@ faqs:
   trigger: section-1
   expanded: false
 - heading: Registration
-  body: "### How do I register? \n\nRegistration instructions here (add link) \n\n###
-    Are Pre-Conference Workshops included in the price of registration? \n\nYes, Pre-Conference
-    Workshops are available on a first come, first served basis. Pre-Conference Workshops
-    are optional and only available only to main conference registrants. \n\n### Are
-    group discounts available?  \n\nYes, please contact [events@clarabridge.com](mailto:events@clarabridge.com)\nfor
+  body: "### How do I register? \n\nRegistration instructions [here](http://www.cvent.com/d/qhqzh7/4W
+    {:target=\"_blank\"}{:rel=\"noopener\"}\n\n### Are Pre-Conference Workshops included
+    in the price of registration? \n\nYes, Pre-Conference Workshops are available
+    on a first come, first served basis. Pre-Conference Workshops are optional and
+    only available only to main conference registrants. \n\n### Are group discounts
+    available?  \n\nYes, please contact [events@clarabridge.com](mailto:events@clarabridge.com)\nfor
     situation-specific pricing questions. \n\n### What is the payment policy? \n\nThe
     easiest way to pay for your C3 registration is with a credit card through the
     online registration process. \n\n### What is the cancellation policy? \n\nYou
