@@ -40,9 +40,9 @@ faqs:
     receive a full refund if you cancel before March 15th. Cancellations received
     after March 15th will not be eligible for a refund. To cancel a registration,
     email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you
-    are unable to attend. ** Please note, cancelling a registration does not automatically
+    are unable to attend. **Please note, cancelling a registration does not automatically
     cancel hotel and/or travel arrangements, you are responsible for cancelling any
-    accommodations. **\n\n### Can I transfer my registration to someone else?\n\nRegistrations
+    accommodations.**\n\n### Can I transfer my registration to someone else?\n\nRegistrations
     can be transferred to another individual at no charge until March 15th To transfer
     a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
     with the new registrant’s information (full name, email address, title, company)
