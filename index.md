@@ -9,6 +9,7 @@ introduction-body: Clarabridge Customer Connections (C3), our electrifying four-
   digital customer service leaders for examples and best practices needed to say ahead
   of the curve.
 introduction-has-button: false
+has-agenda-small: true
 agenda-small-background-color: bg-cb-primary-100
 agenda-small-header: Agenda Highlights
 has-speakers-keynote: false
