@@ -1,1 +1,1 @@
-# c3-event-site
+# C3 Marketing Site

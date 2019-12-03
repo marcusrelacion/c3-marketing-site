@@ -1,0 +1,32 @@
+.site-footer {
+    background-color: $charcoal-400;
+    color: $white;
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.site-footer *+*:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.site-footer img {
+    max-width: 244px;
+    margin: auto
+}
+
+.site-footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.site-footer i {
+    color: $white;
+    font-size: 2rem;
+}
+
+@media screen and (min-width:1279px) {
+    .site-footer {
+        padding: 32px;
+    }
+
+}
