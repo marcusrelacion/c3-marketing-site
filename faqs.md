@@ -18,7 +18,7 @@ faqs:
 
     ### When is C3 2020?
 
-    **Customer Day: **Sunday, April 19
+    **Customer Day:**Sunday, April 19
 
     **Pre-Conference Workshops:** Monday, April 20
 
