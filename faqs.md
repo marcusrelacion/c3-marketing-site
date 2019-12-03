@@ -14,7 +14,7 @@ faqs:
 
     [207 5th Avenue San Diego, CA. 92101](https://www.google.com/maps/dir//207+Fifth+Ave,+San+Diego,+CA+92101/@32.7075649,-117.1620988,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80d9535a590ad079:0x536d10a44a3bc561!2m2!1d-117.1599101!2d32.7075604)
 
-    (619)702-300
+    (619) 702-300
 
     ### When is C3 2020?
 
@@ -32,24 +32,24 @@ faqs:
     Are Pre-Conference Workshops included in the price of registration?\n\nYes, Pre-Conference
     Workshops are available on a first come, first served basis. Pre-Conference Workshops
     are optional and only available only to main conference registrants.\n\n### Are
-    group discounts available? \n\nYes Register 2 people, get 1 free registration
-    Register 4 people, get 2 free registrations Register 6 people, get 3 free registrations\n\nContact
-    [events@clarabridge.com](mailto:events@clarabridge.com) for situation-specific
-    pricing questions.\n\n### What is the payment policy?\n\nThe easiest way to pay
-    for your C3 registration is with a credit card through the online registration
-    process.\n\n### What is the cancellation policy?\n\nYou will receive a full refund
-    if you cancel before March 15th. Cancellations received after March 15th will
-    not be eligible for a refund.\n\nTo cancel a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
-    to let us know you are unable to attend.\n\nCancelling a registration does not
-    automatically cancel hotel and/or travel arrangements, you are responsible for
-    cancelling any accommodations.\n\n### Can I transfer my registration to someone
-    else?\n\nRegistrations can be transferred to another individual at no charge until
-    March 15th To transfer a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
-    with the new registrant’s information (full name, email address, title, company)
-    as well as the full name of whom they will be replacing.\n\n### How can I become
-    a sponsor at C3 2020?\n\nWe offer a variety of sponsorship packages. To learn
-    more about sponsorship opportunities, check out our sponsor page. Need help convincing
-    your boss Download our Justify Your Trip letter here (add link."
+    group discounts available? \n\nYes, please reach out to us for additional discounts
+    for groups of 4 or more. Contact [events@clarabridge.com](mailto:events@clarabridge.com)
+    for situation-specific pricing questions.\n\n### What is the payment policy?\n\nThe
+    easiest way to pay for your C3 registration is with a credit card through the
+    online registration process.\n\n### What is the cancellation policy?\n\nYou will
+    receive a full refund if you cancel before March 15th. Cancellations received
+    after March 15th will not be eligible for a refund.\n\n\nTo cancel a registration,
+    email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you
+    are unable to attend.\n\n\nCancelling a registration does not automatically cancel
+    hotel and/or travel arrangements, you are responsible for cancelling any accommodations.\n\n###
+    Can I transfer my registration to someone else?\n\nRegistrations can be transferred
+    to another individual at no charge until March 15th To transfer a registration,
+    email [events@clarabridge.com](mailto:events@clarabridge.com) with the new registrant’s
+    information (full name, email address, title, company) as well as the full name
+    of whom they will be replacing.\n\n### How can I become a sponsor at C3 2020?\n\nWe
+    offer a variety of sponsorship packages. To learn more about sponsorship opportunities,
+    check out our sponsor page. Need help convincing your boss Download our Justify
+    Your Trip letter here (add link."
   trigger: section-2
   expanded: false
 - heading: Hotel & Travel
