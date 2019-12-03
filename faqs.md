@@ -6,7 +6,7 @@ faqs:
   body: |-
     ### What is C3?
 
-    The 12th annual Clarabridge Customer Connections (C3) conference is the leading event for customer experience management and social customer service professionals. This 4-day event features a lineup of cutting-edge keynote speakers and more than 30 sessions featuring Clarabridge customers, partners, and analysts. The agenda is made up of 4 tracks, industry-specific sessions, as well as the opportunity for hands-on training with Clarabridge experts during advanced sessions for customers.
+    The 12th annual Clarabridge Customer Connections (C3) conference is the leading event for customer experience management and digital customer service professionals. This 4-day event features a lineup of cutting-edge keynote speakers and more than 30 sessions featuring Clarabridge customers, partners, and analysts. The agenda is made up of 4 tracks, industry-specific sessions, as well as the opportunity for hands-on training with Clarabridge experts during advanced sessions for customers.
 
     ### Where will C3 2020 take place?
 
