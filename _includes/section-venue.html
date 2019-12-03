@@ -30,9 +30,9 @@
                     <div class="venue-lodging__body wysiwyg">
                         {{ lodging.body | markdownify }}
                     </div>
-                    <a class="button button button--primary" href="{{ lodging.button-url }}">
+                    <a class="button button button--primary" href="{{ lodging.button-url }}" target="_blank" rel="noopener">
                         {{ lodging.button-label }}
-                    </a>
+                    </a> 
                 </div>
             </div>
             {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: CX Awards
 position: 6
-has-award-winners: true
+has-award-winners: false
 contact-background-color: bg-cb-primary-100
 layout: page-cx-awards
 ---
@@ -12,7 +12,7 @@ layout: page-cx-awards
 
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
-- Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform?usp=sf_link) to submit an application 
+- Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform?usp=sf_link){:target="_blank"}{:rel="noopener"} to submit an application 
 
 - You will be prompted to select an award category that you want to enter (we have four) and you are welcome to apply for more than one award!  
 
@@ -26,9 +26,4 @@ layout: page-cx-awards
 
 - Winners will receive two free passes to attend our C3 2021 event. In addition, they will be given a CX Award Winner logo to display on their website and social media pages. 
 
-
-
 Winning an award will carry some major clout for your business, and for you as a professional. You know you’re a CX star and this is your chance to shout it out to the world: you love your customers!
-
-
- 
