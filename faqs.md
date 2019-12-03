@@ -55,14 +55,14 @@ faqs:
   expanded: false
 - heading: Hotel & Travel
   body: "### How long does it take to get to the hotel from the airport? \n\nThe Hard
-    Rock San Diego is closest to [San Diego International Airport](https://www.san.org)
-    (approximately 4 miles from the Hard Rock San Diego For ground transportation
-    options please visit the [San Diego International Airport](https://www.san.org)
-    website.\n\n### What kind of weather should I expect for C3?\n\nThe weather in
-    San Diego in late April is beautiful! Plan for daytime temperatures in the 70s,
-    and evening temperatures in the upper-50s. We recommend wearing layers as session
-    rooms run cooler.\n\n### Are there special hotel rates for C3?\n\nA discounted
-    room rate of of $249 per night has been secured at the [Hard Rock Hotel San Diego](http://www.hardrockhotelsd.com).
+    Rock Hotel San Diego is closest to [San Diego International Airport](https://www.san.org)
+    (approximately 4 miles from the Hard Rock Hotel San Diego. For ground transportation
+    options please visit [San Diego International Airport](https://www.san.org).\n\n###
+    What kind of weather should I expect for C3?\n\nThe weather in San Diego in late
+    April is beautiful! Plan for daytime temperatures in the 70s, and evening temperatures
+    in the upper-50s. We recommend wearing layers as session rooms run cooler.\n\n###
+    Are there special hotel rates for C3?\n\nA discounted room rate of of $249 per
+    night has been secured at the [Hard Rock Hotel San Diego](http://www.hardrockhotelsd.com).
     The discounted rate is available exclusively to attendees until March 27, 2020
     (or when the room block sells out). You can book your room [here](http://www.hardrockhotelsd.com/clarabridge-2020)
     and additional venue details can be found [here](http://www.hardrockhotelsd.com).\n\n###
@@ -94,9 +94,9 @@ faqs:
     experts will have kiosks set up for you to stop and learn best practices and exchange
     ideas.\n\n### Are the evening receptions included in my registration? \n\nYes,
     full conference passes include invitations to all evening events and receptions.\n\n###
-    Can I bring friends and family to C3 social events?\n\nC3 social events are exclusively
-    for full conference registrants only. An official conference badge is required
-    to attend all C3 events unless otherwise noted."
+    Can I bring friends and family to C3 social events?\n\nC3 networking and social
+    events are exclusively for full conference registrants only. An official conference
+    badge is required to attend all C3 events unless otherwise noted."
   trigger: section-5
   expanded: false
 - heading: The Little Things
