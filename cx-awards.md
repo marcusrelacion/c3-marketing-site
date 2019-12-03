@@ -38,12 +38,4 @@ Winning an award will carry some major clout for your business, and for you as a
 
 Be sure to thoroughly describe the program, initiative, or business process that is changing the customer experience within your organization. Include specific examples of positive business outcomes resulting from the program, such as increased revenues, decreased churn, improved NPS scores, improved culture, etc. 
 
-## Award Categories
-
-**CX Diamond Award:** Honors an organization whose CX program is multi-faceted and shines brightly within the organization. Their CX program demonstrates vision, strategy, execution and results. 
-
-**CX Luminary Award:** Recognizes a company that has made a corporate shift to elevate customer experience to a top-tier business strategy. 
-
-**CX Revvie Award:** Recognizes an organization with proven return on investment and bottom line revenue impact. 
-
-**CX Innovation Award:** Recognizes an organization whose CX program demonstrates out-of-the-box thinking and/or innovative concepts to the business or industry. 
+ 
