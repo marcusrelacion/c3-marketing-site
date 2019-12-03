@@ -8,7 +8,7 @@ layout: page-cx-awards
 
 # CX Awards North America 2020
 
-### ## How do I apply for an award?
+### How do I apply for an award?
 
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
@@ -20,7 +20,7 @@ layout: page-cx-awards
 
 - You must apply for an award by **5:00 PM EST on Friday, March 6th**
 
-### ## When will CX award winners be announced? 
+### When will CX award winners be announced? 
 
 - Award winners will be notified prior to C3 2020 and they will be announced on stage at the Hard Rock Hotel San Diego during our CX awards ceremony. 
 
