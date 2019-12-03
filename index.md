@@ -71,13 +71,7 @@ pricing-table:
   registration: Begins February 1, 2020
 pricing-has-discounts: true
 pricing-discounts-header: Discounts
-pricing-discounts:
-- icon: <i class="fad fa-ticket-alt"></i>
-  label: Buy 2 Passes, Get 1 Free
-- icon: <i class="fad fa-ticket-alt"></i>
-  label: Buy 4 Passes, Get 2 Free
-- icon: <i class="fad fa-ticket-alt"></i>
-  label: Buy 6 Passes, Get 3 Free
+pricing-discounts-text: Sample Text
 has-speakers-past: true
 speakers-past-background-color: bg-cb-primary-100
 has-venue: true
