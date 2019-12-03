@@ -26,7 +26,8 @@ layout: page-cx-awards
 
 - Winners will receive two free passes to attend our C3 2021 event. In addition, they will be given a CX Award Winner logo to display on their website and social media pages. 
 
-- Winning an award will carry some major clout for your business, and for you as a professional. You know you’re a CX star and this is your chance to shout it out to the world: you love your customers!
+
+Winning an award will carry some major clout for your business, and for you as a professional. You know you’re a CX star and this is your chance to shout it out to the world: you love your customers!
 
 
  
