@@ -18,10 +18,7 @@ layout: page-cx-awards
 
 ## How do I submit an application?
 
-- To apply for the awards, please click [here](https://docs.google.com/forms/d/1qBqahFVGkLzQsNchimqOAqk3IG1tnqEFV_WRhlyiPTo/edit). 
-
-- You will be prompted to select the award category that you want to enter (we have four). 
-**Applications are due by 5:00 PM EST on Friday, March 6th.** 
+- You will be prompted to select an award category that you want to enter (we have four) and you are welcome to apply for more than one award.  
 
 - The application form should take you no more than 20 to 30 minutes to complete; bullet point responses are fine! Reach out to your Clarabridge Account Manager or email [events@clarabridge.com](mailto:events@clarabridge.com) if you’d like additional help; we are more than happy to help write the application responses with you. 
 
@@ -34,9 +31,5 @@ Winners will receive two free passes to attend next year’s C3 2021 event. In a
 
 Winning an award will carry some major clout for your business, and for you as a professional. You know you’re a CX star and this is your chance to shout it out to the world: you love your customers!
 
-
-## What are the judges looking for?
-
-Be sure to thoroughly describe the program, initiative, or business process that is changing the customer experience within your organization. Include specific examples of positive business outcomes resulting from the program, such as increased revenues, decreased churn, improved NPS scores, improved culture, etc. 
 
  
