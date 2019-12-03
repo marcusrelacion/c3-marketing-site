@@ -13,7 +13,7 @@ faqs:
     C3 2020 will take place at the iconic [Hard Rock San Diego](http://www.hardrockhotelsd.com){:target="_blank"}{:rel="noopener"}
 
     207 5th Avenue San Diego, CA. 92101
-    
+
     (619) 702-3000
 
     ### When is C3 2020?
@@ -28,61 +28,44 @@ faqs:
   trigger: section-1
   expanded: false
 - heading: Registration
-  body: |-
-    ### How do I register? 
-    
-    Registration instructions here (add link) 
-    
-    ### Are Pre-Conference Workshops included in the price of registration? 
-    
-    Yes, Pre-Conference Workshops are available on a first come, first served basis. Pre-Conference Workshops are optional and only available only to main conference registrants. 
-    
-    ### Are group discounts available?  
-    
-    Yes, please contact [events@clarabridge.com](mailto:events@clarabridge.com)
-    for situation-specific pricing questions. 
-    
-    ### What is the payment policy? 
-    
-    The easiest way to pay for your C3 registration is with a credit card through the online registration process. 
-    
-    ### What is the cancellation policy? 
-    
-    You will receive a full refund if you cancel before March 15th. Cancellations received after March 15th will not be eligible for a refund. To cancel a registration, email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you are unable to attend. **Please note, cancelling a registration does not automatically cancel hotel and/or travel arrangements, you are responsible for cancelling any accommodations.** 
-    
-    ### Can I transfer my registration to someone else? 
-    
-    Registrations can be transferred to another individual at no charge until March 15th To transfer a registration, email [events@clarabridge.com](mailto:events@clarabridge.com) with the new registrant’s information (full name, email address, title, company) as well as the full name of whom they will be replacing. 
-    
-    ### How can I become a sponsor at C3 2020? 
-    
-    We offer a variety of sponsorship packages. To learn more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/){:target="_blank"}{:rel="noopener"}.
+  body: "### How do I register? \n\nRegistration instructions here (add link) \n\n###
+    Are Pre-Conference Workshops included in the price of registration? \n\nYes, Pre-Conference
+    Workshops are available on a first come, first served basis. Pre-Conference Workshops
+    are optional and only available only to main conference registrants. \n\n### Are
+    group discounts available?  \n\nYes, please contact [events@clarabridge.com](mailto:events@clarabridge.com)\nfor
+    situation-specific pricing questions. \n\n### What is the payment policy? \n\nThe
+    easiest way to pay for your C3 registration is with a credit card through the
+    online registration process. \n\n### What is the cancellation policy? \n\nYou
+    will receive a full refund if you cancel before March 15th. Cancellations received
+    after March 15th will not be eligible for a refund. To cancel a registration,
+    email [events@clarabridge.com](mailto:events@clarabridge.com) to let us know you
+    are unable to attend. **Please note, cancelling a registration does not automatically
+    cancel hotel and/or travel arrangements, you are responsible for cancelling any
+    accommodations.** \n\n### Can I transfer my registration to someone else? \n\nRegistrations
+    can be transferred to another individual at no charge until March 15th To transfer
+    a registration, email [events@clarabridge.com](mailto:events@clarabridge.com)
+    with the new registrant’s information (full name, email address, title, company)
+    as well as the full name of whom they will be replacing. \n\n### How can I become
+    a sponsor at C3 2020? \n\nWe offer a variety of sponsorship packages. To learn
+    more about sponsorship opportunities, check out our [sponsor page](https://deploy-preview-1--c3-marketing-site.netlify.com/sponsors/){:target=\"_blank\"}{:rel=\"noopener\"}."
   trigger: section-2
   expanded: false
 - heading: Hotel & Travel
-  body: |-
-    ### How long does it take to get to the hotel from the airport?  
-    
-    The Hard Rock Hotel San Diego is closest to [San Diego International Airport](https://www.san.org){:target="_blank"}{:rel="noopener"} (approximately 4 miles from the Hard Rock Hotel San Diego). For ground transportation options please visit [San Diego International Airport](https://www.san.org){:target="_blank"}{:rel="noopener"}. 
-    
-    ### What kind of weather should I expect for C3? 
-    
-    The weather in San Diego in late April is beautiful! Plan for daytime temperatures in the 70s, and evening temperatures in the upper-50s. We recommend wearing layers as session rooms run cooler. 
-    
-    ### Are there special hotel rates for C3? 
-    
-    A discounted room rate of of $249 per night has been secured at the [Hard Rock Hotel San Diego](http://www.hardrockhotelsd.com){:target="_blank"}{:rel="noopener"}.
-    
-    The discounted rate is available exclusively to attendees until March 27, 2020
-    (or when the room block sells out). You can book your room [here](http://www.hardrockhotelsd.com/clarabridge-2020){:target="_blank"}{:rel="noopener"}.
-     
-     
-    ### When should I book my travel home?  
-     
-    C3 will conclude around 3PM on
-    Wednesday, April 22nd. 
-    
-    Attendees are encouraged to stay until the end since all sessions are extremely valuable and the CX Awards will be announced at the conclusion of C3.
+  body: "### How long does it take to get to the hotel from the airport?  \n\nThe
+    Hard Rock Hotel San Diego is closest to [San Diego International Airport](https://www.san.org){:target=\"_blank\"}{:rel=\"noopener\"}
+    (approximately 4 miles from the Hard Rock Hotel San Diego). For ground transportation
+    options please visit [San Diego International Airport](https://www.san.org){:target=\"_blank\"}{:rel=\"noopener\"}.
+    \n\n### What kind of weather should I expect for C3? \n\nThe weather in San Diego
+    in late April is beautiful! Plan for daytime temperatures in the 70s, and evening
+    temperatures in the upper-50s. We recommend wearing layers as session rooms run
+    cooler. \n\n### Are there special hotel rates for C3? \n\nA discounted room rate
+    of of $249 per night has been secured at the [Hard Rock Hotel San Diego](http://www.hardrockhotelsd.com){:target=\"_blank\"}{:rel=\"noopener\"}.\n\nThe
+    discounted rate is available exclusively to attendees until March 27, 2020\n(or
+    when the room block sells out). You can book your room [here](http://www.hardrockhotelsd.com/clarabridge-2020){:target=\"_blank\"}{:rel=\"noopener\"}.\n
+    \n \n### When should I book my travel home?  \n \nC3 will conclude around 3PM
+    on\nWednesday, April 22nd. \n\nAttendees are encouraged to stay until the end
+    since all sessions are extremely valuable and the CX Awards will be announced
+    at the conclusion of C3."
   trigger: section-3
   expanded: false
 - heading: Food & Beverage
@@ -93,32 +76,24 @@ faqs:
   trigger: section-4
   expanded: false
 - heading: Agenda & Sessions
-  body: |-
-  
-    ### What kind of sessions can I expect this year?  
-    The C3 agenda will have 4 tracks again this year so bring your team and don’t miss out on these valuable sessions The agenda is constructed by Clarabridge customers, industry analysts
-    and thought leaders. You can expect to: 
-    
-    - Discover current and emerging trends from industry experts and thought leaders 
-    
-    - Learn how to leverage CEM and digital customer service initiatives that result in happier customers 
-    
-    - Explore the latest products and strategies designed to take your company to the next level 
-    
-    - Learn best practices from top companies who are championing customer service initiatives and paving the way for others 
-    
-    ### What is the C3 Zone? 
-    
-    The C3 Zone is located amongst the meeting space and is a place to network and unwind with your fellow attendees. Relax, network with peers, take a coffee break, or enjoy a nice snack. Clarabridge experts will have kiosks set up for you to stop and learn best practices and exchange ideas. 
-    
-    ### Are the evening receptions included in my registration?
-    
-    Yes, full conference passes include invitations to all evening events and
-    receptions. 
-    
-    ### Can I bring friends and family to C3 social events? 
-    
-    C3 networking and social events are exclusively for full conference registrants only. An official conference badge is required to attend all C3 events unless otherwise noted.
+  body: "\n### What kind of sessions can I expect this year?  \nThe C3 agenda will
+    have 4 tracks again this year so bring your team and don’t miss out on these valuable
+    sessions The agenda is constructed by Clarabridge customers, industry analysts\nand
+    thought leaders. You can expect to: \n\n- Discover current and emerging trends
+    from industry experts and thought leaders \n\n- Learn how to leverage CEM and
+    digital customer service initiatives that result in happier customers \n\n- Explore
+    the latest products and strategies designed to take your company to the next level
+    \n\n- Learn best practices from top companies who are championing customer service
+    initiatives and paving the way for others \n\n### What is the C3 Zone? \n\nThe
+    C3 Zone is located amongst the meeting space and is a place to network and unwind
+    with your fellow attendees. Relax, network with peers, take a coffee break, or
+    enjoy a nice snack. Clarabridge experts will have kiosks set up for you to stop
+    and learn best practices and exchange ideas. \n\n### Are the evening receptions
+    included in my registration?\n\nYes, full conference passes include invitations
+    to all evening events and\nreceptions. \n\n### Can I bring friends and family
+    to C3 social events? \n\nC3 networking and social events are exclusively for full
+    conference registrants only. An official conference badge is required to attend
+    all C3 events unless otherwise noted."
   trigger: section-5
   expanded: false
 - heading: The Little Things
@@ -148,7 +123,7 @@ faqs:
     answers to any and all of your C3-related questions.
   trigger: section-7
   expanded: false
-justification-letter: /uploads/c3-na-2020-justification-letter.docx
+justification-letter: "/uploads/c3-na-2020-justification-letter.docx"
 contact-background-color: bg-cb-primary-100
 layout: page-faqs
 ---
