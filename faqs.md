@@ -87,7 +87,7 @@ faqs:
     best practices from top companies who are championing customer service initiatives
     and paving the way for others\n\n### What is the C3 Zone?\n\nThe C3 Zone is located
     amongst the meeting space and is a place to network and unwind with your fellow
-    attendees. Relax, network with peers, take a coffee break, or enjoy a nice snack
+    attendees. Relax, network with peers, take a coffee break, or enjoy a nice snack.
     Clarabridge experts will have kiosks set up for you to stop and learn best practices
     and exchange ideas.\n\n### Are the evening receptions included in my registration?
     \n\nYes, full conference passes include invitations to all evening events and
