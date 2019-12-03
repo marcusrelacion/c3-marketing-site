@@ -1,9 +1,11 @@
 {% if page.has-introduction == true %}
 <section class="section section--introduction {{ page.introduction-background-color }}">
     <div class="section__content">
+        {% if page.introduction-header %}
         <h2 class="section__header">
             {{ page.introduction-header }}
         </h2>
+        {% endif %}
         {% if page.introduction-body %}
         <div class="section__body wysiwyg">
             {{ page.introduction-body | markdownify }}
