@@ -8,11 +8,12 @@ layout: page-cx-awards
 
 # CX Awards North America 2020
 
-## Apply for an award if?
+## How do I apply for an award?
 
 - Your company is based in North America
 - You’ve worked with Clarabridge in 2019
-- You complete the full application by **5:00 PM EST on Friday, March 6th**
+- Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform?usp=sf_link) to submit an application. 
+- You must apply for an award by **5:00 PM EST on Friday, March 6th**
  
 
 ## How do I submit an application?
