@@ -1,4 +1,9 @@
+# system
 .DS_Store
-.sass-cache/
+
+# jekyll
 _site
-node_modules
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
