@@ -115,7 +115,7 @@ faqs:
   body: |-
     ### How can I stay up to date on all things C3 before and during the event?
 
-    Connect with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge){:target="_blank"}{:rel="noopener"} on Twitter and keep up with all things C3 with hashtag ['#C32020'](https://twitter.com/search?q=C320&src=typed_query){:target="_blank"}{:rel="noopener"} on social media.
+    Connect with us on Facebook, follow [@Clarabridge](https://twitter.com/Clarabridge){:target="_blank"}{:rel="noopener"} on Twitter and keep up with all things C3 with hashtag #C32020 on social media.
 
     ### Who can I contact with questions that weren’t answered here?
 
