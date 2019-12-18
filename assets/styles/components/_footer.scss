@@ -19,9 +19,30 @@
     list-style: none;
 }
 
-.site-footer i {
+.site-footer i,
+.site-footer a {
     color: $white;
+}
+
+.site-footer i {
     font-size: 2rem;
+}
+
+.site-footer a {
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 32px;
+}
+
+.social-media h3 {
+    margin-bottom: 16px;
 }
 
 @media screen and (min-width:1279px) {
