@@ -41,13 +41,6 @@ body {
     position: relative;
 }
 
-@media screen and (min-width:1023px) {
-    body {
-        font-size: $font-size-5;
-    }
-
-}
-
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
