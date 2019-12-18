@@ -71,8 +71,8 @@ pricing-table:
   registration: Begins February 1, 2020
 pricing-has-discounts: true
 pricing-discounts-header: Group Discounts
-pricing-discounts-text: "Please [email](mailto:events@clarabridge.com) for information on
-  group discounts\n\n"
+pricing-discounts-text: "Please [email](mailto:events@clarabridge.com) for information
+  on group discounts\n\n"
 has-speakers-past: true
 speakers-past-background-color: bg-cb-primary-100
 has-venue: true
