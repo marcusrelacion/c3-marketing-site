@@ -156,24 +156,29 @@ DIVIDER-7: Ignore This Field
 2020-general-speakers:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
+  name: Rusty John
+  title: Senior Business Analyst
+  company: Blue Cross Blue Shield of Kansas City
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
+  name: Michael Molnar
+  title: 'Social Media Specialist '
+  company: Progressive Insurance
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
+  name: Robert Holloway
+  title: Senior Business Solutions Owner
+  company: HCSC
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
+  name: Justin Meyers
+  title: Customer Experience Leader
+  company: Mutual of Omaha
+- image: 
+  image-alt: 
+  name: Susan Ruff
+  title: Senior Director - Analytics
+  company: ADP
 DIVIDER-8: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
