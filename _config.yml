@@ -133,19 +133,19 @@ DIVIDER-6: Ignore This Field
 2020-keynote-speakers:
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title
-  company: Keynote Speaker Company
+  name: Mark Bishof
+  title: CEO
+  company: Clarabridge
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title That Is Long
-  company: Keynote Speaker Company
+  name: Sid Banerjee
+  title: Executive Vice Chairman, Founder & Chief Strategy Officer
+  company: Clarabridge
 - image: https://picsum.photos/800
   image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title That Is Super Super Loooooooooong
-  company: Keynote Speaker Company
+  name: Fabrice Martin
+  title: Chief Product Officer
+  company: Clarabridge
 - image: https://picsum.photos/800
   image-alt: provide description of the image
   name: Keynote Speaker Name
