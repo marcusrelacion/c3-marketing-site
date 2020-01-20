@@ -3,12 +3,10 @@
         <h2 class="block__header">
             {{ site.2020-general-speakers-header }}
         </h2>
-        <ul class="listing listing--four-column">
+        <ul class="listing listing--three-column">
             {% for speaker in site.2020-general-speakers %}
             <li class="speaker speaker--general">
-                <a href="#" rel="noopener" target="_blank">
-                    <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
-                </a>
+                <img alt="{{ speaker.image-alt }}" class="speaker__image" src="{{ speaker.image }}"/>
                 <div class="speaker__details">
                     <h3 class="speaker--name">
                         {{ speaker.name }}
