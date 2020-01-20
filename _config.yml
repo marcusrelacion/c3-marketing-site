@@ -68,6 +68,8 @@ primary-navigation:
   url: "/venue/"
 - title: Networking
   url: "/networking/"
+- title: Speakers
+  url: "/speakers/"
 - title: Sponsors
   url: "/sponsors/"
 - title: CX Awards
@@ -129,51 +131,61 @@ agenda-small-button-label: See Full Agenda
 agenda-small-button-url: "/agenda/"
 agenda-small-button-style: primary
 DIVIDER-6: Ignore This Field
-2020-keynote-speakers-header: Keynote Speakers
+2020-keynote-speakers-header: 2020 Keynote Speakers
 2020-keynote-speakers:
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title
-  company: Keynote Speaker Company
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title That Is Long
-  company: Keynote Speaker Company
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title That Is Super Super Loooooooooong
-  company: Keynote Speaker Company
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: Keynote Speaker Name
-  title: Keynote Speaker Title That Is Super Super Super Super Looooooooooooooong
-  company: Keynote Speaker Company
+- image: "/uploads/speaker-mark-bishof.png"
+  image-alt: portrait of mark bishof
+  name: Mark Bishof
+  title: CEO
+  company: Clarabridge
+- image: "/uploads/speaker-sid-banerjee.png"
+  image-alt: portrait of sid banerjee
+  name: Sid Banerjee
+  title: Executive Vice Chairman, Founder & Chief Strategy Officer
+  company: Clarabridge
+- image: "/uploads/speaker-fabrice-martin.png"
+  image-alt: portrait for fabrice martin
+  name: Fabrice Martin
+  title: Chief Product Officer
+  company: Clarabridge
+- image: 
+  image-alt: 
+  name: 
+  title: 
+  company: 
 DIVIDER-7: Ignore This Field
-2020-general-speakers-header: General Speakers
+2020-general-speakers-header: 2020 Speakers
 2020-general-speakers:
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
-- image: https://picsum.photos/800
-  image-alt: provide description of the image
-  name: General Speaker Name
-  title: General Speaker Title
-  company: General Speaker Company
+- image: "/uploads/logo-bcbskc.png"
+  image-alt: logo for blue cross blue shield kansas city
+  name: Rusty John
+  title: Senior Business Analyst
+  company: Blue Cross Blue Shield of Kansas City
+- image: "/uploads/logo-progressive.png"
+  image-alt: logo for progressive
+  name: Michael Molnar
+  title: 'Social Media Specialist '
+  company: Progressive Insurance
+- image: "/uploads/logo-hcsc.png"
+  image-alt: logo for hcsc
+  name: Robert Holloway
+  title: Senior Business Solutions Owner
+  company: HCSC
+- image: "/uploads/logo-mutual-of-omaha.png"
+  image-alt: logo for mutual of omaha
+  name: Justin Meyers
+  title: Customer Experience Leader
+  company: Mutual of Omaha
+- image: "/uploads/logo-adp.png"
+  image-alt: logo for adp
+  name: Susan Ruff
+  title: Senior Director - Analytics
+  company: ADP
+- image: "/uploads/logo-indeed.png"
+  image-alt: logo for indeed
+  name: Noel Holmes
+  title: Senior Director, Voice of the Customer
+  company: Indeed
 DIVIDER-8: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
