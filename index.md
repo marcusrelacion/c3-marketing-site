@@ -62,13 +62,13 @@ pricing-table:
   header: Early Bird Pricing
   price: "$999"
   icon: <i class="fad fa-calendar-times"></i>
-  registration: Expires January 31, 2020
+  registration: Extended Through February 17, 2020
 - status: inactive
   type: regular-pricing
   header: Regular Pricing
   price: "$1,299"
   icon: <i class="fad fa-calendar-check"></i>
-  registration: Begins February 1, 2020
+  registration: Begins February 18, 2020
 pricing-has-discounts: true
 pricing-discounts-header: Group Discounts
 pricing-discounts-text: "Please [email](mailto:events@clarabridge.com) for information
