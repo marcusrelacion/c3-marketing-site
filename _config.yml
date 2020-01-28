@@ -176,16 +176,21 @@ DIVIDER-7: Ignore This Field
   name: Justin Meyers
   title: Customer Experience Leader
   company: Mutual of Omaha
-- image: "/uploads/logo-adp.png"
-  image-alt: logo for adp
-  name: Susan Ruff
-  title: Senior Director - Analytics
-  company: ADP
 - image: "/uploads/logo-indeed.png"
   image-alt: logo for indeed
   name: Noel Holmes
   title: Senior Director, Voice of the Customer
   company: Indeed
+- image: "/uploads/logo-united.png"
+  image-alt: logo for united airlines
+  name: Rajeev D'Souza
+  title: Director, Analytics & Insights Global Operations
+  company: United Airlines
+- image: "/uploads/logo-united.png"
+  image-alt: logo for united airlines
+  name: Ryan Neuhaus
+  title: Manager, Customer Insights
+  company: United Airlines
 DIVIDER-8: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
