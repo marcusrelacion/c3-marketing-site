@@ -1,13 +1,14 @@
 ---
 title: Industry Breakout Sessions
-date: 2020-04-22 13:00:00 -04:00
+date: 2020-04-21 14:00 -04:00
+description:
 published: true 
 event:
-  date: 2020-04-22 13:00:00 -04:00
-  start-time: 1:00 PM
-  end-time: 3:00 PM
+  date: 2020-04-21 14:00 -04:00
+  start-time: 02:00 PM
+  end-time: 04:10 PM
 filter-date:
-  is-day-4: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

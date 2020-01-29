@@ -1,22 +1,22 @@
 ---
 title: Keynote Sessions
-date: 2020-04-22 09:00:00 -04:00
+date: 2020-04-21 10:05:00 -04:00
 description:
 published: true 
 modal:
   url:
 event:
-  date: 2020-04-22 09:00:00 -04:00
-  start-time: 9:00 AM
-  end-time: 12:00 PM
+  date: 2020-04-21 10:05:00 -04:00
+  start-time: 10:05 AM
+  end-time: 12:25 PM
 speakers:
   - name:
     title:
     company:
 filter-date:
-  is-day-4: true
+  is-day-3: true
 filter-time:
-  is-daytime: true
+  is-morning: true
 filter-type:
   is-session-keynote: true
 ---

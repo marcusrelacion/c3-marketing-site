@@ -1,11 +1,12 @@
 ---
 title: "Customer-Only Training: Deliver Operational Insights Using Core Principles of Dashboard Best Practices"
-date: 2020-04-19 21:00:00 -04:00
+date: 2020-04-19 12:00:00 -04:00
 description:
+published: true 
 modal:
   url: deliver-operational-insights
 event:
-  date: 2020-04-19 21:00:00 -04:00
+  date: 2020-04-19 12:00:00 -04:00
   start-time: 12:00 PM
   end-time: 3:00 PM
 speakers:
@@ -17,7 +18,7 @@ filter-date:
 filter-time:
   is-evening: true
 filter-type:
-  is-reception: true
+  is-session-workshop: true 
 ---
 
 In this hands-on, customer only training, you will learn how to create a set of operational dashboards designed to provide, at a glance, a comprehensive snapshot of the performance for the day. Focus on best practices related to tracking metrics and KPIs, identify emerging trends and top buzz worthy topics in a useful, quick format.

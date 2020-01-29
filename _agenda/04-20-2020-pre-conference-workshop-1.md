@@ -2,6 +2,7 @@
 title: "Pre-Conference Workshop: Digital Customer Service Roundtable Discussions"
 date: 2020-04-20 16:00:00 -04:00
 description:
+published: true 
 modal:
   url: pcw-digital-customer-roundtable-discussions
 event:

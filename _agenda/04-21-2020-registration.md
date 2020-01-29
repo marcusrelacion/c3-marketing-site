@@ -1,16 +1,16 @@
 ---
-title: Day 2 - Registration
-date: 2020-04-21 10:30:00 -04:00
-description: 
+title: Registration
+date: 2020-04-21 07:30:00 -04:00
+description:
+published: true 
 event:
-  date: 2020-04-21 10:30:00 -04:00
-  start-time: 7:30am
-  end-time: 4:00pm
+  date: 2020-04-21 07:30:00 -04:00
+  start-time: 7:30 AM
+  end-time: 4:00 PM
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-morning: true
 filter-type:
   is-session-general: true
 ---
-

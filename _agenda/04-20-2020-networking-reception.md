@@ -2,6 +2,7 @@
 title: Networking Reception
 date: 2020-04-20 20:00:00 -04:00
 description:
+published: true 
 modal:
   url: networking-reception
 event:

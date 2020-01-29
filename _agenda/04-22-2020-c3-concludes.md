@@ -2,6 +2,7 @@
 title: C3 2020 Concludes
 date: 2020-04-22 15:00:00 -04:00
 description:
+published: true 
 modal:
   url:
 event:

@@ -1,20 +1,20 @@
 ---
-title: Registration
-date: 2020-04-20 11:00:00 -04:00
+title: "Networking Social: - C3 Zone"
+date: 2020-04-21 17:00:00 -04:00
 description:
 published: true 
 modal:
   url:
 event:
-  date: 2020-04-20 11:00:00 -04:00
-  start-time: 11:00 AM
-  end-time: 3:00 PM
+  date: 2020-04-21 17:00:00 -04:00
+  start-time: 5:00pm
+  end-time: 6:30pm
 speakers:
   - name:
     title:
     company:
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-evening: true
 filter-type:

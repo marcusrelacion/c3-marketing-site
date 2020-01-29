@@ -1,20 +1,20 @@
 ---
 title: "Lunch: C3 Zone"
-date: 2020-04-22 12:00:00 -04:00
+date: 2020-04-21 12:25:00 -04:00
 description:
 published: true 
 modal:
   url:
 event:
-  date: 2020-04-22 12:00:00 -04:00
-  start-time: 12:00 PM
-  end-time: 1:00 PM
+  date: 2020-04-21 12:25:00 -04:00
+  start-time: 12:25 PM
+  end-time: 2:00 PM
 speakers:
   - name:
     title:
     company:
 filter-date:
-  is-day-4: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

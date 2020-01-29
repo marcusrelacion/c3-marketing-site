@@ -2,8 +2,9 @@
 title: "Pre-Conference Workshop: Learn from Each Other: Industry-Based Roundtable Discussion on CEM Best Practices"
 date: 2020-04-20 16:00:00 -04:00
 description:
+published: true 
 modal:
-  url:
+  url: pcw-learn-from-each-other
 event:
   date: 2020-04-20 16:00:00 -04:00
   start-time: 12:00 PM

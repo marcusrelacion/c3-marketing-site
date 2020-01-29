@@ -1,6 +1,7 @@
 ---
-title: Day 3 - Registration
+title: Registration
 date: 2020-04-22 07:30:00 -04:00
+published: true
 event:
   date: 2020-04-22 07:30:00 -04:00
   start-time: 7:30 AM
