@@ -1,7 +1,7 @@
 ---
 title: Day 2 - Product Track Breakout Session 3
 date: 2020-04-21 13:30:00 -04:00
-description: Description of event
+description: 
 event:
   date: 2020-04-21 13:30:00 -04:00
   start-time: 10:30am

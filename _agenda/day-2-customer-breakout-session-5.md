@@ -1,7 +1,7 @@
 ---
 title: Customer Track Breakout Session 5
 date: 2020-04-21 13:30:00 -04:00
-description: Description of event
+description: 
 modal:
   url: 
 event:
@@ -12,10 +12,7 @@ speakers:
 - name: 
   title: 
   company: 
-venue:
-  name: 
-  address: 
-  directions: 
+
 filter-date:
   is-day-2: true
 filter-time:

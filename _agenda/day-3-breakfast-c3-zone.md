@@ -1,7 +1,7 @@
 ---
 title: 'Breakfast: C3 Zone'
 date: 2020-04-22 10:35:00 -04:00
-description: Description of event
+description: 
 modal:
   url: 
 event:
@@ -12,10 +12,7 @@ speakers:
 - name: 
   title: 
   company: 
-venue:
-  name: 
-  address: 
-  directions: 
+
 filter-date:
   is-day-3: true
 filter-time:

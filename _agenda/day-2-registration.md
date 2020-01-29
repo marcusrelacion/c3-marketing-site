@@ -1,7 +1,7 @@
 ---
 title: Day 2 - Registration
 date: 2020-04-21 10:30:00 -04:00
-description: Description of event
+description: 
 event:
   date: 2020-04-21 10:30:00 -04:00
   start-time: 7:30am

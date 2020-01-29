@@ -85,6 +85,14 @@
     margin-top: 16px;
 }
 
+.agenda-event__summary > *+*:not(:first-child) {
+    margin-top: 16px;
+}
+
+.agenda-event__summary ul {
+    margin-left: 24px;
+}
+
 .agenda-event__toolbar {
     margin-bottom: 32px;
 }

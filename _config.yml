@@ -255,12 +255,15 @@ agenda-filter-time-of-day:
 agenda-filter-date:
 - filter: ".day-1"
   class: day-1
-  text-1: Monday, April 20th
+  text-1: Monday, April 19th
 - filter: ".day-2"
   class: day-2
-  text-1: Tuesday, April 21st
+  text-1: Monday, April 20th
 - filter: ".day-3"
   class: day-3
+  text-1: Tuesday, April 21st
+- filter: ".day-4"
+  class: day-4
   text-1: Wednesday, April 22nd
 agenda-filter-type:
 - filter: ".session-keynote"
