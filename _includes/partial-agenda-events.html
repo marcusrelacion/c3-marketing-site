@@ -9,6 +9,7 @@
         {% if post.filter-date.is-day-1 == true %} day-1 
         {% elsif post.filter-date.is-day-2 == true %} day-2 
         {% elsif post.filter-date.is-day-3 == true %} day-3 
+        {% elsif post.filter-date.is-day-4 == true %} day-4 
         {% endif %} 
 
         {% if post.filter-time.is-morning == true %} morning 
@@ -45,11 +46,11 @@
                                 {{ post.event.end-time }}
                             </time>
                         </div>
-                        <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
-                        {% elsif post.filter-type.is-session-general == true %}session-general 
-                        {% elsif post.filter-type.is-reception == true %}reception 
-                        {% elsif post.filter-type.is-track-customer == true %}track-customer 
-                        {% elsif post.filter-type.is-track-product == true %}track-product 
+                        <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %} session-workshop 
+                        {% elsif post.filter-type.is-session-general == true %} session-general 
+                        {% elsif post.filter-type.is-reception == true %} reception 
+                        {% elsif post.filter-type.is-track-customer == true %} track-customer 
+                        {% elsif post.filter-type.is-track-product == true %} track-product 
                         {% endif %} 
                         ">
                         <p>
@@ -100,11 +101,11 @@
                         </time>
                     </div>
                     <div class="
-                    agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
-                    {% elsif post.filter-type.is-session-general == true %}session-general 
-                    {% elsif post.filter-type.is-reception == true %}reception 
-                    {% elsif post.filter-type.is-track-customer == true %}track-customer 
-                    {% elsif post.filter-type.is-track-product == true %}track-product 
+                    agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %} session-workshop 
+                    {% elsif post.filter-type.is-session-general == true %} session-general 
+                    {% elsif post.filter-type.is-reception == true %} reception 
+                    {% elsif post.filter-type.is-track-customer == true %} track-customer 
+                    {% elsif post.filter-type.is-track-product == true %} track-product 
                     {% endif %} 
                     ">
                         <p>
@@ -213,11 +214,11 @@
 </script>
 <script>
     modals.init({
-    modalActiveClass: 'active', // Class applied to active modal windows
-    modalBGClass: 'modal-bg', // Class applied to the modal background overlay
-    preventBGScroll: true, // Boolean, prevents background content from scroll if true
-    preventBGScrollHtml: true, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
-    preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
-    backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
-});
+        modalActiveClass: 'active', // Class applied to active modal windows
+        modalBGClass: 'modal-bg', // Class applied to the modal background overlay
+        preventBGScroll: true, // Boolean, prevents background content from scroll if true
+        preventBGScrollHtml: true, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
+        preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
+        backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
+    });
 </script>

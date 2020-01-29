@@ -1,10 +1,17 @@
 ---
-title: Day 3 - Registration
+title: "Breakfast: C3 Zone"
 date: 2020-04-22 07:30:00 -04:00
+description:
+modal:
+  url:
 event:
   date: 2020-04-22 07:30:00 -04:00
   start-time: 7:30 AM
-  end-time: 12:00 PM
+  end-time: 9:00 AM
+speakers:
+  - name:
+    title:
+    company:
 filter-date:
   is-day-4: true
 filter-time:
