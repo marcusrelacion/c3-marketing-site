@@ -255,7 +255,7 @@ agenda-filter-time-of-day:
 agenda-filter-date:
 - filter: ".day-1"
   class: day-1
-  text-1: Monday, April 19th
+  text-1: Sunday, April 19th
 - filter: ".day-2"
   class: day-2
   text-1: Monday, April 20th

@@ -41,10 +41,12 @@
                             <time datetime="{{ post.event.start-time }}">
                                 {{ post.event.start-time }}
                             </time>
-                            -
-                            <time datetime="{{ post.event.end-time }}">
-                                {{ post.event.end-time }}
-                            </time>
+                            {% if post.event.end-time %}
+                                -
+                                <time datetime="{{ post.event.end-time }}">
+                                    {{ post.event.end-time }}
+                                </time>
+                            {% endif %}
                         </div>
                         <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                         {% elsif post.filter-type.is-session-general == true %}session-general 
