@@ -4,7 +4,7 @@ date: 2020-04-20 15:00:00 -04:00
 description:
 published: true 
 modal:
-  url: networking-reception
+  url:
 event:
   date: 2020-04-20 15:00:00 -04:00
   start-time: 5:00pm
@@ -22,5 +22,5 @@ filter-date:
 filter-time:
   is-evening: true
 filter-type:
-  is-reception: true
+  is-session-general: true
 ---

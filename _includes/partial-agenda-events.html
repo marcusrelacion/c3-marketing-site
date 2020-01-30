@@ -15,12 +15,17 @@
         {% if post.filter-time.is-morning == true %} morning 
         {% elsif post.filter-time.is-daytime == true %} daytime 
         {% elsif post.filter-time.is-evening == true %} evening 
-        {% endif %} {% if post.filter-type.is-session-keynote == true %} session-keynote 
+        {% endif %} 
+        
+        {% if post.filter-type.is-session-keynote == true %} session-keynote 
         {% elsif post.filter-type.is-session-workshop == true %} session-workshop 
-        {% elsif post.filter-type.is-session-general == true %} session-general 
+        {% elsif post.filter-type.is-session-general == true %} session-general
+        {% elsif post.filter-type.is-session-breakout == true %} session-breakout
+        {% comment %}
         {% elsif post.filter-type.is-reception == true %} reception 
         {% elsif post.filter-type.is-track-customer == true %} track-customer 
         {% elsif post.filter-type.is-track-product == true %} track-product 
+        {% endcomment %}
         {% endif %} 
 
         ">
@@ -48,11 +53,15 @@
                                 </time>
                             {% endif %}
                         </div>
-                        <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
+                        <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote 
+                        {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                         {% elsif post.filter-type.is-session-general == true %}session-general 
+                        {% elsif post.filter-type.is-session-breakout == true %}session-breakout
+                        {% comment %}
                         {% elsif post.filter-type.is-reception == true %}reception 
                         {% elsif post.filter-type.is-track-customer == true %}track-customer 
                         {% elsif post.filter-type.is-track-product == true %}track-product 
+                        {% endcomment %}
                         {% endif %} 
                         ">
                         <p>
@@ -60,9 +69,12 @@
                             {% if post.filter-type.is-session-keynote == true %} Keynote
                             {% elsif post.filter-type.is-session-workshop == true %} Workshop
                             {% elsif post.filter-type.is-session-general == true %} General
+                            {% elsif post.filter-type.is-session-breakout == true %} Breakout
+                            {% comment %}
                             {% elsif post.filter-type.is-reception == true %} Reception
                             {% elsif post.filter-type.is-track-customer == true %} Customer
                             {% elsif post.filter-type.is-track-product == true %} Product
+                            {% endcomment %}
                             {% endif %}
                         </p>
                         </div>
@@ -105,9 +117,12 @@
                     <div class="
                     agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                     {% elsif post.filter-type.is-session-general == true %}session-general 
+                    {% elsif post.filter-type.is-session-breakout == true %}session-breakout 
+                    {% comment %}
                     {% elsif post.filter-type.is-reception == true %}reception 
                     {% elsif post.filter-type.is-track-customer == true %}track-customer 
                     {% elsif post.filter-type.is-track-product == true %}track-product 
+                    {% endcomment %}
                     {% endif %} 
                     ">
                         <p>
@@ -115,9 +130,12 @@
                             {% if post.filter-type.is-session-keynote == true %}Keynote
                             {% elsif post.filter-type.is-session-workshop == true %}Workshop
                             {% elsif post.filter-type.is-session-general == true %}General
+                             {% elsif post.filter-type.is-session-breakout == true %}Breakout
+                            {% comment %}
                             {% elsif post.filter-type.is-reception == true %}Reception
                             {% elsif post.filter-type.is-track-customer == true %}Customer
                             {% elsif post.filter-type.is-track-product == true %}Product
+                            {% endcomment %}
                             {% endif %}
                         </p>
                     </div>

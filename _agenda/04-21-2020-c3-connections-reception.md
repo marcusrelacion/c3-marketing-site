@@ -18,5 +18,5 @@ filter-date:
 filter-time:
   is-evening: true
 filter-type:
-  is-reception: true
+  is-session-general: true
 ---

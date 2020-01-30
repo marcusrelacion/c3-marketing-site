@@ -11,5 +11,5 @@ filter-date:
 filter-time:
   is-daytime: true
 filter-type:
-  is-track-product: true
+  is-session-breakout: true
 ---
