@@ -2,17 +2,10 @@
 title: Networking Reception
 date: 2020-04-20 15:00:00 -04:00
 position: 4
-description: 
-modal:
-  url: 
 event:
   date: 2020-04-20 15:00:00 -04:00
-  start-time: 5:00pm
-  end-time: 6:00pm
-speakers:
-- name: 
-  title: 
-  company: 
+  start-time: 5:00 PM
+  end-time: 6:00 PM
 venue:
   name: Montcalm Royal London House
   address: 22-25 Finsbury Square, Finsbury, London EC2A 1DX
