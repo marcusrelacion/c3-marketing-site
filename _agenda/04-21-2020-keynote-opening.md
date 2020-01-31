@@ -1,6 +1,7 @@
 ---
 title: Opening Keynote
 date: 2020-04-21 09:00:00 -04:00
+position: 8
 description: 
 modal:
   url: 

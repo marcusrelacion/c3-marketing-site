@@ -1,6 +1,7 @@
 ---
 title: C3 Welcome Reception
 date: 2020-04-20 16:00:00 -04:00
+position: 5
 description: 
 modal: url:2
 event:
