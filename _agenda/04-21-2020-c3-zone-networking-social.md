@@ -1,17 +1,10 @@
 ---
-title: 'Networking Social: - C3 Zone'
+title: 'Networking Social: C3 Zone'
 date: 2020-04-21 17:00:00 -04:00
-description: 
-modal:
-  url: 
 event:
   date: 2020-04-21 17:00:00 -04:00
-  start-time: 5:00pm
-  end-time: 6:30pm
-speakers:
-- name: 
-  title: 
-  company: 
+  start-time: 5:00 PM
+  end-time: 6:30 PM
 filter-date:
   is-day-3: true
 filter-time:
