@@ -55,10 +55,11 @@ defaults:
     filter-type:
       is-session-keynote: 
       is-session-workshop: 
-      is-session-general: 
-      is-reception: 
-      is-track-customer: 
-      is-track-product: 
+      is-session-general:
+      is-session-breakout: 
+#      is-reception: 
+#      is-track-customer: 
+#      is-track-product: 
     layout: page-agenda-single
 DIVIDER-1: Ignore This Field
 primary-navigation:
@@ -255,12 +256,15 @@ agenda-filter-time-of-day:
 agenda-filter-date:
 - filter: ".day-1"
   class: day-1
-  text-1: Monday, April 20th
+  text-1: Sunday, April 19th
 - filter: ".day-2"
   class: day-2
-  text-1: Tuesday, April 21st
+  text-1: Monday, April 20th
 - filter: ".day-3"
   class: day-3
+  text-1: Tuesday, April 21st
+- filter: ".day-4"
+  class: day-4
   text-1: Wednesday, April 22nd
 agenda-filter-type:
 - filter: ".session-keynote"
@@ -271,16 +275,19 @@ agenda-filter-type:
   text-1: <i class="fad fa-tags"></i> Workshop
 - filter: ".session-general"
   class: session-general
-  text-1: <i class="fad fa-tags"></i> General Session
-- filter: ".reception"
-  class: reception
-  text-1: <i class="fad fa-tags"></i> Reception
-- filter: ".track-customer"
-  class: track-customer
-  text-1: <i class="fad fa-tags"></i> Customer Track
-- filter: ".track-product"
-  class: track-product
-  text-1: <i class="fad fa-tags"></i> Product Track
+  text-1: <i class="fad fa-tags"></i> General
+- filter: ".session-breakout"
+  class: session-breakout
+  text-1: <i class="fad fa-tags"></i> Breakout
+#- filter: ".reception"
+#  class: reception
+#  text-1: <i class="fad fa-tags"></i> Reception
+#- filter: ".track-customer"
+#  class: track-customer
+#  text-1: <i class="fad fa-tags"></i> Customer Track
+#- filter: ".track-product"
+#  class: track-product
+#  text-1: <i class="fad fa-tags"></i> Product Track
 DIVIDER-11: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:

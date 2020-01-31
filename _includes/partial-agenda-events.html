@@ -9,17 +9,23 @@
         {% if post.filter-date.is-day-1 == true %} day-1 
         {% elsif post.filter-date.is-day-2 == true %} day-2 
         {% elsif post.filter-date.is-day-3 == true %} day-3 
+        {% elsif post.filter-date.is-day-4 == true %} day-4 
         {% endif %} 
 
         {% if post.filter-time.is-morning == true %} morning 
         {% elsif post.filter-time.is-daytime == true %} daytime 
         {% elsif post.filter-time.is-evening == true %} evening 
-        {% endif %} {% if post.filter-type.is-session-keynote == true %} session-keynote 
+        {% endif %} 
+        
+        {% if post.filter-type.is-session-keynote == true %} session-keynote 
         {% elsif post.filter-type.is-session-workshop == true %} session-workshop 
-        {% elsif post.filter-type.is-session-general == true %} session-general 
+        {% elsif post.filter-type.is-session-general == true %} session-general
+        {% elsif post.filter-type.is-session-breakout == true %} session-breakout
+        {% comment %}
         {% elsif post.filter-type.is-reception == true %} reception 
         {% elsif post.filter-type.is-track-customer == true %} track-customer 
         {% elsif post.filter-type.is-track-product == true %} track-product 
+        {% endcomment %}
         {% endif %} 
 
         ">
@@ -40,16 +46,22 @@
                             <time datetime="{{ post.event.start-time }}">
                                 {{ post.event.start-time }}
                             </time>
-                            -
-                            <time datetime="{{ post.event.end-time }}">
-                                {{ post.event.end-time }}
-                            </time>
+                            {% if post.event.end-time %}
+                                -
+                                <time datetime="{{ post.event.end-time }}">
+                                    {{ post.event.end-time }}
+                                </time>
+                            {% endif %}
                         </div>
-                        <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
+                        <div class="agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote 
+                        {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                         {% elsif post.filter-type.is-session-general == true %}session-general 
+                        {% elsif post.filter-type.is-session-breakout == true %}session-breakout
+                        {% comment %}
                         {% elsif post.filter-type.is-reception == true %}reception 
                         {% elsif post.filter-type.is-track-customer == true %}track-customer 
                         {% elsif post.filter-type.is-track-product == true %}track-product 
+                        {% endcomment %}
                         {% endif %} 
                         ">
                         <p>
@@ -57,9 +69,12 @@
                             {% if post.filter-type.is-session-keynote == true %} Keynote
                             {% elsif post.filter-type.is-session-workshop == true %} Workshop
                             {% elsif post.filter-type.is-session-general == true %} General
+                            {% elsif post.filter-type.is-session-breakout == true %} Breakout
+                            {% comment %}
                             {% elsif post.filter-type.is-reception == true %} Reception
                             {% elsif post.filter-type.is-track-customer == true %} Customer
                             {% elsif post.filter-type.is-track-product == true %} Product
+                            {% endcomment %}
                             {% endif %}
                         </p>
                         </div>
@@ -102,19 +117,25 @@
                     <div class="
                     agenda__event-type agenda__event-type--{% if post.filter-type.is-session-keynote == true %}session-keynote {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                     {% elsif post.filter-type.is-session-general == true %}session-general 
+                    {% elsif post.filter-type.is-session-breakout == true %}session-breakout 
+                    {% comment %}
                     {% elsif post.filter-type.is-reception == true %}reception 
                     {% elsif post.filter-type.is-track-customer == true %}track-customer 
                     {% elsif post.filter-type.is-track-product == true %}track-product 
+                    {% endcomment %}
                     {% endif %} 
                     ">
                         <p>
                             <i class="fad fa-tags"></i>
-                            {% if post.filter-type.is-session-keynote == true %} Keynote
-                            {% elsif post.filter-type.is-session-workshop == true %} Workshop
-                            {% elsif post.filter-type.is-session-general == true %} General
-                            {% elsif post.filter-type.is-reception == true %} Reception
-                            {% elsif post.filter-type.is-track-customer == true %} Customer
-                            {% elsif post.filter-type.is-track-product == true %} Product
+                            {% if post.filter-type.is-session-keynote == true %}Keynote
+                            {% elsif post.filter-type.is-session-workshop == true %}Workshop
+                            {% elsif post.filter-type.is-session-general == true %}General
+                             {% elsif post.filter-type.is-session-breakout == true %}Breakout
+                            {% comment %}
+                            {% elsif post.filter-type.is-reception == true %}Reception
+                            {% elsif post.filter-type.is-track-customer == true %}Customer
+                            {% elsif post.filter-type.is-track-product == true %}Product
+                            {% endcomment %}
                             {% endif %}
                         </p>
                     </div>
@@ -127,7 +148,7 @@
                 </div>
                 <!-- agenda-summary -->
                 <div class="agenda-event__summary">
-                    {{ post.description | markdownify }}
+                    {{ post.content | markdownify }}
                 </div>
                 {% if post.speaker.name %}
                 <!-- agenda-speakers -->
@@ -213,11 +234,11 @@
 </script>
 <script>
     modals.init({
-    modalActiveClass: 'active', // Class applied to active modal windows
-    modalBGClass: 'modal-bg', // Class applied to the modal background overlay
-    preventBGScroll: true, // Boolean, prevents background content from scroll if true
-    preventBGScrollHtml: true, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
-    preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
-    backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
-});
+        modalActiveClass: 'active', // Class applied to active modal windows
+        modalBGClass: 'modal-bg', // Class applied to the modal background overlay
+        preventBGScroll: true, // Boolean, prevents background content from scroll if true
+        preventBGScrollHtml: true, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
+        preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
+        backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
+    });
 </script>
