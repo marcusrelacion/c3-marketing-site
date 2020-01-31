@@ -3,17 +3,12 @@ title: 'Customer-Only Training: Deliver Operational Insights Using Core Principl
   of Dashboard Best Practices'
 date: 2020-04-19 12:00:00 -04:00
 position: 1
-description: 
 modal:
   url: deliver-operational-insights
 event:
   date: 2020-04-19 12:00:00 -04:00
   start-time: 12:00 PM
   end-time: 3:00 PM
-speakers:
-- name: 
-  title: 
-  company: 
 filter-date:
   is-day-1: true
 filter-time:
@@ -34,3 +29,5 @@ Topics/ Exercises that will be covered:
 
 Space is limited. Must be registered for this hands-on training to attend.
 Prerequisites: Customers only. Must have completed the customer course provided by Clarabridge University.
+
+This session is an additional cost of $199. 
