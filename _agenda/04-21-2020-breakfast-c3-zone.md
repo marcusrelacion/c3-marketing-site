@@ -1,17 +1,10 @@
 ---
 title: 'Breakfast: C3 Zone'
 date: 2020-04-21 07:35:00 -04:00
-description: 
-modal:
-  url: 
 event:
   date: 2020-04-21 07:35:00 -04:00
-  start-time: 7:30pm
-  end-time: 4:00pm
-speakers:
-- name: 
-  title: 
-  company: 
+  start-time: 7:30 AM
+  end-time: 4:00 PM
 filter-date:
   is-day-3: true
 filter-time:
