@@ -16,12 +16,9 @@
             </li>
             {% endfor %}
         </ul>
-        {% if page.agenda-small-has-button == true %}
-        <a class="button button--{{ site.agenda-small-button-style }}" href="{{ site.agenda-small-button-url }}">
-            {{ site.agenda-small-button-label }}
+        <a class="button button--primary" href="/agenda/">
+            View Full Agenda
         </a>
-        {% else %}
-        {% endif %}
     </div>
 </section>
 {% endif %}
