@@ -1,8 +1,7 @@
 ---
 title: Registration
 date: 2020-04-21 07:30:00 -04:00
-description:
-published: true 
+description: 
 event:
   date: 2020-04-21 07:30:00 -04:00
   start-time: 7:30 AM
@@ -14,3 +13,4 @@ filter-time:
 filter-type:
   is-session-general: true
 ---
+

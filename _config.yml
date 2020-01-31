@@ -55,11 +55,8 @@ defaults:
     filter-type:
       is-session-keynote: 
       is-session-workshop: 
-      is-session-general:
+      is-session-general: 
       is-session-breakout: 
-#      is-reception: 
-#      is-track-customer: 
-#      is-track-product: 
     layout: page-agenda-single
 DIVIDER-1: Ignore This Field
 primary-navigation:
@@ -279,15 +276,6 @@ agenda-filter-type:
 - filter: ".session-breakout"
   class: session-breakout
   text-1: <i class="fad fa-tags"></i> Breakout
-#- filter: ".reception"
-#  class: reception
-#  text-1: <i class="fad fa-tags"></i> Reception
-#- filter: ".track-customer"
-#  class: track-customer
-#  text-1: <i class="fad fa-tags"></i> Customer Track
-#- filter: ".track-product"
-#  class: track-product
-#  text-1: <i class="fad fa-tags"></i> Product Track
 DIVIDER-11: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:

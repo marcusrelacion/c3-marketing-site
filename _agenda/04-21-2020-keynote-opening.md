@@ -2,12 +2,11 @@
 title: Opening Keynote
 date: 2020-04-21 09:00:00 -04:00
 description: 
-published: true 
 modal:
   url: 
 event:
   date: 2020-04-21 09:00:00 -04:00
-  start-time: 09:00 AM
+  start-time: '09:00 AM'
   end-time: 10:00 AM
 speakers:
 - name: 

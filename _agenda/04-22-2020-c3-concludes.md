@@ -1,18 +1,17 @@
 ---
 title: C3 2020 Concludes
 date: 2020-04-22 15:00:00 -04:00
-description:
-published: true 
+description: 
 modal:
-  url:
+  url: 
 event:
   date: 2020-04-22 15:00:00 -04:00
   start-time: 3:00 PM
-  end-time:
+  end-time: 
 speakers:
-  - name:
-    title:
-    company:
+- name: 
+  title: 
+  company: 
 filter-date:
   is-day-4: true
 filter-time:
@@ -20,3 +19,4 @@ filter-time:
 filter-type:
   is-session-general: true
 ---
+

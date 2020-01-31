@@ -1,18 +1,17 @@
 ---
-title: "Breakfast: C3 Zone"
+title: 'Breakfast: C3 Zone'
 date: 2020-04-21 07:35:00 -04:00
-description:
-published: true 
+description: 
 modal:
-  url:
+  url: 
 event:
   date: 2020-04-21 07:35:00 -04:00
   start-time: 7:30pm
   end-time: 4:00pm
 speakers:
-  - name:
-    title:
-    company:
+- name: 
+  title: 
+  company: 
 filter-date:
   is-day-3: true
 filter-time:
@@ -20,3 +19,4 @@ filter-time:
 filter-type:
   is-session-general: true
 ---
+
