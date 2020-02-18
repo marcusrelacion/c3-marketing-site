@@ -1,7 +1,7 @@
 ---
 title: 'Keynote: Clarabridge Product Roadmap'
 date: 2020-04-22 11:45:00 -04:00
-position: 37
+position: 36
 event:
   date: 2020-04-22 11:45:00 -04:00
   start-time: 11:45 AM
