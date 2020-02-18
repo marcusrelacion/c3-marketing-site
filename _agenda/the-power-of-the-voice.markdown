@@ -7,6 +7,12 @@ event:
   date: 2020-04-21 15:10:00 -04:00
   start-time: 3:10 PM
   end-time: 3:40 PM
+filter-date:
+  is-day-2: true
+filter-time:
+  is-daytime: true
+filter-type:
+  is-session-cxhub: true
 ---
 
 Your customers’ actual voices can spark sympathy and drive action. Indeed’s Voice of Customer team has fed Clarabridge its customers’ voices through NPS and CSAT verbatims, chat transcripts and social media captures – but the most powerful tool has been the audio transcripts and the associated sound bites from calls to its Client Success team. 
