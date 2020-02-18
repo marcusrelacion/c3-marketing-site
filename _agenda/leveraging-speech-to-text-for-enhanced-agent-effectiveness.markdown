@@ -2,6 +2,8 @@
 title: Leveraging Speech to Text for Enhanced Agent Effectiveness
 date: 2020-04-21 14:00:00 -04:00
 position: 16
+modal:
+  url: speech-to-text
 event:
   date: 2020-04-21 00:00:00 -04:00
   start-time: 2:00 PM
