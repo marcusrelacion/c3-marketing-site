@@ -1,7 +1,7 @@
 ---
 title: 'Progressive: Hustle & Flo'
 date: 2020-02-18 13:11:00 -05:00
-position: 17
+position: 18
 modal:
   url: hustle-flo
 event:
