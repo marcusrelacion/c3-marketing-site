@@ -189,6 +189,16 @@ DIVIDER-7: Ignore This Field
   name: Ryan Neuhaus
   title: Manager, Customer Insights
   company: United Airlines
+- image: "/uploads/humana-logo.png"
+  image-alt: logo for humana
+  name: Kristin Palmer-Ball
+  title: Enterprise Transformation Lead
+  company: Humana
+- image: "/uploads/humana-logo.png"
+  image-alt: logo for humana
+  name: Daria Robinson
+  title: Principal Solutions Architect
+  company: Humana
 DIVIDER-8: Ignore This Field
 2019-past-speakers-header: Past Speakers
 2019-past-speakers:
