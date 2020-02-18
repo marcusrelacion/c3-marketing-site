@@ -1,7 +1,7 @@
 ---
 title: 'Networking Social: C3 Zone'
 date: 2020-04-21 17:00:00 -04:00
-position: 17
+position: 18
 event:
   date: 2020-04-21 17:00:00 -04:00
   start-time: 5:00 PM
