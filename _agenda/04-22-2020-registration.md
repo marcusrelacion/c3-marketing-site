@@ -1,7 +1,7 @@
 ---
 title: Registration
 date: 2020-04-22 07:30:00 -04:00
-position: 17
+position: 18
 event:
   date: 2020-04-22 07:30:00 -04:00
   start-time: 7:30 AM

@@ -1,7 +1,7 @@
 ---
 title: Opening Keynote
 date: 2020-04-21 09:00:00 -04:00
-position: 9
+position: 10
 event:
   date: 2020-04-21 09:00:00 -04:00
   start-time: 9:00 AM
