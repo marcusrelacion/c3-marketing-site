@@ -1,6 +1,7 @@
 ---
 title: The Power of the Voice
 date: 2020-04-21 15:10:00 -04:00
+position: 23
 modal:
   url: power-voice
 event:

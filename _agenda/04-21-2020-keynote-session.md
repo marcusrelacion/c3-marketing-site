@@ -1,7 +1,7 @@
 ---
 title: Keynote Session
 date: 2020-04-21 16:15:00 -04:00
-position: 23
+position: 24
 event:
   date: 2020-04-21 16:15:00 -04:00
   start-time: 4:15 PM
