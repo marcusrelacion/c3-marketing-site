@@ -7,7 +7,8 @@ event:
   start-time: 10:05 AM
   end-time: 10:45 AM
 filter-date:
-  is-day-3: true
+  is-day-1: true
+  is-day-3: false
 filter-time:
   is-morning: true
 filter-type:
