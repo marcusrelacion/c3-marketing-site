@@ -13,7 +13,7 @@ speakers:
   title: Social Media Specialist
   company: Progressive Insurance
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

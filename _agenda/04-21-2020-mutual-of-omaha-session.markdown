@@ -11,7 +11,7 @@ speakers:
   title: Customer Experience Leader, Corporate Operations
   company: Mutual of Omaha
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

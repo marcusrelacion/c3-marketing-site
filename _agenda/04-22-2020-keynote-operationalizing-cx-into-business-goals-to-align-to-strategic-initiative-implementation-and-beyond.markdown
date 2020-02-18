@@ -12,7 +12,7 @@ speakers:
   title: Business Intelligence and Data Insights
   company: 'Blue Cross Blue Shield Kansas City '
 filter-date:
-  is-day-3: true
+  is-day-4: true
 filter-time:
   is-morning: true
 filter-type:

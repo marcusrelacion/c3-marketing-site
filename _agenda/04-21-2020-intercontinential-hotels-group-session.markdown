@@ -7,7 +7,7 @@ event:
   start-time: 2:35 PM
   end-time: 3:05 PM
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

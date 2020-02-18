@@ -16,7 +16,7 @@ speakers:
   title: Principal Solutions Architect
   company: Humana
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

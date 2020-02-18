@@ -13,7 +13,7 @@ speakers:
   title: Senior Business Solutions Owner
   company: Health Care Service Corporation
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-daytime: true
 filter-type:

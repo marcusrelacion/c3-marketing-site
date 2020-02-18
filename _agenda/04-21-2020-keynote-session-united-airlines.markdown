@@ -14,7 +14,7 @@ speakers:
   title: Manager, Customer Insights
   company: United Airlines
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-morning: true
 filter-type:
