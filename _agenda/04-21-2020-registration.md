@@ -1,7 +1,7 @@
 ---
 title: Registration
 date: 2020-04-21 07:30:00 -04:00
-position: 6
+position: 7
 description: 
 event:
   date: 2020-04-21 07:30:00 -04:00

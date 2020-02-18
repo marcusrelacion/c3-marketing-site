@@ -1,7 +1,7 @@
 ---
 title: Connections Reception
 date: 2020-04-21 19:00:00 -04:00
-position: 15
+position: 16
 event:
   date: 2020-04-21 19:00:00 -04:00
   start-time: 7:00 PM
