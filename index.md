@@ -57,13 +57,13 @@ pricing-background-color: bg-white
 pricing-header: Pricing & Discounts
 pricing-body: 
 pricing-table:
-- status: active
+- status: inactive
   type: early-bird-pricing
   header: Early Bird Pricing
   price: "$999"
   icon: <i class="fad fa-calendar-times"></i>
   registration: Extended Through February 17, 2020
-- status: inactive
+- status: active
   type: regular-pricing
   header: Regular Pricing
   price: "$1,299"
