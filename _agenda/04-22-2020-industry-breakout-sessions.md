@@ -1,7 +1,7 @@
 ---
 title: Industry Breakout Sessions
 date: 2020-04-22 13:00:00 -04:00
-position: 35
+position: 36
 event:
   date: 2020-04-22 13:00:00 -04:00
   start-time: 1:00 PM
