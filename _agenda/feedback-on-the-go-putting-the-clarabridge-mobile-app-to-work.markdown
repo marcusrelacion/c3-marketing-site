@@ -1,6 +1,7 @@
 ---
 title: 'Feedback On-the-Go: Putting the Clarabridge Mobile App to Work'
 date: 2020-04-21 15:45:00 -04:00
+position: 27
 event:
   date: 2020-04-21 15:45:00 -04:00
   start-time: 3:45 PM
