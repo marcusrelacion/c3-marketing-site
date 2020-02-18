@@ -1,6 +1,7 @@
 ---
 title: Mutual of Omaha Session
 date: 2020-04-21 14:35:00 -04:00
+position: 20
 event:
   date: 2020-04-21 00:00:00 -04:00
   start-time: 2:35 PM
