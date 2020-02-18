@@ -282,7 +282,7 @@ networking-receptions:
 - image: "/uploads/c3-welcome.jpg"
   image-alt: provide description of the image
   title: Welcome Reception
-  location: Float at Hard Rock Hotel San Diego
+  location: Float Rooftop Bar at Hard Rock Hotel San Diego
   location-url: 
   day: Monday, April 20
   time: 6:00 - 9:00 PM
