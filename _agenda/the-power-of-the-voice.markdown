@@ -1,6 +1,12 @@
 ---
 title: The Power of the Voice
-date: 2020-02-18 13:30:00 -05:00
+date: 2020-04-21 15:10:00 -04:00
+modal:
+  url: power-voice
+event:
+  date: 2020-04-21 15:10:00 -04:00
+  start-time: 3:10 PM
+  end-time: 3:40 PM
 ---
 
 Your customers’ actual voices can spark sympathy and drive action. Indeed’s Voice of Customer team has fed Clarabridge its customers’ voices through NPS and CSAT verbatims, chat transcripts and social media captures – but the most powerful tool has been the audio transcripts and the associated sound bites from calls to its Client Success team. 
