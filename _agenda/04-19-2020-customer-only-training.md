@@ -19,13 +19,12 @@ filter-type:
 
 In this hands-on, customer only training, you will learn how to create a set of operational dashboards designed to provide, at a glance, a comprehensive snapshot of the performance for the day. Focus on best practices related to tracking metrics and KPIs, identify emerging trends and top buzz worthy topics in a useful, quick format.
 
-Topics/ Exercises that will be covered:
+Topics/Use Cases that will be covered:
 
-- Metric template dashboard to view current metrics and changes from last week/quarter
-- Starter template to create an emerging trend dashboard – table with deltas of &parent change
-- Starter template to create buzz worthy topics (feature widget as a filter to interact with subtopics) using fabulous 4 key widgets (Bar topic, Bar Subtopic, associated Words cloud/table, sentence preview)
-- Deploy by scheduling delivery
-- Enable org hierarchy to view relevant source feedback data (org hierarchy already built)
+- Contact Center Call Deflection - create dashboards to discover self-service opportunities, duration of call impact, first call resolution and repeat caller metric tracking
+- Contact Center Call Reason - create persona based (executives vs analysts) dashboards to discover underlying factors for why customers call and track emerging trends
+- Omni-Channel Leading Indicators - combine cross channel impacts with cost impacts to emphasize pain points customers are experiencing
+- Deployment and Alert Strategies to Drive Action
 
 Space is limited. Must be registered for this hands-on training to attend.
 Prerequisites: Customers only. Must have completed the customer course provided by Clarabridge University.
