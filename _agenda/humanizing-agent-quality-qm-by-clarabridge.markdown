@@ -1,7 +1,7 @@
 ---
 title: 'Humanizing Agent Quality: QM by Clarabridge'
 date: 2020-04-21 15:45:00 -04:00
-position: 0
+position: 27
 event:
   date: 2020-04-21 15:45:00 -04:00
   start-time: 3:45 PM
