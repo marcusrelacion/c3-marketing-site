@@ -1,0 +1,23 @@
+---
+title: 'Progressive: Hustle & Flo'
+date: 2020-02-18 13:11:00 -05:00
+event:
+  date: 2020-04-21 00:00:00 -04:00
+  start-time: 2:00 PM
+  end-time: 2:30 PM
+speakers:
+- name: "Michael Molnar\t"
+  title: Social Media Specialist
+  company: Progressive Insurance
+filter-date:
+  is-day-2: true
+filter-time:
+  is-daytime: true
+filter-type:
+  is-session-contactcenter: 
+  is-session-cxhub: true
+---
+
+Over 18 million people trust Progressive as their insurance company and with that many customers comes a huge amount of social media activity. Progressive needed a digital customer service tool to help them efficiently manage the customer comments, inquiries, and overall traffic that flooded their social media accounts.
+
+Join this session to learn how Progressive created their Flo Facebook chatbot to assist with numerous inquires, why smart tags in a digital customer service tool are crucial and how to scale and redistribute the workload among teams to increase efficiencies.
