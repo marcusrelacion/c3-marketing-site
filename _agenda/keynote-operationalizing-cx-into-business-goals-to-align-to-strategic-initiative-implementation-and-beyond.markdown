@@ -2,6 +2,7 @@
 title: 'Keynote: Operationalizing CX into Business Goals to Align to Strategic Initiative
   - Implementation and Beyond'
 date: 2020-04-22 10:05:00 -04:00
+position: 37
 event:
   date: 2020-04-22 10:05:00 -04:00
   start-time: 10:05 AM
