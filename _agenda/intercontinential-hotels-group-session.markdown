@@ -1,7 +1,7 @@
 ---
 title: InterContinential Hotels Group Session
 date: 2020-04-21 14:35:00 -04:00
-position: 5
+position: 19
 event:
   date: 2020-04-21 14:35:00 -04:00
   start-time: 2:35 PM
