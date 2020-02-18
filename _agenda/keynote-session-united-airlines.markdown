@@ -13,5 +13,11 @@ speakers:
 - name: "Ryan Neuhaus\t"
   title: Manager, Customer Insights
   company: United Airlines
+filter-date:
+  is-day-2: true
+filter-time:
+  is-morning: true
+filter-type:
+  is-session-keynote: true
 ---
 
