@@ -1,5 +1,5 @@
 ---
-title: Mutual of Omaha Session
+title: Mutual of Omaha Customer Case Study
 date: 2020-04-21 14:35:00 -04:00
 position: 20
 event:
