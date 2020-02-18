@@ -10,6 +10,12 @@ speakers:
 - name: Robert Holloway
   title: Senior Business Solutions Owner
   company: Health Care Service Corporation
+filter-date:
+  is-day-2: true
+filter-time:
+  is-daytime: true
+filter-type:
+  is-session-breakout: true
 ---
 
 Join this session to learn how a successful coaching implementation program led to the deployment of an automated soft skills program to assist the Quality
