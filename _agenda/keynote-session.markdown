@@ -1,6 +1,6 @@
 ---
 title: Keynote Session
-date: 2020-02-18 13:00:00 -05:00
+date: 2020-04-21 11:45:00 -04:00
 position: 14
 event:
   date: 2020-04-21 00:00:00 -04:00
@@ -9,7 +9,7 @@ event:
 filter-date:
   is-day-2: true
 filter-time:
-  is-morning: true
+  is-morning: false
   is-daytime: true
 filter-type:
   is-session-keynote: true
