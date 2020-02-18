@@ -1,5 +1,5 @@
 ---
-title: InterContinential Hotels Group Session
+title: InterContinential Hotels Group Customer Case Study
 date: 2020-04-21 14:35:00 -04:00
 position: 19
 event:
