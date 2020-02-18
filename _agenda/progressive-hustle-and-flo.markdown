@@ -1,6 +1,8 @@
 ---
 title: 'Progressive: Hustle & Flo'
 date: 2020-02-18 13:11:00 -05:00
+modal:
+  url: hustle-flo
 event:
   date: 2020-04-21 00:00:00 -04:00
   start-time: 2:00 PM
