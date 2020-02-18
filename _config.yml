@@ -292,7 +292,7 @@ networking-receptions:
 - image: "/uploads/c3-liv.jpg"
   image-alt: provide description of the image
   title: Connections Reception
-  location: TBA
+  location: 'Petco Park '
   location-url: 
   day: Tuesday, April 21
   time: 7:00 - 10:00 PM
