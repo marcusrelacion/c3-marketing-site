@@ -273,9 +273,18 @@ agenda-filter-type:
 - filter: ".session-general"
   class: session-general
   text-1: <i class="fad fa-tags"></i> General
+- filter: ".session-contactcenter"
+  class: session-contactcenter
+  text-1: <i class="fad fa-tags"></i> Contact Center
+  Key: 
+- filter: ".session-cxhub"
+  class: session-cxhub
+  text-1: <i class="fad fa-tags"></i> CX Hub
+  Key: 
 - filter: ".session-breakout"
   class: session-breakout
   text-1: <i class="fad fa-tags"></i> Breakout
+  Key: 
 DIVIDER-11: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
