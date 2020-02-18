@@ -1,6 +1,6 @@
 ---
 title: Leveraging Speech to Text for Enhanced Agent Effectiveness
-date: 2020-02-18 13:04:00 -05:00
+date: 2020-04-21 14:00:00 -04:00
 position: 16
 event:
   date: 2020-04-21 00:00:00 -04:00
