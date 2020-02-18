@@ -1,6 +1,7 @@
 ---
 title: 6 Steps to Implement Clarabridge in Record-Breaking Time
 date: 2020-04-21 15:21:00 -04:00
+position: 30
 modal:
   url: 6-steps
 event:
