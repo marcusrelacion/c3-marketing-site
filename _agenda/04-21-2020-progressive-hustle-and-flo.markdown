@@ -1,15 +1,15 @@
 ---
 title: 'Progressive: Hustle & Flo'
-date: 2020-02-18 13:11:00 -05:00
+date: 2020-04-21 14:00:00 -04:00
 position: 17
 modal:
   url: hustle-flo
 event:
-  date: 2020-04-21 00:00:00 -04:00
+  date: 2020-04-21 14:00:00 -04:00
   start-time: 2:00 PM
   end-time: 2:30 PM
 speakers:
-- name: "Michael Molnar\t"
+- name: "Michael Molnar"
   title: Social Media Specialist
   company: Progressive Insurance
 filter-date:

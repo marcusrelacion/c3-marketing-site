@@ -5,7 +5,7 @@ position: 16
 modal:
   url: speech-to-text
 event:
-  date: 2020-04-21 00:00:00 -04:00
+  date: 2020-04-21 14:00:00 -04:00
   start-time: 2:00 PM
   end-time: 2:30 PM
 speakers:
