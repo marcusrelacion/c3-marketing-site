@@ -14,7 +14,6 @@ filter-time:
   is-daytime: true
 filter-type:
   is-session-breakout: true
-  is-session-cxhub: false
 ---
 
 Your employees are your greatest assets and they deserve to be treated like gold. Current QA processes are often cold, punitive and misaligned with team goals rather than transparent, empowering and data driven. This session will introduce the new QM by Clarabridge solution in detail and emphasize ways to transform your QM program to be more empathetic and humanistic.

@@ -18,8 +18,6 @@ filter-time:
   is-daytime: true
 filter-type:
   is-session-breakout: true
-  is-session-contactcenter: 
-  is-session-cxhub: false
 ---
 
 Over 18 million people trust Progressive as their insurance company and with that many customers comes a huge amount of social media activity. Progressive needed a digital customer service tool to help them efficiently manage the customer comments, inquiries, and overall traffic that flooded their social media accounts.
