@@ -91,6 +91,12 @@
                         <h2>
                             {{ post.title }}
                         </h2>
+
+                                        <div>
+                    {% if post.modal.url %}
+                    <p>View More</p>
+                    {% endif %}
+                </div>
                     </div>
                 </div>
             </a>
@@ -163,11 +169,9 @@
                 If the name of a Speaker is not provided, the event venue block will not be visible.
                 {% endcomment %}
                 <div class="agenda-event__speakers">
-                
+            
                     {% if post.speakers.name %}
-                    <h3>
-                        Speakers
-                    </h3>
+                    <h3>Speakers</h3>
                     {% endif %}
                     
                     <ul class="listing listing__agenda-speakers">
@@ -186,6 +190,7 @@
                         {% endfor %}
                     </ul>
                 </div>
+                
                 {% if post.venue.name %}
                 {% comment %}
                 If the name of a Venue is not provided, the event venue block will not be visible.
