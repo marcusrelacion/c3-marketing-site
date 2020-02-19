@@ -13,6 +13,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    &__agenda-speakers {
+        margin-top: 16px;
+    }
+
     &__item {
         text-align: center;
     }

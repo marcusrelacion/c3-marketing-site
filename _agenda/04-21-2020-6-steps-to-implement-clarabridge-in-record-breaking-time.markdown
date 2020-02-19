@@ -3,16 +3,16 @@ title: 6 Steps to Implement Clarabridge in Record-Breaking Time
 date: 2020-04-21 15:21:00 -04:00
 position: 22
 modal:
-  url: 6-steps
+  url: six-steps-to-implement
 event:
   date: 2020-04-21 15:10:00 -04:00
   start-time: 3:10 PM
   end-time: 3:40 PM
 speakers:
-- name: "Kristin Palmer-Ball\t"
+- name: Kristin Palmer-Ball
   title: Enterprise Transformation Lead
   company: Humana
-- name: "Daria Robinson\t"
+- name: Daria Robinson
   title: Principal Solutions Architect
   company: Humana
 filter-date:

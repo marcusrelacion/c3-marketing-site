@@ -162,11 +162,14 @@
                 {% comment %}
                 If the name of a Speaker is not provided, the event venue block will not be visible.
                 {% endcomment %}
-                {% if post.speakers.name %}
                 <div class="agenda-event__speakers">
+                
+                    {% if post.speakers.name %}
                     <h3>
                         Speakers
                     </h3>
+                    {% endif %}
+                    
                     <ul class="listing listing__agenda-speakers">
                         {% for speaker in post.speakers %}
                         <li class="listing__agenda-speaker">
@@ -183,7 +186,6 @@
                         {% endfor %}
                     </ul>
                 </div>
-                {% endif %}
                 {% if post.venue.name %}
                 {% comment %}
                 If the name of a Venue is not provided, the event venue block will not be visible.
