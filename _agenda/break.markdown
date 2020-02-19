@@ -1,0 +1,13 @@
+---
+title: Break
+date: 2020-02-19 15:10:00 -05:00
+event:
+  date: 2020-04-22 00:00:00 -04:00
+  start-time: 10:45 AM
+  end-time: 11:00 AM
+filter-time:
+  is-daytime: true
+filter-type:
+  is-session-general: true
+---
+
