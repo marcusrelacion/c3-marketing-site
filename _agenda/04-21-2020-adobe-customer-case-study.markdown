@@ -1,5 +1,5 @@
 ---
-title: Adobe Customer Case Study
+title: Customer Case Study
 date: 2020-04-21 15:45:00 -04:00
 position: 25
 event:
