@@ -2,6 +2,8 @@
 title: Connections Reception
 date: 2020-04-21 19:00:00 -04:00
 position: 30
+modal:
+  url: connections-reception
 event:
   date: 2020-04-21 19:00:00 -04:00
   start-time: 7:00 PM
@@ -17,3 +19,4 @@ filter-type:
   is-session-general: true
 ---
 
+Join us Tuesday evening for a night of cocktails, food, networking and entertainment. Trust us, this is something you don’t want to miss!
