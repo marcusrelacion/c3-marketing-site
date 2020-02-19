@@ -1,7 +1,7 @@
 ---
 title: 'Break: C3 Zone'
 date: 2020-02-19 15:10:00 -05:00
-position: 39
+position: 35
 event:
   date: 2020-04-22 00:00:00 -04:00
   start-time: 10:45 AM
