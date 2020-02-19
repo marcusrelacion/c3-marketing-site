@@ -7,7 +7,7 @@ event:
   start-time: 2:35 PM
   end-time: 3:05 PM
 speakers:
-- name: "Justin Meyers\t"
+- name: "Justin Meyers"
   title: Customer Experience Leader, Corporate Operations
   company: Mutual of Omaha
 filter-date:

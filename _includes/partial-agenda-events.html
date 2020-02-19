@@ -157,11 +157,12 @@
                 <div class="agenda-event__summary">
                     {{ post.content | markdownify }}
                 </div>
-                {% if post.speaker.name %}
+      
                 <!-- agenda-speakers -->
                 {% comment %}
                 If the name of a Speaker is not provided, the event venue block will not be visible.
                 {% endcomment %}
+                {% if post.speakers.name %}
                 <div class="agenda-event__speakers">
                     <h3>
                         Speakers
@@ -194,13 +195,6 @@
                     </h3>
                     <p>
                         {{ post.venue.name }}
-                    </p>
-                    <p>
-                        <a href="{{ post.venue.directions }}" rel="noopener" target="_blank">
-                            <i class="fas fa-map-marker-alt">
-                            </i>
-                            {{ post.venue.address }}
-                        </a>
                     </p>
                 </div>
                 {% endif %}
