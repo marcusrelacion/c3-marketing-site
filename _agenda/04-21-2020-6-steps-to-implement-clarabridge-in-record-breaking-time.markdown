@@ -20,7 +20,8 @@ filter-date:
 filter-time:
   is-daytime: true
 filter-type:
-  is-session-contactcenter: true
+  is-session-breakout: true
+  is-session-contactcenter: false
 ---
 
 Humana has the honor of running the fasted implementation of any Clarabridge
