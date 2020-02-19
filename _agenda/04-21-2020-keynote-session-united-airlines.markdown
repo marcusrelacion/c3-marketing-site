@@ -6,10 +6,10 @@ event:
   start-time: 11:00 AM
   end-time: 11:40 AM
 speakers:
-- name: "Rajeev D'Souza"
+- name: Rajeev D'Souza
   title: Director, Analytics & Insights Global Operations
   company: United Airlines
-- name: "Ryan Neuhaus"
+- name: Ryan Neuhaus
   title: Manager, Customer Insights
   company: United Airlines
 filter-date:

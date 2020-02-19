@@ -9,7 +9,7 @@ event:
   start-time: 2:00 PM
   end-time: 2:30 PM
 speakers:
-- name: "Michael Molnar"
+- name: Michael Molnar
   title: Social Media Specialist
   company: Progressive Insurance
 filter-date:
