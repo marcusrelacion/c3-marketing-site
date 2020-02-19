@@ -13,10 +13,10 @@ speakers:
   title: VOC Data Analyst
   company: InterContinental Hotel Group
 - name: April Williams
-  title: Director, Business Innovations, Global Reservations and Customer Care 
+  title: Director, Business Innovations, Global Reservations and Customer Care
   company: InterContinental Hotel Group
 - name: Robby Morehead
-  title: Manager, VoC & Coaching Tools 
+  title: Manager, VoC & Coaching Tools
   company: InterContinental Hotel Group
 filter-date:
   is-day-3: true
