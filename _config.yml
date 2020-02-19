@@ -47,7 +47,7 @@ defaults:
     filter-date:
       is-day-1: 
       is-day-2: 
-      is-day-3:
+      is-day-3: 
       is-day-4: 
     filter-time:
       is-morning: 
