@@ -296,16 +296,19 @@ agenda-filter-type:
 - filter: ".session-contactcenter"
   class: session-contactcenter
   text-1: <i class="fad fa-tags"></i> Contact Center
+  Key: 
 - filter: ".session-cxhub"
   class: session-cxhub
   text-1: <i class="fad fa-tags"></i> CX Hub
+  Key: 
 - filter: ".session-breakout"
   class: session-breakout
   text-1: <i class="fad fa-tags"></i> Breakout
+  Key: 
 DIVIDER-11: Ignore This Field
 networking-receptions-header: Networking Receptions
 networking-receptions:
-- image: "/uploads/1980100_683464188382834_794233833_o.jpg"
+- image: "/uploads/float-2.jpg"
   image-alt: provide description of the image
   title: Welcome Reception
   location: Float Rooftop Bar at Hard Rock Hotel San Diego
@@ -315,7 +318,7 @@ networking-receptions:
   body: What better way to kick off C3 2020 than by enjoying cocktails and dinner,
     all while networking with your peers! Chat with Clarabridge experts and partners,
     exchange ideas, and make lasting connections.
-- image: "/uploads/float-2.jpg"
+- image: "/uploads/1980100_683464188382834_794233833_o.jpg"
   image-alt: provide description of the image
   title: Connections Reception
   location: 'Petco Park '
