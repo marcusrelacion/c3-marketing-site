@@ -1,7 +1,7 @@
 ---
 title: 'Learn from Each Other: Industry-Based Roundtable Discussion on CEM Best Practices'
 date: 2020-04-20 12:00:00 -04:00
-position: 3
+position: 4
 description: 
 modal:
   url: pcw-learn-from-each-other

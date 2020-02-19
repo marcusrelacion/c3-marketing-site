@@ -2,7 +2,7 @@
 title: 'Customer-Only Training: Deliver Operational Insights Using Core Principles
   of Dashboard Best Practices'
 date: 2020-04-19 12:00:00 -04:00
-position: 1
+position: 2
 modal:
   url: deliver-operational-insights
 event:

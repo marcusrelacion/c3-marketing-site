@@ -1,7 +1,7 @@
 ---
 title: Networking Reception
 date: 2020-04-20 15:00:00 -04:00
-position: 6
+position: 7
 event:
   date: 2020-04-20 15:00:00 -04:00
   start-time: 5:00 PM

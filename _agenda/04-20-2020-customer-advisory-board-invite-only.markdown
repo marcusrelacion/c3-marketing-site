@@ -1,7 +1,7 @@
 ---
 title: Customer Advisory Board - Invite Only
 date: 2020-04-20 15:00:00 -04:00
-position: 4
+position: 5
 event:
   date: 2020-04-19 15:00:00 -04:00
   start-time: 3:00 PM
