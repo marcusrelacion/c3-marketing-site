@@ -10,7 +10,7 @@ event:
   end-time: 3:40 PM
 speakers:
 - name: Kristin Palmer-Ball
-  title: Enterprise Transformation Lead
+  title: Director of Insights Activation ans Solution Delivery - Enterprise Transformation
   company: Humana
 - name: Daria Robinson
   title: Principal Solutions Architect
