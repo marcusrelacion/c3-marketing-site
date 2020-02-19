@@ -11,6 +11,7 @@ filter-date:
 filter-time:
   is-daytime: true
 filter-type:
-  is-session-cxhub: true
+  is-session-breakout: true
+  is-session-cxhub: false
 ---
 
