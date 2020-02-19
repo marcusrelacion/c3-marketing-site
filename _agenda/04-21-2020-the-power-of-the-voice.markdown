@@ -9,7 +9,7 @@ event:
   start-time: 3:10 PM
   end-time: 3:40 PM
 speakers:
-  name: Noel Holmes
+- name: Noel Holmes
   title: Senior Director, Voice of the Customer
   company: Indeed
 filter-date:
