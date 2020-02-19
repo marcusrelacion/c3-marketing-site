@@ -9,10 +9,15 @@ event:
   start-time: 2:35 PM
   end-time: 3:05 PM
 speakers:
-  name: "Diane Shurtleff\t"
+- name: Diane Shurtleff
   title: VOC Data Analyst
   company: InterContinental Hotel Group
-  Key: 
+- name: April Williams
+  title: Director, Business Innovations, Global Reservations and Customer Care 
+  company: InterContinental Hotel Group
+- name: Robby Morehead
+  title: Manager, VoC & Coaching Tools 
+  company: InterContinental Hotel Group
 filter-date:
   is-day-3: true
 filter-time:
