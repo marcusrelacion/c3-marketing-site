@@ -2,6 +2,8 @@
 title: 'Keynote Session: United Airlines'
 date: 2020-04-21 11:00:00 -04:00
 position: 0
+modal:
+  url: united-airlines
 event:
   date: 2020-04-21 11:00:00 -04:00
   start-time: 11:00 AM
