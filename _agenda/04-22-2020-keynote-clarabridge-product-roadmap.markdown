@@ -9,7 +9,7 @@ event:
   start-time: 11:45 AM
   end-time: 12:45 PM
 speakers:
-  name: Clarabridge Product Management Team
+- name: Clarabridge Product Management Team
 filter-date:
   is-day-4: true
 filter-time:
