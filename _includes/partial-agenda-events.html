@@ -21,6 +21,9 @@
         {% elsif post.filter-type.is-session-workshop == true %} session-workshop 
         {% elsif post.filter-type.is-session-general == true %} session-general
         {% elsif post.filter-type.is-session-breakout == true %} session-breakout
+        {% elsif post.filter-type.is-session-contactcenter == true %} session-contactcenter
+        {% elsif post.filter-type.is-session-cxhub == true %} 
+        session-cxhub
         {% comment %}
         {% elsif post.filter-type.is-reception == true %} reception 
         {% elsif post.filter-type.is-track-customer == true %} track-customer 
@@ -57,6 +60,8 @@
                         {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                         {% elsif post.filter-type.is-session-general == true %}session-general 
                         {% elsif post.filter-type.is-session-breakout == true %}session-breakout
+                        {% elsif post.filter-type.is-session-contactcenter == true %}session-contactcenter 
+                        {% elsif post.filter-type.is-session-cxhub == true %}session-cxhub
                         {% comment %}
                         {% elsif post.filter-type.is-reception == true %}reception 
                         {% elsif post.filter-type.is-track-customer == true %}track-customer 
@@ -70,6 +75,8 @@
                             {% elsif post.filter-type.is-session-workshop == true %} Workshop
                             {% elsif post.filter-type.is-session-general == true %} General
                             {% elsif post.filter-type.is-session-breakout == true %} Breakout
+                            {% elsif post.filter-type.is-session-contactcenter == true %} contact-center
+                            {% elsif post.filter-type.is-session-cxhub == true %} cx-hub
                             {% comment %}
                             {% elsif post.filter-type.is-reception == true %} Reception
                             {% elsif post.filter-type.is-track-customer == true %} Customer

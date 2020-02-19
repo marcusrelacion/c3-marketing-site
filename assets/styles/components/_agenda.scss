@@ -63,7 +63,9 @@
   &__event-type--session-breakout, 
   &__event-type--reception,
   &__event-type--track-customer,
-  &__event-type--track-product{
+  &__event-type--track-product,
+  &__event-type--session-contactcenter,
+  &__event-type--session-cxhub {
     background-color: $cb-primary-600;
     color: $white;
     font-size: 12px;
