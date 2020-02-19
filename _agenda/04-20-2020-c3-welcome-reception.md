@@ -2,7 +2,7 @@
 title: C3 Welcome Reception
 date: 2020-04-20 16:00:00 -04:00
 position: 8
-modal: 
+modal:
   url: welcome-reception
 event:
   date: 2020-04-20 16:00:00 -04:00

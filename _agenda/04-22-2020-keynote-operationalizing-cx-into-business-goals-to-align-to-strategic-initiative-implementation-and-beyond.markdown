@@ -12,7 +12,7 @@ event:
 speakers:
 - name: Rusty John
   title: Business Intelligence and Data Insights
-  company: 'Blue Cross Blue Shield Kansas City'
+  company: Blue Cross Blue Shield Kansas City
 filter-date:
   is-day-4: true
 filter-time:
