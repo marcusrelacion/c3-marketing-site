@@ -1,16 +1,23 @@
 ---
-title: Industry Breakout Sessions
-date: 2020-04-22 13:00:00 -04:00
-position: 20
+title: Presbyterian Healthcare Services Customer Case Study
+date: 2020-04-22 11:00:00 -04:00
+position: 36
+modal:
+  url: phs-session
 event:
-  date: 2020-04-22 13:00:00 -04:00
-  start-time: 1:00 PM
-  end-time: 3:00 PM
+  date: 2020-04-22 11:00:00 -04:00
+  start-time: 11:00 AM
+  end-time: 11:40 AM
+speakers:
+- name: Soyal Momin
+  title: Senior Vice President, Data and Analytics
+  company: Presbyterian Healthcare Services
 filter-date:
   is-day-4: true
 filter-time:
   is-daytime: true
 filter-type:
-  is-session-breakout: true
+  is-session-keynote: true
+  is-session-breakout: false
 ---
 

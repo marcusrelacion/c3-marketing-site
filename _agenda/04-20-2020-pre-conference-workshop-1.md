@@ -1,7 +1,7 @@
 ---
 title: Digital Customer Service Roundtable Discussions
 date: 2020-04-20 12:00:00 -04:00
-position: 2
+position: 3
 description: 
 modal:
   url: pcw-digital-customer-roundtable-discussions
@@ -9,10 +9,6 @@ event:
   date: 2020-04-20 12:00:00 -04:00
   start-time: 12:00 PM
   end-time: 2:00 PM
-speakers:
-- name: 
-  title: 
-  company: 
 filter-date:
   is-day-2: true
 filter-time:

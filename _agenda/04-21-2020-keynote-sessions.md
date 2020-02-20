@@ -1,18 +1,11 @@
 ---
-title: Keynote Sessions
+title: Keynote Session
 date: 2020-04-21 10:05:00 -04:00
-position: 9
-description: 
-modal:
-  url: 
+position: 12
 event:
   date: 2020-04-21 10:05:00 -04:00
   start-time: 10:05 AM
-  end-time: 12:25 PM
-speakers:
-- name: 
-  title: 
-  company: 
+  end-time: 10:45 AM
 filter-date:
   is-day-3: true
 filter-time:

@@ -1,6 +1,6 @@
 <!-- listing -->
 <ul class="agenda__events listing listing__agenda mixitup-container">
-    {% for post in site.agenda | sort: 'post.event.date' %}
+    {% for post in site.agenda | sort: "post.date" %}
         <!-- agenda-event -->
         <li class="
 
@@ -21,6 +21,9 @@
         {% elsif post.filter-type.is-session-workshop == true %} session-workshop 
         {% elsif post.filter-type.is-session-general == true %} session-general
         {% elsif post.filter-type.is-session-breakout == true %} session-breakout
+        {% elsif post.filter-type.is-session-contactcenter == true %} session-contactcenter
+        {% elsif post.filter-type.is-session-cxhub == true %} 
+        session-cxhub
         {% comment %}
         {% elsif post.filter-type.is-reception == true %} reception 
         {% elsif post.filter-type.is-track-customer == true %} track-customer 
@@ -57,6 +60,8 @@
                         {% elsif post.filter-type.is-session-workshop == true %}session-workshop 
                         {% elsif post.filter-type.is-session-general == true %}session-general 
                         {% elsif post.filter-type.is-session-breakout == true %}session-breakout
+                        {% elsif post.filter-type.is-session-contactcenter == true %}session-contactcenter 
+                        {% elsif post.filter-type.is-session-cxhub == true %}session-cxhub
                         {% comment %}
                         {% elsif post.filter-type.is-reception == true %}reception 
                         {% elsif post.filter-type.is-track-customer == true %}track-customer 
@@ -70,6 +75,8 @@
                             {% elsif post.filter-type.is-session-workshop == true %} Workshop
                             {% elsif post.filter-type.is-session-general == true %} General
                             {% elsif post.filter-type.is-session-breakout == true %} Breakout
+                            {% elsif post.filter-type.is-session-contactcenter == true %} Contact Center
+                            {% elsif post.filter-type.is-session-cxhub == true %} CX Hub
                             {% comment %}
                             {% elsif post.filter-type.is-reception == true %} Reception
                             {% elsif post.filter-type.is-track-customer == true %} Customer
@@ -84,6 +91,12 @@
                         <h2>
                             {{ post.title }}
                         </h2>
+
+                                        <div>
+                    {% if post.modal.url %}
+                    <p>View More</p>
+                    {% endif %}
+                </div>
                     </div>
                 </div>
             </a>
@@ -150,15 +163,17 @@
                 <div class="agenda-event__summary">
                     {{ post.content | markdownify }}
                 </div>
-                {% if post.speaker.name %}
+      
                 <!-- agenda-speakers -->
                 {% comment %}
                 If the name of a Speaker is not provided, the event venue block will not be visible.
                 {% endcomment %}
                 <div class="agenda-event__speakers">
-                    <h3>
-                        Speakers
-                    </h3>
+            
+                    {% if post.speakers.name %}
+                    <h3>Speakers</h3>
+                    {% endif %}
+                    
                     <ul class="listing listing__agenda-speakers">
                         {% for speaker in post.speakers %}
                         <li class="listing__agenda-speaker">
@@ -175,7 +190,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                {% endif %}
+                
                 {% if post.venue.name %}
                 {% comment %}
                 If the name of a Venue is not provided, the event venue block will not be visible.
@@ -183,17 +198,10 @@
                 <!-- agenda-venue -->
                 <div class="agenda-event-venue">
                     <h3>
-                        Pre-Conference Workshops will take place at the:
+                        Location:
                     </h3>
                     <p>
                         {{ post.venue.name }}
-                    </p>
-                    <p>
-                        <a href="{{ post.venue.directions }}" rel="noopener" target="_blank">
-                            <i class="fas fa-map-marker-alt">
-                            </i>
-                            {{ post.venue.address }}
-                        </a>
                     </p>
                 </div>
                 {% endif %}
