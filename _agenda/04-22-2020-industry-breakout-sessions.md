@@ -10,7 +10,7 @@ event:
   end-time: 11:40 AM
 speakers:
 - name: Soyal Momin
-  title: Senior Vice President, Data and Analytics
+  title: Chief Analytics Officer
   company: Presbyterian Healthcare Services
 filter-date:
   is-day-4: true

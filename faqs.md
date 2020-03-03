@@ -2,6 +2,13 @@
 title: FAQs
 position: 7
 faqs:
+- heading: How is the Coronavirus affecting C3 San Diego?
+  body: The safety of C3 attendees is our number one priority. Clarabridge is closely
+    monitoring the Coronavirus developments and will take immediate action where needed
+    with guidance from the Center for Disease Control, World Health Oranization, and
+    local authories.
+  trigger: section-8
+  expanded: false
 - heading: General Information
   body: |-
     ### What is C3?
