@@ -23,7 +23,7 @@
             <!-- registration button -->
             <div class="site-header__registration">
                 <a class="button button--primary" aria-label="Register for C3 2020 San Diegoß" href="{{ site.registration-url }}" rel="noopener" target="_blank">
-                    Register
+                    Contact Us
                 </a>
             </div>
             <!-- mobile button -->
@@ -35,5 +35,8 @@
         </div>
     </nav>
 </header>
+{% if page.layout == "page-covid" %}
+{% else %}
 {% include section-hero.html %}
+{% endif %}
 {% include section-introduction.html %}

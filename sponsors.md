@@ -18,5 +18,6 @@ contact-header: Want to learn more about becoming a sponsor?
 contact-button-label: Get in Touch
 contact-button-url: mailto:events@clarabridge.com
 layout: page-sponsors
+published: false
 ---
 

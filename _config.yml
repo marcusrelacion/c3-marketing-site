@@ -61,24 +61,24 @@ defaults:
     layout: page-agenda-single
 DIVIDER-1: Ignore This Field
 primary-navigation:
-- title: Agenda
-  url: "/agenda/"
-- title: Venue
-  url: "/venue/"
-- title: Networking
-  url: "/networking/"
-- title: Speakers
-  url: "/speakers/"
-- title: Sponsors
-  url: "/sponsors/"
-- title: CX Awards
-  url: "/cx-awards/"
-- title: FAQs
-  url: "/faqs/"
-- title: Contact Us
-  url: "/contact/"
+#- title: Agenda
+#  url: "/agenda/"
+#- title: Venue
+#  url: "/venue/"
+#- title: Networking
+#  url: "/networking/"
+#- title: Speakers
+#  url: "/speakers/"
+#- title: Sponsors
+#  url: "/sponsors/"
+#- title: CX Awards
+#  url: "/cx-awards/"
+#- title: FAQs
+#  url: "/faqs/"
+#- title: Contact Us
+#  url: "/contact/"
 DIVIDER-2: Ignore This Field
-registration-url: http://www.cvent.com/d/qhqzh7/4W
+registration-url: mailto:events@clarabridge.com #http://www.cvent.com/d/qhqzh7/4W
 DIVIDER-3: Ignore This Field
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
 DIVIDER-4: Ignore This Field

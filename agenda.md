@@ -9,5 +9,6 @@ agenda-small-button-url: "/agenda/"
 has-agenda: true
 contact-background-color: bg-cb-primary-100
 layout: page-agenda
+published: false
 ---
 
