@@ -5,7 +5,7 @@ position: 7
 has-introduction: true
 introduction-background-color: bg-white
 introduction-body: |-
-  ## UPDATE: The health and safety of our customers, prospective customers, employees, and partners is our highest priority.
+  ## Update on C3 2020 San Diego
   <div style="text-align: left; margin-top: 16px;">
   After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to early Fall, dates and location will be announced over the next several days. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
   <p style="margin-top:16px; margin-bottom: 16px;">For any additional questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
