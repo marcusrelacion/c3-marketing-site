@@ -27,9 +27,9 @@ faqs:
   trigger: section-2
   expanded: false
 - heading: How will this affect my travel plans?
-  body: Please contact your airline provider as soon as possible to alternative arrangements.
-    Many airlines are offering flexible refund or transfer options at this time due
-    to the COVID-19 situation.
+  body: Please contact your airline provider as soon as possible to make alternative
+    arrangements. Many airlines are offering flexible refund or transfer options at
+    this time due to the COVID-19 situation.
   trigger: section-3
   expanded: false
 - heading: What will happen to my hotel reservation?
