@@ -36,3 +36,16 @@
 .block--contact .block__body {
     margin: 16px auto 0 auto;
 }
+
+.section__body.wysiwyg > * + :not(:first-child) {
+    margin-top: 16px;
+}
+
+.section__body.wysiwyg p:not(:first-of-type) {
+    text-align: left;
+}
+
+.section__content .button {
+    margin-top: 16px;
+    display: inline-block;
+}
