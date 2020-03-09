@@ -50,7 +50,7 @@ faqs:
     coming weeks.
   trigger: section-6
   expanded: false
-- heading: I applied for a CX Award - what happens to my application?
+- heading: I applied for a CX Award , what will happen to my application?
   body: All C3 2020 CX Award submissions will be carried over to the new conference
     dates. If you have already applied then there is nothing else you need to do.
     If you have not had a chance to apply for an award, we have extended the deadline
