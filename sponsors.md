@@ -1,5 +1,6 @@
 ---
 title: Sponsors
+published: false
 position: 4
 has-introduction: true
 introduction-background-color: bg-white
@@ -18,6 +19,5 @@ contact-header: Want to learn more about becoming a sponsor?
 contact-button-label: Get in Touch
 contact-button-url: mailto:events@clarabridge.com
 layout: page-sponsors
-published: false
 ---
 

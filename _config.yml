@@ -60,25 +60,9 @@ defaults:
       is-session-breakout: 
     layout: page-agenda-single
 DIVIDER-1: Ignore This Field
-primary-navigation:
-#- title: Agenda
-#  url: "/agenda/"
-#- title: Venue
-#  url: "/venue/"
-#- title: Networking
-#  url: "/networking/"
-#- title: Speakers
-#  url: "/speakers/"
-#- title: Sponsors
-#  url: "/sponsors/"
-#- title: CX Awards
-#  url: "/cx-awards/"
-#- title: FAQs
-#  url: "/faqs/"
-#- title: Contact Us
-#  url: "/contact/"
+primary-navigation: 
 DIVIDER-2: Ignore This Field
-registration-url: mailto:events@clarabridge.com #http://www.cvent.com/d/qhqzh7/4W
+registration-url: mailto:events@clarabridge.com
 DIVIDER-3: Ignore This Field
 justify-trip-url: https://c3.clarabridge.com/wp-content/uploads/2019/06/clarabridge_conference-C3E2019_justify-trip-1.docx
 DIVIDER-4: Ignore This Field
@@ -390,8 +374,14 @@ kramdown:
     hellip: "..."
 permalink: pretty
 encoding: utf-8
-description: |-
-  Update on C3 2020 San Diego: The health and safety of our customers, prospective customers, employees, and partners is our highest priority. After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to early Fall, dates and location will be announced over the next several days. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment. We look forward to hosting you in the Fall. Until then, stay safe and healthy!
+description: 'Update on C3 2020 San Diego: The health and safety of our customers,
+  prospective customers, employees, and partners is our highest priority. After careful
+  consideration, and in light of the ongoing Coronavirus (COVID-19) developments,
+  we have no choice but to reschedule C3 San Diego to early Fall, dates and location
+  will be announced over the next several days. Rescheduling this event will enable
+  us to provide the experience that our customers, prospective customers, partners,
+  and employees expect and deserve in a safe environment. We look forward to hosting
+  you in the Fall. Until then, stay safe and healthy!'
 url: 
 baseurl: 
 domain: 

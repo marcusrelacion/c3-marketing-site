@@ -1,5 +1,6 @@
 ---
 title: Home - Original
+published: false
 position: 0
 has-introduction: true
 introduction-background-color: bg-white
@@ -78,6 +79,5 @@ speakers-past-background-color: bg-cb-primary-100
 has-venue: true
 contact-background-color: bg-cb-primary-100
 layout: page-home
-published: false
 ---
 
