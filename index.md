@@ -35,7 +35,7 @@ faqs:
 - heading: What will happen to my hotel reservation?
   body: |-
     All hotel reservations made through the Clarabridge hotel block at the Hard Rock Hotel San Diego will be cancelled by the hotel. At this time, attendees have not been charged the associated deposit for these reservations. If you have any questions regarding your reservations, please contact the hotel directly 866-751-7625
-    IMPORTANT: If you booked a hotel reservation outside of the Clarabridge hotel block, it is your responsibility to cancel and confirm the refund status on any deposits paid.
+    **IMPORTANT:** If you booked a hotel reservation outside of the Clarabridge hotel block, it is your responsibility to cancel and confirm the refund status on any deposits paid.
   trigger: section-4
   expanded: false
 - heading: I was planning on attending the Customer Training in San Diego, will that
