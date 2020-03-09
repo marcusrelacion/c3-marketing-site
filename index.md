@@ -1,82 +1,58 @@
 ---
 title: Home
-position: 0
+permalink: /
+position: 7
 has-introduction: true
 introduction-background-color: bg-white
-introduction-body: Clarabridge Customer Connections (C3), our electrifying four-day
-  conference is kicking off in San Diego, April 19 - 22, 2020. Hear from industry
-  experts, thought leaders, and top practitioners in customer experience (CX) and
-  digital customer service leaders for examples and best practices needed to stay
-  ahead of the curve.
-introduction-has-button: false
-has-agenda-small: true
-agenda-small-background-color: bg-cb-primary-100
-agenda-small-header: Agenda Highlights
-has-speakers-keynote: false
-agenda-small-dates:
-- header: Sunday, April 19th
-  body: |+
-    Customer Day
+introduction-body: |-
+  ## Update on C3 2020 San Diego
+  **The health and safety of our customers, prospective customers, employees, and partners is our highest priority.**
+  <div style="text-align: left; margin-top: 16px;">
+  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to early Fall, dates and location will be announced over the next several days. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
+  <p style="margin-top:16px; margin-bottom: 16px;">For any additional questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
+  We look forward to hosting you in the Fall. Until then, stay safe and healthy!</p>
+  </div>
+introduction-has-button: true
+introduction-button-label: Contact Us
+introduction-button-url: mailto:events@clarabridge.com
+faqs:
+- heading: Will Clarabridge Customer Connections (C3) be rescheduled to another date?
+  body: Yes, C3 will be rescheduled to early fall, and we plan to announce the new dates within the next several days.
+  trigger: section-1
+  expanded: false
+- heading: What will happen to my C3 2020 San Diego registration?
+  body: All existing registrations will automatically be applied to the new C3 date. If you are unable to make the rescheduled dates, please email [events@clarabridge.com](mailto:events@clarabridge.com)
+  trigger: section-2
+  expanded: false
+- heading: How will this affect my travel plans?
+  body: Please contact your airline provider as soon as possible to alternative arrangements. Many airlines are offering flexible refund or transfer options at this time due to the COVID-19 situation.
+  trigger: section-3
+  expanded: false
+- heading: What will happen to my hotel reservation?
+  body: "All hotel reservations made through the Clarabridge hotel block at the Hard Rock Hotel San Diego will be cancelled by the hotel. At this time, attendees have not been charged the associated deposit for these reservations. If you have any questions regarding your reservations, please contact the hotel directly 866-751-7625
 
-    Hands-On Trainings
-
-- header: Monday, April 20th
-  body: |-
-    Pre-Conference Workshops
-
-    Welcome Reception
-- header: Tuesday, April 21st
-  body: |-
-    Keynotes
-
-    General Sessions
-
-    Breakout Sessions
-
-    Panels
-
-    Connections Reception
-- header: Wednesday, April 22nd
-  body: |-
-    Keynotes
-
-    General Sessions
-
-    Breakout Sessions
-
-    Panels
-
-    CX Awards
-agenda-small-has-button: false
-agenda-small-button-label: See Full Agenda
-agenda-small-button-url: "/agenda/"
-agenda-small-button-style: primary
-has-sponsors: false
-has-pricing: true
-pricing-background-color: bg-white
-pricing-header: Pricing & Discounts
-pricing-body: 
-pricing-table:
-- status: inactive
-  type: early-bird-pricing
-  header: Early Bird Pricing
-  price: "$999"
-  icon: <i class="fad fa-calendar-times"></i>
-  registration: Extended Through February 17, 2020
-- status: active
-  type: regular-pricing
-  header: Regular Pricing
-  price: "$1,299"
-  icon: <i class="fad fa-calendar-check"></i>
-  registration: Begins February 18, 2020
-pricing-has-discounts: true
-pricing-discounts-header: Group Discounts
-pricing-discounts-text: "Please [email](mailto:events@clarabridge.com) for information
-  on group discounts\n\n"
-has-speakers-past: true
-speakers-past-background-color: bg-cb-primary-100
-has-venue: true
-contact-background-color: bg-cb-primary-100
-layout: page-home
+  IMPORTANT: If you booked a hotel reservation outside of the Clarabridge hotel block, it is your responsibility to cancel and confirm the refund status on any deposits paid."
+  trigger: section-4
+  expanded: false
+- heading: I was planning on attending the Customer Training in San Diego, will that transfer over?
+  body: Your purchased training session will transfer over to the new dates. 
+  trigger: section-5
+  expanded: false
+- heading: I was unable to attend C3 San Diego but am interested in the new dates, when will registration be open for anyone that wasn’t already registered?
+  body: Registration will be available with the rescheduled conference dates in the coming weeks.
+  trigger: section-6
+  expanded: false
+- heading: I applied for a CX Award - what happens to my application?
+  body: All C3 2020 CX Award submissions will be carried over to the new conference dates. If you have already applied then there is nothing else you need to do. If you have not had a chance to apply for an award, we have extended the deadline for submissions and you may submit an application [here](https://docs.google.com/forms/d/e/1FAIpQLSek2purGGNSGsTcee0srKeWwcIhrgAy43p-StmwJS5mCgm9bw/viewform).
+  trigger: section-7
+  expanded: false
+- heading: Are you still planning to have C3 EMEA 2020?
+  body: We will continue to monitor the global health situation. At this time, we are still planning to host C3 EMEA from 9 – 11 June, 2020 in London.
+  trigger: section-8
+  expanded: false
+- heading: Who do I contact for more information?
+  body: Please contact [events@clarabridge.com](mailto:events@clarabridge.com) for any additional questions.
+  trigger: section-9
+  expanded: false
+layout: page-covid
 ---
-

@@ -18,5 +18,6 @@ venue:
   button-label: Book A Reservation
 contact-background-color: bg-cb-primary-100
 layout: page-venue
+published: false
 ---
 
