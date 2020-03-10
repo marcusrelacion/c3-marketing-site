@@ -1,5 +1,6 @@
 ---
 title: FAQs
+published: false
 position: 7
 faqs:
 - heading: How is the Coronavirus affecting C3 San Diego?

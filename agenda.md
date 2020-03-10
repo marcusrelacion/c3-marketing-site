@@ -1,5 +1,6 @@
 ---
 title: Agenda
+published: false
 position: 1
 has-agenda-small: true
 agenda-small-has-button: true

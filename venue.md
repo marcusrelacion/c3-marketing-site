@@ -1,5 +1,6 @@
 ---
 title: Venue
+published: false
 position: 2
 has-venue: true
 venue:

@@ -1,5 +1,6 @@
 ---
 title: Sponsors
+published: false
 position: 4
 has-introduction: true
 introduction-background-color: bg-white

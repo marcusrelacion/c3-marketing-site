@@ -1,5 +1,6 @@
 ---
 title: CX Awards
+published: false
 position: 6
 has-award-winners: false
 contact-background-color: bg-cb-primary-100
