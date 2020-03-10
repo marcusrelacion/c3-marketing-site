@@ -16,7 +16,7 @@ defaults:
 - scope:
     path: ''
   values:
-    image: #"/uploads/c3-na-2020-og-image.jpg"
+    image: 
     has-introduction: false
     introduction-background-color: bg-white
     introduction-header: 
