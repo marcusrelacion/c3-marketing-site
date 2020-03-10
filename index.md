@@ -4,7 +4,7 @@ permalink: "/"
 position: 7
 has-introduction: true
 introduction-background-color: bg-white
-introduction-body: |
+introduction-body: |-
   ## Update on C3 2020 San Diego
 
   **The health and safety of our customers, prospective customers, employees, and partners is our highest priority.**
