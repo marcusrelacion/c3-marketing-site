@@ -5,25 +5,24 @@ position: 7
 has-introduction: true
 introduction-background-color: bg-white
 introduction-body: |-
-  ## Update on C3 2020 San Diego
+  ## Update on C3 2020
 
   **The health and safety of our customers, prospective customers, employees, and partners is our highest priority.**
 
 
-  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to early Fall, dates and location will be announced over the next several days. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
+  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to September 13 - 16, 2020 at the Fontainebleau Miami Beach. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
+
+  Registration will reopen in the coming weeks. For any additional questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
 
 
-  For any additional questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
-
-
-  We look forward to hosting you in the Fall. Until then, stay safe and healthy!
+  We look forward to hosting you in Miami this September. Until then, stay safe and healthy!
 introduction-has-button: true
 introduction-button-label: Contact Us
 introduction-button-url: mailto:events@clarabridge.com
 faqs:
 - heading: Will Clarabridge Customer Connections (C3) be rescheduled to another date?
-  body: Yes, C3 will be rescheduled to early fall, and we plan to announce the new
-    dates within the next several days.
+  body: "Yes, C3 will be rescheduled to September 13 - 16, 2020 at the Fontainebleau
+    Miami Beach. \n"
   trigger: section-1
   expanded: false
 - heading: What will happen to my C3 2020 San Diego registration?
@@ -46,7 +45,7 @@ faqs:
   expanded: false
 - heading: I was planning on attending the Customer Training in San Diego, will that
     transfer over?
-  body: Your purchased training session will transfer over to the new dates.
+  body: Your purchased training session will transfer over to the new dates in Miami.
   trigger: section-5
   expanded: false
 - heading: I was unable to attend C3 San Diego but am interested in the new dates,
@@ -55,7 +54,7 @@ faqs:
     coming weeks.
   trigger: section-6
   expanded: false
-- heading: I applied for a CX Award , what will happen to my application?
+- heading: I applied for a CX Award, what will happen to my application?
   body: All C3 2020 CX Award submissions will be carried over to the new conference
     dates. If you have already applied then there is nothing else you need to do.
     If you have not had a chance to apply for an award, we have extended the deadline
