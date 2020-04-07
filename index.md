@@ -4,16 +4,18 @@ permalink: "/"
 position: 7
 has-introduction: true
 introduction-background-color: bg-white
-introduction-body: "## Update on C3 2020 San Diego\n\n**The health and safety of our
-  customers, prospective customers, employees, and partners is our highest priority.**\n\n\nAfter
-  careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments,
-  we have no choice but to reschedule C3 San Diego to September 13 - 16, 2020 at the
-  Fontainebleau Miami Beach. Rescheduling this event will enable us to provide the
-  experience that our customers, prospective customers, partners, and employees expect
-  and deserve in a safe environment.\n\nRegistration will reopen on \nFor any additional
-  questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com)
-  for more information.\n\n\nWe look forward to hosting you in Miami this September.
-  Until then, stay safe and healthy!"
+introduction-body: |-
+  ## Update on C3 2020 San Diego
+
+  **The health and safety of our customers, prospective customers, employees, and partners is our highest priority.**
+
+
+  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to September 13 - 16, 2020 at the Fontainebleau Miami Beach. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
+
+  Registration will reopen in the coming weeks. For any additional questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
+
+
+  We look forward to hosting you in Miami this September. Until then, stay safe and healthy!
 introduction-has-button: true
 introduction-button-label: Contact Us
 introduction-button-url: mailto:events@clarabridge.com
