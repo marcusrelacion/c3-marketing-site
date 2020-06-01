@@ -10,12 +10,12 @@ introduction-body: |-
   **The health and safety of our customers, prospective customers, employees, and partners is our highest priority.**
 
 
-  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego to September 13 - 16, 2020 at the Fontainebleau Miami Beach. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
+  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego 2020 to a virtual format this Fall. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
 
-  Registration will reopen in the coming weeks. For any additional questions regarding C3 please see the FAQs below or reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
+  We will be providing additional details in the coming weeks. For any additional questions regarding C3 please reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
 
 
-  We look forward to hosting you in Miami this September. Until then, stay safe and healthy!
+  We look forward to hosting you in the near future. Until then, stay safe and healthy!
 introduction-has-button: true
 introduction-button-label: Contact Us
 introduction-button-url: mailto:events@clarabridge.com
