@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Update C3 2020
 permalink: "/"
 position: 7
 has-introduction: true
