@@ -4,18 +4,18 @@ permalink: "/"
 position: 7
 has-introduction: true
 introduction-background-color: bg-white
-introduction-body: |-
+introduction-body: |
   ## Update on C3 2020
 
   **The health and safety of our customers, prospective customers, employees, and partners is our highest priority.**
 
+  After careful consideration, and in light of the ongoing and unpredictable COVID-19 developments, we have come to the decision to cancel C3 2020 for both North America and EMEA. We will continue to move forward with our planning for C3 2021 EMEA, taking place April 27 – 29 at Northumberland in London, and C3 2021 North America, taking place May 16 – 19 at the Fontainebleau in Miami Beach. Rescheduling these events will enable us to provide the experiences that you expect and deserve in a safe environment.
 
-  After careful consideration, and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice but to reschedule C3 San Diego 2020 to a virtual format this Fall. Rescheduling this event will enable us to provide the experience that our customers, prospective customers, partners, and employees expect and deserve in a safe environment.
+  Every year C3 allows for superior levels of interaction, education, and engagement between peers and with Clarabridge and industry experts. We are planning to recreate those opportunities for connection through multiple avenues. During our Fall 2020 Product Release in October we plan to debut Clarabridge Connections Week where we will launch a set of product announcement videos, a series of masterclasses, and live “talk to Clarabridge experts” sessions, among many other things.
 
-  We will be providing additional details in the coming weeks. For any additional questions regarding C3 please reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
+  If you had previously registered for C3 2020 your pass will carry over to C3 2021. We will be sending out additional details around Clarabridge Connections Week taking place in October in the coming weeks, as well as details around C3 2021 over the next several months. For any additional questions please reach out to [events@clarabridge.com](mailto:events@clarabridge.com) for more information.
 
-
-  We look forward to hosting you in the near future. Until then, stay safe and healthy!
+  We look forward to continuing to connect with each of you in a safe and socially-distant manner.
 introduction-has-button: true
 introduction-button-label: Contact Us
 introduction-button-url: mailto:events@clarabridge.com
