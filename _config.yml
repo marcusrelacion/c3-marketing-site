@@ -1,5 +1,5 @@
 ---
-title: 
+title: 2020 C3 San Diego
 timezone: America/New_York
 collections:
   agenda:
@@ -374,14 +374,14 @@ kramdown:
     hellip: "..."
 permalink: pretty
 encoding: utf-8
-description: 'Update on C3 2020: The health and safety of our customers,
-  prospective customers, employees, and partners is our highest priority. After careful
-  consideration, and in light of the ongoing Coronavirus (COVID-19) developments,
-  we have no choice but to reschedule C3 2020 to early Fall, dates and location
-  will be announced over the next several days. Rescheduling this event will enable
-  us to provide the experience that our customers, prospective customers, partners,
-  and employees expect and deserve in a safe environment. We look forward to hosting
-  you in the Fall. Until then, stay safe and healthy!'
+description: 'Update on C3 2020: The health and safety of our customers, prospective
+  customers, employees, and partners is our highest priority. After careful consideration,
+  and in light of the ongoing Coronavirus (COVID-19) developments, we have no choice
+  but to reschedule C3 2020 to early Fall, dates and location will be announced over
+  the next several days. Rescheduling this event will enable us to provide the experience
+  that our customers, prospective customers, partners, and employees expect and deserve
+  in a safe environment. We look forward to hosting you in the Fall. Until then, stay
+  safe and healthy!'
 url: 
 baseurl: 
 domain: 
